@@ -15,6 +15,7 @@ print(songs_array)
 
 jsonDict = {}
 song_name = ''
+start = time.time()
 
 for index, row in songs_array.iterrows():
 	track_name = (row['songs'])
@@ -25,16 +26,18 @@ for index, row in songs_array.iterrows():
 		tids.append(t['uri'])
 		song_name = t['name']
 	
-	start = time.time()
 	features = sp.audio_features(tids)
 	jsonDict[index] = [song_name, features]
-	delta = time.time() - start
 	print(json.dumps(features, indent=4))
-	print ("features retrieved in %.2f seconds" % (delta,))
+
 df = pd.DataFrame(jsonDict).T
 writer = pd.ExcelWriter('output.xlsx', engine='xlsxwriter')
 df.to_excel(writer, sheet_name='Sheet1')
 writer.save()
+delta = time.time() - start
+print ("features retrieved in %.2f seconds" % (delta,))
+
+#text to column, separated by commas (within excel)
 
 
 # if len(sys.argv) > 1:
