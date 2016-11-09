@@ -11,8 +11,8 @@ sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 sp.trace=False
 
 if len(sys.argv) > 1:
-    artist_name = ''.join(sys.argv[1:])
-    results = sp.search(q=artist_name, limit=1)
+    track_name = ''.join(sys.argv[1:])
+    results = sp.search(q=track_name, limit=1)
     tids = [""]
     for i, t in enumerate(results['tracks']['items']):
         print(' ', i, t['name'])
