@@ -60,4 +60,4 @@ window.onload=function(){
             e.preventDefault();
             searchAlbums(document.getElementById('query').value);
         }, false);
-}//]]> 
+}
