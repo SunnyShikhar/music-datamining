@@ -19,20 +19,36 @@
 <body>
   <div class="container">
     <h1>Search for a Track - Spotify</h1>
-    <form id="search-form">
-        <input type="text" id="query" value="" class="form-control">
-        <input type="submit" id="search" class="btn btn-primary" value="Search">
+    <form action="/new-page" method="post" id="search-form">
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="user_name">
+        </div>
+        <div>
+            <label for="msg">Message: </label>
+            <textarea id="msg" name"user_message"></textarea>
+        </div>
+        <div>
+            <input type="text" id="query" value="" class="form-control">
+            <input type="submit" method="get" id="search" class="btn btn-primary" value="Search">
+            <p id="results"></p>
+        </div>
+        </div>
+        <div>
+            <button type="submit">Submit form</button>
+        </div>
     </form>
-    <div id="results"></div>
-</div>
+
+
+
+
 <script id="results-template" type="text/x-handlebars-template">
     {{#each tracks.items}}
-    <div >        
-        <br /> {{name}} <br/></div>
+    <div><input type="radio"></div>
+    <div><br/> {{name}} <br/></div>
     <div style="border:1px solid red; background-image:url({{album.images.2.url}})" data-album-id="{{id}}" class="cover"></div>
     <div> Artist Name = {{artists.0.name}} </div>
     <div> Album Name = {{album.name}} </div>
-    
     {{/each}}
 </script>
   
