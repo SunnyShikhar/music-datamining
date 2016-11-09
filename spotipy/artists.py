@@ -13,9 +13,9 @@ sp.trace=False
 if len(sys.argv) > 1:
     track_name = ''.join(sys.argv[1:])
     results = sp.search(q=track_name, limit=1)
-    tids = [""]
+    tids = []
     for i, t in enumerate(results['tracks']['items']):
-        print(' ', i, t['name'])
+        print(' ', i, t['name'], t['artists'])
         tids.append(t['uri'])
 
     start = time.time()
