@@ -22,7 +22,7 @@ for index, row in songs_array.iterrows():
 	results = sp.search(q=track_name, limit=1)
 	tids = []
 	for i, t in enumerate(results['tracks']['items']):
-		print(' ', i, t['name'])
+		#print(' ', i, t['name'])
 		tids.append(t['uri'])
 		song_name = t['name']
 	
