@@ -7,11 +7,9 @@ from sklearn import linear_model
 from sklearn.metrics import r2_score
 from sklearn.metrics import mean_squared_error
 
-#Read csv file into 2D pandas array
-dataset = pd.read_csv('data-files/data.csv')
+dataset = pd.read_csv('InputTraumatic.csv')
 print(dataset)
 
-#Plot mental health vs tempo
 plt.figure(1)
 plt.scatter(dataset.tempo, dataset.health, color='blue')
 plt.title('Mental health as a function of song tempo')
@@ -19,7 +17,13 @@ plt.xlabel('tempo')
 plt.ylabel('health')
 plt.show()
 
-#Plot mental health vs valence
+plt.figure(2)
+plt.scatter(dataset.tempo, dataset.enjoy_life, color='blue')
+plt.title('Ability to enjoy life as a function of song tempo')
+plt.xlabel('tempo')
+plt.ylabel('ability to enjoy life')
+plt.show()
+
 plt.figure(1)
 plt.scatter(dataset.valence, dataset.health, color='blue')
 plt.title('Mental health as a function of song valence')
@@ -27,7 +31,6 @@ plt.xlabel('valence')
 plt.ylabel('health')
 plt.show()
 
-#Plot mental health vs liveness
 plt.figure(1)
 plt.scatter(dataset.liveness, dataset.health, color='blue')
 plt.title('Mental health as a function of song liveness')
@@ -35,7 +38,6 @@ plt.xlabel('liveness')
 plt.ylabel('health')
 plt.show()
 
-#Plot mental health vs energy
 plt.figure(1)
 plt.scatter(dataset.energy, dataset.health, color='blue')
 plt.title('Mental health as a function of song energy')
@@ -43,7 +45,6 @@ plt.xlabel('energy')
 plt.ylabel('health')
 plt.show()
 
-#Plot mental health vs dancability
 plt.figure(1)
 plt.scatter(dataset.dance, dataset.health, color='blue')
 plt.title('Mental health as a function of song dance level')
@@ -51,7 +52,6 @@ plt.xlabel('dance level')
 plt.ylabel('health')
 plt.show()
 
-#Plot mental health vs acousticness
 plt.figure(1)
 plt.scatter(dataset.acoustic, dataset.health, color='blue')
 plt.title('Mental health as a function of song acoustic level')
@@ -59,7 +59,6 @@ plt.xlabel('acoustic level')
 plt.ylabel('health')
 plt.show()
 
-#Plot mental health vs instrumentalness
 plt.figure(1)
 plt.scatter(dataset.instrumental, dataset.health, color='blue')
 plt.title('Mental health as a function of song instrumentalness')
