@@ -19,19 +19,21 @@ def MultiPlot(dataOnX, XName):
 		plt.xlabel(YName)
 		plt.ylabel(XName)
 		plt.show()
-	plotGraph(dataset.tempo, dataOnX, 'tempo', XName);
-	plotGraph(dataset.liveness, dataOnX, 'liveness', XName);
-	plotGraph(dataset.valence, dataOnX, 'valence', XName);
-	plotGraph(dataset.energy, dataOnX, 'energy', XName);
-	plotGraph(dataset.dance, dataOnX, 'dance', XName);
-	plotGraph(dataset.acoustic, dataOnX, 'acoustic', XName);
-	plotGraph(dataset.instrumental, dataOnX, 'instrumental', XName);
+	#plotGraph(dataset.tempo, dataOnX, 'tempo', XName);
+	#plotGraph(dataset.liveness, dataOnX, 'liveness', XName);
+	#plotGraph(dataset.valence, dataOnX, 'valence', XName);
+	#plotGraph(dataset.energy, dataOnX, 'energy', XName);
+	#plotGraph(dataset.dance, dataOnX, 'dance', XName);
+	#plotGraph(dataset.acoustic, dataOnX, 'acoustic', XName);
+	#plotGraph(dataset.instrumental, dataOnX, 'instrumental', XName);
 
-MultiPlot(dataset.enjoy_life, 'enjoy life');
-MultiPlot(dataset.resilience, 'resilience');
-MultiPlot(dataset.balanced, 'balanced');
-MultiPlot(dataset.emotional_flexibility, 'emotional flexibility');
-MultiPlot(dataset.self_actualization, 'self actualization');
-MultiPlot(dataset.health, 'health');
+
+
+#MultiPlot(dataset.enjoy_life, 'enjoy life');
+#MultiPlot(dataset.resilience, 'resilience');
+#MultiPlot(dataset.balanced, 'balanced');
+#MultiPlot(dataset.emotional_flexibility, 'emotional flexibility');
+#MultiPlot(dataset.self_actualization, 'self actualization');
+#MultiPlot(dataset.health, 'health');
 
 

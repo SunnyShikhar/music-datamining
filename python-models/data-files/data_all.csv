@@ -1,0 +1,234 @@
+id,tempo,tempo_categorical,liveness,liveness_categorical,valence,valence_categorical,energy,energy_categorical,dance,dance_categorical,acoustic,acoustic_categorical,instrumental,instrumental_categorical,enjoy_life,resilience,balanced,emotional_flexibility,self_actualization,health,health_categorical,gender,age_range,hours_of_music,hours_of_music_categorical,traumatic_experience,#_songs_missing
+1,98.85266667,Medium-Slow,0.1062,Low,0.52,High,0.642333333,Low,0.726,High,0.293533333,High,0.0000235,Low,4,3,5,3,6,21,High,Male,18 - 30,1-2 hours,Medium,No,0
+2,126.54,Medium-Fast,0.1175,Low,0.11815,Low,0.5795,Low,0.5195,Low,0.1503,Low,0.003915,Low,6,6,3,5,5,25,High,Male,18 - 30,1-2 hours,Medium,No,1
+3,140.6766667,Fast,0.135033333,Low,0.542333333,High,0.697666667,High,0.660333333,High,0.061166667,Low,3.46E-05,Low,5,5,4,4,5,23,High,Female,18 - 30,0 - 1 hours,Low,No,0
+4,113.6566667,Medium-Fast,0.109866667,Low,0.605333333,High,0.698333333,High,0.718,High,0.161866667,Low,0.000014,Low,3,6,5,5,5,24,High,Male,18 - 30,2+ hours,High,No,0
+5,131.011,Fast,0.174533333,Low,0.267666667,Low,0.671333333,High,0.452,Low,0.400026667,High,0.309566667,High,2,5,2,1,5,15,Medium,Female,18 - 30,0 - 1 hours,Low,Yes,0
+6,149.958,Fast,0.1145,Low,0.408,Low,0.740666667,High,0.511666667,Low,0.090369667,Low,0.00003223,Low,3,4,4,5,6,22,High,Male,18 - 30,0 - 1 hours,Low,No,0
+7,137.6853333,Fast,0.202666667,High,0.39,Low,0.614,Low,0.727,High,0.117673333,Low,0.00082183,Low,4,5,2,5,4,20,Medium,Male,18 - 30,1-2 hours,Medium,No,0
+8,103.7043333,Medium-Slow,0.265,High,0.425666667,Low,0.400666667,Low,0.613,Low,0.804666667,High,0,Low,4,4,4,4,5,21,High,Female,18 - 30,1-2 hours,Medium,No,0
+9,111.3616667,Medium-Fast,0.1766,Low,0.365,Low,0.545,Low,0.734333333,High,0.219596667,High,0.037035,Low,3,2,4,3,1,13,Medium,Male,18 - 30,2+ hours,High,No,0
+10,130.039,Medium-Fast,0.0903,Low,0.744,High,0.981,High,0.519,Low,0.00136,Low,0.000155,Low,2,5,3,5,5,20,Medium,Male,18 - 30,2+ hours,High,No,2
+11,101.9916667,Medium-Slow,0.282933333,High,0.409,Low,0.58,Low,0.760333333,High,0.458,High,0.000035,Low,4,6,6,5,5,26,High,Female,18 - 30,2+ hours,High,No,0
+12,125.9875,Medium-Fast,0.4676,High,0.26635,Low,0.2865,Low,0.21,Low,0.791,High,0.454975,High,4,5,2,5,5,21,High,Male,18 - 30,2+ hours,High,Yes,1
+13,131.535,Fast,0.155833333,Low,0.238,Low,0.784666667,High,0.501333333,Low,0.062268977,Low,0.2556797,High,2,3,2,4,4,15,Medium,Male,18 - 30,0 - 1 hours,Low,No,0
+14,110.0656667,Medium-Slow,0.261333333,High,0.294,Low,0.732,High,0.651333333,High,0.03694,Low,0.000822907,Low,4,4,5,4,5,22,High,Female,18 - 30,1-2 hours,Medium,No,0
+15,111.5605,Medium-Fast,0.1161,Low,0.787,High,0.6775,High,0.8125,High,0.3125,High,0.0000322,Low,6,6,4,5,5,26,High,Male,18 - 30,1-2 hours,Medium,No,1
+16,171.67,Fast,0.639,High,0.926,High,0.79,High,0.5,Low,0.173,Low,0,Low,1,0,3,2,4,10,Low,Male,18 - 30,1-2 hours,Medium,Yes,2
+17,129.0495,Medium-Fast,0.20655,High,0.6225,High,0.823,High,0.673,High,0.0557,Low,0.01105,Low,0,2,5,2,5,14,Medium,Female,18 - 30,2+ hours,High,No,1
+18,146.3026667,Fast,0.133333333,Low,0.421666667,Low,0.529,Low,0.74,High,0.142733333,Low,1.44E-05,Low,4,5,2,4,4,19,Medium,Male,18 - 30,2+ hours,High,No,0
+19,97.81133333,Medium-Slow,0.370333333,High,0.406666667,Low,0.545666667,Low,0.608666667,Low,0.368766667,High,0.00000069,Low,2,5,3,5,6,21,High,Male,18 - 30,0 - 1 hours,Low,No,0
+20,147.0745,Fast,0.1435,Low,0.321,Low,0.637,Low,0.54,Low,0.0513,Low,0,Low,5,4,4,5,4,22,High,Male,18 - 30,1-2 hours,Medium,No,1
+21,104.3816667,Medium-Slow,0.269666667,High,0.3833,Low,0.601,Low,0.491,Low,0.376433333,High,0.5651,High,4,5,4,6,6,25,High,Male,18 - 30,2+ hours,High,No,0
+22,107.0873333,Medium-Slow,0.233,High,0.247666667,Low,0.678666667,High,0.534666667,Low,0.01181,Low,0.002470487,Low,3,4,1,4,4,16,Medium,Male,18 - 30,2+ hours,High,No,0
+23,113.163,Medium-Fast,0.108666667,Low,0.556333333,High,0.519333333,Low,0.824,High,0.224,High,0.0080707,Low,4,4,2,5,5,20,Medium,Female,18 - 30,1-2 hours,Medium,Yes,0
+24,141.5293333,Fast,0.110233333,Low,0.398,Low,0.66,High,0.553333333,Low,0.0404,Low,0.000161567,Low,4,4,2,3,6,19,Medium,Female,18 - 30,0 - 1 hours,Low,Yes,0
+25,152.742,Fast,0.1006,Low,0.301,Low,0.923,High,0.417333333,Low,0.002145667,Low,0.00044264,Low,4,3,3,2,2,14,Medium,Female,18 - 30,2+ hours,High,Yes,0
+26,101.2046667,Medium-Slow,0.120833333,Low,0.373,Low,0.692666667,High,0.629666667,High,0.214,High,6.73E-07,Low,5,4,4,4,6,23,High,Male,18 - 30,2+ hours,High,No,0
+27,101.293,Medium-Slow,0.230333333,High,0.494333333,High,0.739,High,0.735,High,0.032673333,Low,0.00082,Low,4,5,5,6,3,23,High,Male,18 - 30,0 - 1 hours,Low,No,0
+28,112.7033333,Medium-Fast,0.109733333,Low,0.460666667,High,0.67,High,0.803,High,0.099266667,Low,0,Low,5,3,4,3,6,21,High,Female,18 - 30,2+ hours,High,Yes,0
+29,121.2726667,Medium-Fast,0.292633333,High,0.678666667,High,0.706,High,0.819333333,High,0.032859333,Low,0.196333737,High,3,2,4,4,4,17,Medium,Male,18 - 30,0 - 1 hours,Low,No,0
+30,147.6043333,Fast,0.144,Low,0.530666667,High,0.606,Low,0.503333333,Low,0.364333333,High,0,Low,5,3,1,4,4,17,Medium,Male,18 - 30,1-2 hours,Medium,Yes,0
+31,142.2626667,Fast,0.159333333,Low,0.618666667,High,0.540333333,Low,0.617333333,Low,0.283633333,High,1.60E-05,Low,2,5,5,6,5,23,High,Male,18 - 30,2+ hours,High,No,0
+32,110.852,Medium-Slow,0.2471,High,0.744,High,0.811666667,High,0.843333333,High,0.102466667,Low,9.44E-06,Low,5,4,5,5,6,25,High,Male,17 & Under,1-2 hours,Medium,No,0
+33,149.9703333,Fast,0.135666667,Low,0.371333333,Low,0.662333333,High,0.626666667,Low,0.178633333,Low,0.071670747,High,3,3,3,4,4,17,Medium,Female,18 - 30,0 - 1 hours,Low,Yes,0
+34,97.532,Medium-Slow,0.1033,Low,0.5335,High,0.5755,Low,0.7625,High,0.385,High,0,Low,5,6,5,5,6,27,High,Male,18 - 30,1-2 hours,Medium,Yes,1
+35,83.424,Slow,0.375,High,0.543333333,High,0.667333333,High,0.498666667,Low,0.331133333,High,0.000983333,Low,4,6,2,5,5,22,High,Male,18 - 30,0 - 1 hours,Low,No,0
+36,160.303,Fast,0.368666667,High,0.543666667,High,0.967666667,High,0.383333333,Low,0.005795333,Low,0.299733853,High,3,5,2,5,4,19,Medium,Male,18 - 30,2+ hours,High,No,0
+37,118.0196667,Medium-Fast,0.072066667,Low,0.444666667,Low,0.848,High,0.617,Low,0.01518,Low,0.0194,Low,5,5,2,5,4,21,High,Male,18 - 30,2+ hours,High,No,0
+38,139.6536667,Fast,0.118833333,Low,0.319333333,Low,0.525,Low,0.624,Low,0.133,Low,6.56E-06,Low,5,4,6,5,2,22,High,Male,18 - 30,2+ hours,High,No,0
+39,120.604,Medium-Fast,0.2395,High,0.4655,High,0.5985,Low,0.467,Low,0.020725,Low,0.0000685,Low,2,4,3,1,5,15,Medium,Female,18 - 30,1-2 hours,Medium,No,1
+40,121.9393333,Medium-Fast,0.202666667,High,0.468333333,High,0.63,Low,0.510666667,Low,0.390793333,High,3.37E-05,Low,4,2,2,1,1,10,Low,Male,18 - 30,1-2 hours,Medium,No,0
+41,133.293,Fast,0.087866667,Low,0.548666667,High,0.695333333,High,0.699666667,High,0.0356,Low,0.001691,Low,4,5,3,6,4,22,High,Male,18 - 30,1-2 hours,Medium,No,0
+42,121.123,Medium-Fast,0.109833333,Low,0.208666667,Low,0.310666667,Low,0.468333333,Low,0.588666667,High,0.302364,High,4,5,5,5,5,24,High,Male,30+,1-2 hours,Medium,No,0
+43,113.3453333,Medium-Fast,0.136866667,Low,0.360333333,Low,0.668333333,High,0.647333333,High,0.144196667,Low,0.1386948,High,0,3,0,0,3,6,Low,Male,18 - 30,2+ hours,High,No,0
+44,122.329,Medium-Fast,0.118866667,Low,0.477333333,High,0.567666667,Low,0.699666667,High,0.1594,Low,0.082666667,High,3,5,4,5,3,20,Medium,Female,18 - 30,1-2 hours,Medium,No,0
+45,97.88766667,Medium-Slow,0.182333333,Low,0.457,High,0.633666667,Low,0.682666667,High,0.173833333,Low,0,Low,0,2,2,0,5,9,Low,Female,18 - 30,1-2 hours,Medium,Yes,0
+46,102.6793333,Medium-Slow,0.180333333,Low,0.514333333,High,0.659333333,High,0.696333333,High,0.303,High,1.37E-05,Low,3,2,2,1,3,11,Medium,Female,18 - 30,0 - 1 hours,Low,No,0
+47,147.3313333,Fast,0.120033333,Low,0.479666667,High,0.672,High,0.711666667,High,0.10012,Low,4.09E-06,Low,1,3,3,0,5,12,Medium,Female,18 - 30,2+ hours,High,No,0
+48,107.3293333,Medium-Slow,0.157233333,Low,0.604,High,0.741,High,0.658,High,0.196566667,Low,1.65E-05,Low,4,4,5,4,4,21,High,Female,18 - 30,1-2 hours,Medium,No,0
+49,126.01,Medium-Fast,0.24,High,0.804,High,0.916,High,0.671,High,0.0282,Low,0.00762,Low,4,5,5,4,5,23,High,Prefer not to specify,18 - 30,1-2 hours,Medium,Yes,2
+50,163.0533333,Fast,0.141333333,Low,0.308666667,Low,0.614666667,Low,0.586,Low,0.292,High,0.000107337,Low,3,5,5,5,5,23,High,Male,18 - 30,2+ hours,High,No,0
+51,101.2063333,Medium-Slow,0.092933333,Low,0.666333333,High,0.589333333,Low,0.565666667,Low,0.262066667,High,1.25E-05,Low,4,6,2,4,6,22,High,Female,18 - 30,1-2 hours,Medium,Yes,0
+52,149.2555,Fast,0.2906,High,0.524,High,0.5425,Low,0.421,Low,0.31435,High,0.002475,Low,5,6,4,5,5,25,High,Female,18 - 30,2+ hours,High,Yes,1
+53,101.678,Medium-Slow,0.2085,High,0.503,High,0.776,High,0.576,Low,0.02835,Low,0.00001285,Low,5,6,5,3,4,23,High,Male,18 - 30,1-2 hours,Medium,No,1
+54,139.7016667,Fast,0.164333333,Low,0.389,Low,0.733666667,High,0.628666667,High,0.15905,Low,0.00000223,Low,4,4,5,3,4,20,Medium,Female,18 - 30,2+ hours,High,Yes,0
+55,106.9383333,Medium-Slow,0.124566667,Low,0.181666667,Low,0.428666667,Low,0.635333333,High,0.071133333,Low,8.37E-05,Low,4,3,2,2,2,13,Medium,Male,18 - 30,1-2 hours,Medium,Yes,0
+56,151.975,Fast,0.1676,Low,0.405333333,Low,0.939666667,High,0.394333333,Low,0.007484,Low,7.96E-06,Low,2,2,3,0,1,8,Low,Male,18 - 30,2+ hours,High,No,0
+57,152.7466667,Fast,0.154666667,Low,0.518,High,0.575,Low,0.513333333,Low,0.301766667,High,0.001756333,Low,3,6,1,3,6,19,Medium,Female,18 - 30,1-2 hours,Medium,No,0
+58,122.9463333,Medium-Fast,0.221333333,High,0.550333333,High,0.543333333,Low,0.706666667,High,0.23,High,0.000153333,Low,2,4,2,3,3,14,Medium,Male,18 - 30,2+ hours,High,No,0
+59,120.997,Medium-Fast,0.195333333,High,0.462,High,0.470666667,Low,0.478,Low,0.606333333,High,0.00035428,Low,1,4,1,2,5,13,Medium,Female,18 - 30,0 - 1 hours,Low,Yes,0
+60,123.3706667,Medium-Fast,0.268333333,High,0.678666667,High,0.774333333,High,0.662333333,High,0.272433333,High,0,Low,4,5,4,4,6,23,High,Female,18 - 30,2+ hours,High,Yes,0
+61,148.359,Fast,0.066333333,Low,0.557666667,High,0.653666667,High,0.684333333,High,0.069366667,Low,0.079491827,High,1,5,6,1,6,19,Medium,Female,18 - 30,1-2 hours,Medium,No,0
+62,155.958,Fast,0.1317,Low,0.3635,Low,0.5905,Low,0.7455,High,0.10105,Low,0.0000322,Low,6,6,5,5,5,27,High,Male,18 - 30,1-2 hours,Medium,No,1
+63,118.2313333,Medium-Fast,0.312,High,0.552333333,High,0.711333333,High,0.603333333,Low,0.121966667,Low,0,Low,2,3,2,3,3,13,Medium,Female,18 - 30,0 - 1 hours,Low,Yes,0
+64,127.035,Medium-Fast,0.1142,Low,0.514666667,High,0.581,Low,0.735666667,High,0.313,High,0.00000183,Low,3,5,3,5,4,20,Medium,Female,18 - 30,1-2 hours,Medium,Yes,0
+65,123.6996667,Medium-Fast,0.304,High,0.407666667,Low,0.958333333,High,0.531666667,Low,0.000366667,Low,0.00014232,Low,2,4,5,4,6,21,High,Female,18 - 30,1-2 hours,Medium,No,0
+66,139.958,Fast,0.1125,Low,0.659,High,0.577333333,Low,0.754333333,High,0.322333333,High,0,Low,1,2,3,2,5,13,Medium,Female,18 - 30,0 - 1 hours,Low,Yes,0
+67,111.8953333,Medium-Fast,0.144533333,Low,0.583333333,High,0.683,High,0.668,High,0.226266667,High,0.000131433,Low,4,4,2,3,4,17,Medium,Female,18 - 30,2+ hours,High,Yes,0
+68,167.012,Fast,0.244366667,High,0.810333333,High,0.791,High,0.661,High,0.366,High,6.13E-07,Low,4,4,3,5,6,22,High,Female,18 - 30,2+ hours,High,Yes,0
+69,113.301,Medium-Fast,0.187,Low,0.7485,High,0.7295,High,0.7575,High,0.232,High,0.0000233,Low,4,5,4,3,4,20,Medium,Male,30+,1-2 hours,Medium,No,1
+70,99.9765,Medium-Slow,0.0789,Low,0.587,High,0.6435,Low,0.625,Low,0.0263,Low,0.062215,High,6,5,4,3,5,23,High,Female,30+,1-2 hours,Medium,Yes,1
+71,134.8173333,Fast,0.196,High,0.479666667,High,0.696333333,High,0.647666667,High,0.104296667,Low,0,Low,5,4,5,3,5,22,High,Female,18 - 30,2+ hours,High,Yes,0
+72,105.7413333,Medium-Slow,0.145333333,Low,0.274666667,Low,0.593333333,Low,0.622666667,Low,0.081433333,Low,0.000906667,Low,2,6,4,5,5,22,High,Female,18 - 30,2+ hours,High,Yes,0
+73,93.2985,Medium-Slow,0.144,Low,0.24,Low,0.473,Low,0.4515,Low,0.4553,High,0.4645,High,1,4,2,2,5,14,Medium,Male,18 - 30,1-2 hours,Medium,No,1
+74,117.9706667,Medium-Fast,0.110433333,Low,0.515,High,0.464333333,Low,0.711333333,High,0.385,High,0,Low,3,2,2,1,6,14,Medium,Female,18 - 30,2+ hours,High,No,0
+75,98.353,Medium-Slow,0.159866667,Low,0.387,Low,0.639,Low,0.697666667,High,0.326306667,High,0.011366667,Low,3,4,4,4,5,20,Medium,Female,18 - 30,1-2 hours,Medium,Yes,0
+76,172.604,Fast,0.232,High,0.5505,High,0.66,High,0.666,High,0.10315,Low,0.000002745,Low,3,4,3,4,5,19,Medium,Female,18 - 30,1-2 hours,Medium,No,1
+77,107.793,Medium-Slow,0.112833333,Low,0.482,High,0.705,High,0.768333333,High,0.140033333,Low,1.70E-05,Low,3,4,3,3,5,18,Medium,Male,18 - 30,2+ hours,High,No,0
+78,129.0603333,Medium-Fast,0.083666667,Low,0.422666667,Low,0.675333333,High,0.539333333,Low,0.427666667,High,0.0740221,High,3,5,4,5,4,21,High,Male,18 - 30,2+ hours,High,Yes,0
+79,109.216,Medium-Slow,0.2855,High,0.3305,Low,0.6105,Low,0.543,Low,0.16637,Low,0.000002195,Low,3,5,1,2,4,15,Medium,Female,18 - 30,1-2 hours,Medium,Yes,1
+80,133.7006667,Fast,0.273666667,High,0.37,Low,0.596333333,Low,0.657333333,High,0.120266667,Low,0.001532247,Low,4,5,1,5,4,19,Medium,Male,18 - 30,1-2 hours,Medium,No,0
+81,105.383,Medium-Slow,0.309666667,High,0.299666667,Low,0.558666667,Low,0.623333333,Low,0.152,Low,0.00000063,Low,2,4,3,5,4,18,Medium,Male,18 - 30,2+ hours,High,No,0
+82,105.088,Medium-Slow,0.127,Low,0.203833333,Low,0.473666667,Low,0.504333333,Low,0.337866667,High,0.31394,High,3,5,5,5,3,21,High,Female,18 - 30,2+ hours,High,No,0
+83,153.3736667,Fast,0.116166667,Low,0.569,High,0.628666667,Low,0.742,High,0.327,High,2.74E-06,Low,3,5,5,5,3,21,High,Female,18 - 30,2+ hours,High,No,0
+84,127.3206667,Medium-Fast,0.161666667,Low,0.521333333,High,0.841666667,High,0.529333333,Low,0.046618333,Low,0.275666667,High,5,4,4,4,6,23,High,Male,18 - 30,2+ hours,High,No,0
+85,142.0363333,Fast,0.186666667,Low,0.478666667,High,0.599666667,Low,0.766,High,0.06336,Low,5.09E-05,Low,3,5,5,5,4,22,High,Male,18 - 30,2+ hours,High,Yes,0
+86,132.3023333,Fast,0.1062,Low,0.475,High,0.527333333,Low,0.766333333,High,0.256715333,High,6.63E-06,Low,6,3,5,3,5,22,High,Female,18 - 30,2+ hours,High,Yes,0
+87,117.622,Medium-Fast,0.237,High,0.396,Low,0.572,Low,0.726,High,0.0538,Low,0.0000179,Low,4,5,2,4,4,19,Medium,Female,18 - 30,0 - 1 hours,Low,No,1
+88,111.3616667,Medium-Fast,0.1766,Low,0.365,Low,0.545,Low,0.734333333,High,0.219596667,High,0.037035,Low,3,2,4,3,1,13,Medium,Male,18 - 30,2+ hours,High,No,0
+89,112.6673333,Medium-Fast,0.099133333,Low,0.338666667,Low,0.672666667,High,0.528333333,Low,0.076433333,Low,1.77E-06,Low,2,3,4,2,5,16,Medium,Male,18 - 30,1-2 hours,Medium,Yes,0
+90,133.293,Fast,0.087866667,Low,0.548666667,High,0.695333333,High,0.699666667,High,0.0356,Low,0.001691,Low,4,3,3,3,4,17,Medium,Male,18 - 30,0 - 1 hours,Low,No,0
+91,107.6303333,Medium-Slow,0.244,High,0.341666667,Low,0.698333333,High,0.601333333,Low,0.0774,Low,4.79E-05,Low,3,2,3,1,3,12,Medium,Female,18 - 30,1-2 hours,Medium,Yes,0
+92,147.906,Fast,0.403,High,0.246,Low,0.677,High,0.365,Low,0.0111,Low,0.0033,Low,3,2,1,5,3,14,Medium,Male,18 - 30,0 - 1 hours,Low,No,2
+93,125.648,Medium-Fast,0.329,High,0.4028,Low,0.752666667,High,0.661333333,High,0.0479,Low,0.000446667,Low,2,5,3,6,5,21,High,Male,30+,1-2 hours,Medium,No,0
+94,128.6616667,Medium-Fast,0.100833333,Low,0.755666667,High,0.732,High,0.799333333,High,0.304433333,High,0.000428,Low,3,3,5,4,5,20,Medium,Female,18 - 30,2+ hours,High,No,0
+95,109.513,Medium-Slow,0.3215,High,0.578,High,0.4825,Low,0.7465,High,0.323585,High,0.000461515,Low,2,3,5,2,5,17,Medium,Female,18 - 30,0 - 1 hours,Low,Yes,1
+96,108.2976667,Medium-Slow,0.135,Low,0.385666667,Low,0.511333333,Low,0.632,High,0.374133333,High,0.000175333,Low,3,3,4,2,3,15,Medium,Female,18 - 30,0 - 1 hours,Low,No,0
+97,97.5135,Medium-Slow,0.145,Low,0.4925,High,0.5435,Low,0.738,High,0.5175,High,0,Low,2,3,2,2,3,12,Medium,Female,18 - 30,2+ hours,High,Yes,1
+98,110.1506667,Medium-Slow,0.330666667,High,0.390666667,Low,0.604666667,Low,0.577666667,Low,0.160466667,Low,0.013868133,Low,5,4,5,4,6,24,High,Female,18 - 30,2+ hours,High,No,0
+99,93.44,Medium-Slow,0.114,Low,0.339,Low,0.477,Low,0.747,High,0.0962,Low,0,Low,4,3,5,4,4,20,Medium,Female,18 - 30,2+ hours,High,No,2
+100,107.6446667,Medium-Slow,0.266,High,0.418333333,Low,0.766666667,High,0.663333333,High,0.02149,Low,0.00082,Low,5,5,5,5,5,25,High,Male,18 - 30,0 - 1 hours,Low,No,0
+101,116.9365,Medium-Fast,0.21395,High,0.3695,Low,0.74,High,0.7425,High,0.009325,Low,0.001231025,Low,3,4,4,3,5,19,Medium,Female,18 - 30,1-2 hours,Medium,Yes,1
+102,133.019,Fast,0.116666667,Low,0.487666667,High,0.727333333,High,0.679666667,High,0.1008,Low,0.000335753,Low,2,4,5,4,5,20,Medium,Female,18 - 30,2+ hours,High,No,0
+103,141.6506667,Fast,0.399,High,0.305333333,Low,0.890666667,High,0.541,Low,0.000396,Low,0.035428,Low,5,2,5,1,1,14,Medium,Female,18 - 30,2+ hours,High,No,0
+104,126.8715,Medium-Fast,0.118,Low,0.3533,Low,0.3795,Low,0.753,High,0.436,High,0,Low,2,2,4,2,6,16,Medium,Male,18 - 30,1-2 hours,Medium,No,1
+105,114.4533333,Medium-Fast,0.154533333,Low,0.323333333,Low,0.837,High,0.547,Low,0.368066667,High,0.612683267,High,2,4,2,3,6,17,Medium,Female,18 - 30,0 - 1 hours,Low,Yes,0
+106,138.72,Fast,0.114833333,Low,0.464,High,0.482,Low,0.663,High,0.491666667,High,0.00000183,Low,5,6,6,4,5,26,High,Male,18 - 30,1-2 hours,Medium,No,0
+107,141.6733333,Fast,0.116333333,Low,0.272,Low,0.455666667,Low,0.477666667,Low,0.436,High,0,Low,2,3,3,2,4,14,Medium,Female,18 - 30,1-2 hours,Medium,No,0
+108,166.634,Fast,0.122033333,Low,0.266333333,Low,0.773333333,High,0.334666667,Low,0.003586,Low,0.010992667,Low,3,2,3,2,4,14,Medium,Male,18 - 30,2+ hours,High,No,0
+109,146.6846667,Fast,0.349,High,0.343,Low,0.941,High,0.504,Low,0.000205067,Low,0.065443333,High,4,2,2,2,3,13,Medium,Female,18 - 30,2+ hours,High,No,0
+110,97.805,Medium-Slow,0.1224,Low,0.7435,High,0.8255,High,0.757,High,0.01819,Low,0,Low,3,4,4,3,2,16,Medium,Female,18 - 30,2+ hours,High,No,1
+111,124.979,Medium-Fast,0.213,High,0.539,High,0.4605,Low,0.8255,High,0.1726,Low,0.00329,Low,4,5,6,4,4,23,High,Female,18 - 30,0 - 1 hours,Low,No,1
+112,119.054,Medium-Fast,0.291,High,0.497,High,0.571,Low,0.743,High,0.24,High,0,Low,6,6,6,6,6,30,High,Male,18 - 30,2+ hours,High,Yes,2
+113,91.2875,Medium-Slow,0.1585,Low,0.407,Low,0.534,Low,0.461,Low,0.4055,High,0,Low,3,3,3,3,4,16,Medium,Male,18 - 30,1-2 hours,Medium,Yes,1
+114,117.0073333,Medium-Fast,0.214033333,High,0.421666667,Low,0.663666667,High,0.717,High,0.1671,Low,0.001194797,Low,4,4,2,5,5,20,Medium,Male,18 - 30,0 - 1 hours,Low,Yes,0
+115,142.224,Fast,0.0921,Low,0.629,High,0.462,Low,0.681,High,0.311,High,0.000056,Low,6,2,4,0,3,15,Medium,Female,18 - 30,2+ hours,High,Yes,1
+116,148.47,Fast,0.207333333,High,0.608666667,High,0.714666667,High,0.689,High,0.273766667,High,0.00000183,Low,2,3,4,4,2,15,Medium,Female,18 - 30,1-2 hours,Medium,Yes,0
+117,108.3186667,Medium-Slow,0.137666667,Low,0.460333333,High,0.745333333,High,0.714,High,0.044546667,Low,0.000907937,Low,5,2,5,4,6,22,High,Female,18 - 30,2+ hours,High,No,0
+118,105.456,Medium-Slow,0.197666667,High,0.352,Low,0.649,High,0.741333333,High,0.0954,Low,0,Low,4,5,4,6,4,23,High,Male,18 - 30,0 - 1 hours,Low,No,0
+119,132.0223333,Fast,0.133666667,Low,0.409666667,Low,0.693333333,High,0.711,High,0.095,Low,1.48E-05,Low,6,4,4,4,2,20,Medium,Male,18 - 30,0 - 1 hours,Low,No,0
+120,112.6066667,Medium-Fast,0.232433333,High,0.217333333,Low,0.915,High,0.355666667,Low,0.000733833,Low,0.492500333,High,2,3,2,4,4,15,Medium,Male,18 - 30,2+ hours,High,Yes,0
+121,119.554,Medium-Fast,0.158666667,Low,0.536666667,High,0.719,High,0.595,Low,0.269333333,High,0,Low,5,5,4,5,5,24,High,Male,18 - 30,0 - 1 hours,Low,No,0
+122,115.6866667,Medium-Fast,0.122333333,Low,0.351,Low,0.573,Low,0.75,High,0.169156667,Low,0.011586667,Low,3,2,5,4,6,20,Medium,Male,18 - 30,0 - 1 hours,Low,Yes,0
+123,159.6976667,Fast,0.150666667,Low,0.527,High,0.605,Low,0.632666667,High,0.075166667,Low,0.00044183,Low,5,4,4,5,5,23,High,Male,18 - 30,1-2 hours,Medium,Yes,0
+124,120.0316667,Medium-Fast,0.192,High,0.338666667,Low,0.599666667,Low,0.692,High,0.027506667,Low,0.0008435,Low,2,4,5,3,5,19,Medium,Female,18 - 30,2+ hours,High,Yes,0
+125,125.8036667,Medium-Fast,0.345566667,High,0.498666667,High,0.549423333,Low,0.475666667,Low,0.474553333,High,0.296299033,High,3,2,3,2,2,12,Medium,Male,18 - 30,2+ hours,High,Yes,0
+126,133.0575,Fast,0.1191,Low,0.5365,High,0.3705,Low,0.68,High,0.7045,High,0.0000208,Low,4,5,6,2,4,21,High,Female,18 - 30,1-2 hours,Medium,No,1
+127,98.703,Medium-Slow,0.183766667,Low,0.622,High,0.512333333,Low,0.584666667,Low,0.485,High,0.000135,Low,6,6,6,5,4,27,High,Female,18 - 30,2+ hours,High,No,0
+128,112.312,Medium-Fast,0.212,High,0.446,Low,0.571,Low,0.627333333,Low,0.114106667,Low,0.000289467,Low,4,4,4,5,5,22,High,Male,18 - 30,1-2 hours,Medium,No,0
+129,116.3973333,Medium-Fast,0.145133333,Low,0.486666667,High,0.715666667,High,0.649666667,High,0.073693333,Low,0.000753877,Low,3,4,3,3,5,18,Medium,Female,17 & Under,2+ hours,High,Yes,0
+130,105.7556667,Medium-Slow,0.083366667,Low,0.331233333,Low,0.459333333,Low,0.542333333,Low,0.642333333,High,0.088333333,High,1,4,2,2,3,12,Medium,Female,17 & Under,2+ hours,High,Yes,0
+131,138.714,Fast,0.392833333,High,0.354666667,Low,0.535666667,Low,0.551,Low,0.679,High,0,Low,1,5,4,6,6,22,High,Female,18 - 30,1-2 hours,Medium,No,0
+132,135.685,Fast,0.116333333,Low,0.587,High,0.623333333,Low,0.687666667,High,0.116966667,Low,0,Low,5,6,4,4,5,24,High,Female,18 - 30,1-2 hours,Medium,No,0
+133,99.803,Medium-Slow,0.0998,Low,0.5225,High,0.6215,Low,0.6615,High,0.601,High,0,Low,0,3,2,2,0,7,Low,Male,18 - 30,2+ hours,High,No,1
+134,135.9893333,Fast,0.111433333,Low,0.496333333,High,0.742666667,High,0.731333333,High,0.010996667,Low,0.558993333,High,4,1,2,4,5,16,Medium,Male,18 - 30,1-2 hours,Medium,Yes,0
+135,108.6656667,Medium-Slow,0.105533333,Low,0.415666667,Low,0.533,Low,0.658666667,High,0.321233333,High,2.53E-05,Low,3,2,4,3,2,14,Medium,Male,18 - 30,1-2 hours,Medium,Yes,0
+136,105.7023333,Medium-Slow,0.089433333,Low,0.539,High,0.726666667,High,0.633,High,0.066666667,Low,0.0002849,Low,4,5,4,4,3,20,Medium,Female,17 & Under,2+ hours,High,No,0
+137,138.0076667,Fast,0.17,Low,0.390666667,Low,0.642666667,Low,0.729,High,0.100466667,Low,0.00000183,Low,5,2,5,3,6,21,High,Female,18 - 30,2+ hours,High,Yes,0
+138,121.0695,Medium-Fast,0.25,High,0.375,Low,0.4485,Low,0.697,High,0.479075,High,0.44150575,High,3,6,6,0,0,15,Medium,Prefer not to specify,30+,2+ hours,High,Yes,1
+139,160.699,Fast,0.377,High,0.543,High,0.857333333,High,0.456666667,Low,0.027043333,Low,0.03768408,Low,3,1,6,1,3,14,Medium,Female,18 - 30,2+ hours,High,No,0
+140,97.648,Medium-Slow,0.143666667,Low,0.181666667,Low,0.213,Low,0.447,Low,0.728666667,High,4.23E-07,Low,0,3,2,1,2,8,Low,Female,18 - 30,2+ hours,High,No,0
+141,132.251,Fast,0.124766667,Low,0.322333333,Low,0.491,Low,0.454,Low,0.275393333,High,0.026210967,Low,1,4,2,4,6,17,Medium,Male,17 & Under,2+ hours,High,Yes,0
+142,138.247,Fast,0.200333333,High,0.403666667,Low,0.701,High,0.736,High,0.1194,Low,0,Low,5,4,4,4,6,23,High,Male,18 - 30,2+ hours,High,No,0
+143,99.326,Medium-Slow,0.159333333,Low,0.375833333,Low,0.638666667,Low,0.591,Low,0.270333333,High,0.001926,Low,5,5,5,4,4,23,High,Female,18 - 30,2+ hours,High,No,0
+144,98.19433333,Medium-Slow,0.268333333,High,0.1769,Low,0.573,Low,0.322,Low,0.1797,Low,0.047170433,High,3,4,5,3,6,21,High,Female,18 - 30,1-2 hours,Medium,No,0
+145,138.976,Fast,0.416666667,High,0.767,High,0.769,High,0.601666667,Low,0.152366667,Low,0,Low,2,5,6,5,2,20,Medium,Male,18 - 30,0 - 1 hours,Low,Yes,0
+146,114.1576667,Medium-Fast,0.2364,High,0.578333333,High,0.686333333,High,0.648,High,0.1919,Low,0.1098,High,2,6,1,4,3,16,Medium,Male,30+,0 - 1 hours,Low,Yes,0
+147,102.9976667,Medium-Slow,0.219333333,High,0.516333333,High,0.702333333,High,0.741,High,0.142356667,Low,0.000976667,Low,4,3,3,2,3,15,Medium,Female,30+,1-2 hours,Medium,No,0
+148,142.1313333,Fast,0.137,Low,0.317,Low,0.474,Low,0.569666667,Low,0.521933333,High,0.00021703,Low,3,3,2,5,1,14,Medium,Female,18 - 30,0 - 1 hours,Low,No,0
+149,125.806,Medium-Fast,0.306666667,High,0.328333333,Low,0.457,Low,0.627,Low,0.42476,High,0.00676762,Low,1,1,6,3,6,17,Medium,Female,18 - 30,1-2 hours,Medium,Yes,0
+150,100.0165,Medium-Slow,0.1363,Low,0.291,Low,0.5525,Low,0.7135,High,0.312,High,0,Low,3,5,5,4,6,23,High,Female,18 - 30,2+ hours,High,No,1
+151,115.9613333,Medium-Fast,0.204133333,High,0.45,Low,0.778333333,High,0.468666667,Low,0.1686836,Low,0.00035316,Low,4,4,2,4,4,18,Medium,Male,18 - 30,2+ hours,High,No,0
+152,116.6596667,Medium-Fast,0.108733333,Low,0.286666667,Low,0.548333333,Low,0.615333333,Low,0.051,Low,0.000910833,Low,6,6,6,6,6,30,High,Female,18 - 30,2+ hours,High,No,0
+153,109.9905,Medium-Slow,0.18105,Low,0.16,Low,0.67,High,0.7165,High,0.21475,High,0.4636085,High,3,5,6,6,6,26,High,Female,18 - 30,1-2 hours,Medium,No,1
+154,110.5375,Medium-Slow,0.1205,Low,0.6985,High,0.6645,High,0.7465,High,0.21815,High,0.00000053,Low,2,3,3,2,3,13,Medium,Female,18 - 30,2+ hours,High,No,1
+155,154.7413333,Fast,0.066966667,Low,0.532333333,High,0.516666667,Low,0.695333333,High,0.212266667,Low,0.001845507,Low,4,3,3,3,2,15,Medium,Male,18 - 30,2+ hours,High,No,0
+156,100.1483333,Medium-Slow,0.463,High,0.3,Low,0.513333333,Low,0.642333333,High,0.17193,Low,0.000160417,Low,3,6,1,2,5,17,Medium,Male,18 - 30,0 - 1 hours,Low,No,0
+157,118.183,Medium-Fast,0.366,High,0.300666667,Low,0.578666667,Low,0.775666667,High,0.05277,Low,0.003796417,Low,0,0,3,2,4,9,Low,Male,18 - 30,1-2 hours,Medium,No,0
+158,119.021,Medium-Fast,0.148,Low,0.485333333,High,0.564666667,Low,0.821,High,0.298383333,High,5.63E-05,Low,4,4,2,1,1,12,Medium,Male,18 - 30,2+ hours,High,No,0
+159,128.8043333,Medium-Fast,0.1637,Low,0.159666667,Low,0.375666667,Low,0.423666667,Low,0.768333333,High,5.33E-06,Low,1,2,3,0,3,9,Low,Female,18 - 30,2+ hours,High,Yes,0
+160,114.093,Medium-Fast,0.0793,Low,0.655,High,0.366,Low,0.812,High,0.36,High,0,Low,5,5,2,4,5,21,High,Male,18 - 30,2+ hours,High,No,2
+161,136.996,Fast,0.116333333,Low,0.535333333,High,0.513666667,Low,0.759,High,0.224,High,0.00010983,Low,5,4,4,5,5,23,High,Male,18 - 30,2+ hours,High,No,0
+162,127.6753333,Medium-Fast,0.108,Low,0.45,Low,0.608333333,Low,0.699,High,0.304333333,High,3.08E-06,Low,3,4,1,4,4,16,Medium,Female,18 - 30,0 - 1 hours,Low,No,0
+163,92.971,Medium-Slow,0.361,High,0.566,High,0.887,High,0.585,Low,0.0244,Low,0,Low,3,4,3,2,4,16,Medium,Female,18 - 30,2+ hours,High,No,2
+164,134.9903333,Fast,0.134333333,Low,0.489,High,0.565,Low,0.803333333,High,0.118596667,Low,0.00000183,Low,1,4,3,5,5,18,Medium,Male,18 - 30,2+ hours,High,Yes,0
+165,152.9616667,Fast,0.1162,Low,0.479666667,High,0.69,High,0.750333333,High,0.211666667,Low,0.22200183,High,3,5,4,2,5,19,Medium,Female,18 - 30,1-2 hours,Medium,No,0
+166,119.9876667,Medium-Fast,0.105866667,Low,0.658,High,0.636333333,Low,0.825,High,0.189866667,Low,1.98E-06,Low,6,4,5,4,4,23,High,Female,18 - 30,2+ hours,High,Yes,0
+167,108.43,Medium-Slow,0.22,High,0.615666667,High,0.812,High,0.571,Low,0.01828,Low,0.0021806,Low,4,4,2,4,5,19,Medium,Male,18 - 30,1-2 hours,Medium,No,0
+168,129.4956667,Medium-Fast,0.157733333,Low,0.214,Low,0.499,Low,0.535,Low,0.094433333,Low,0.000260363,Low,2,4,3,2,5,16,Medium,Female,18 - 30,1-2 hours,Medium,No,0
+169,117.653,Medium-Fast,0.080766667,Low,0.535,High,0.578,Low,0.637333333,High,0.162066667,Low,0.00047798,Low,1,1,4,0,4,10,Low,Female,18 - 30,0 - 1 hours,Low,Yes,0
+170,154.2953333,Fast,0.336866667,High,0.401666667,Low,0.913333333,High,0.397,Low,0.0002292,Low,0.279735333,High,2,4,5,4,5,20,Medium,Male,18 - 30,2+ hours,High,No,0
+171,122.361,Medium-Fast,0.21,High,0.396333333,Low,0.61,Low,0.629,High,0.260633333,High,0.001872503,Low,3,3,2,4,4,16,Medium,Female,18 - 30,1-2 hours,Medium,No,0
+172,116.818,Medium-Fast,0.2688,High,0.54,High,0.715666667,High,0.627666667,Low,0.221566667,High,5.97E-07,Low,4,6,3,6,6,25,High,Male,18 - 30,2+ hours,High,Yes,0
+173,133.939,Fast,0.179,Low,0.473333333,High,0.816666667,High,0.581333333,Low,0.06292,Low,0.0000034,Low,2,5,4,3,3,17,Medium,Male,18 - 30,1-2 hours,Medium,No,0
+174,115.8716667,Medium-Fast,0.1844,Low,0.433,Low,0.746666667,High,0.598666667,Low,0.127566667,Low,0.0044,Low,3,3,3,3,3,15,Medium,Male,18 - 30,2+ hours,High,Yes,0
+175,138.677,Fast,0.147666667,Low,0.586333333,High,0.610666667,Low,0.815333333,High,0.148233333,Low,0.0000958,Low,4,5,2,4,3,18,Medium,Male,18 - 30,1-2 hours,Medium,Yes,0
+176,87.33033333,Slow,0.1409,Low,0.591666667,High,0.607,Low,0.754333333,High,0.373666667,High,0.000121,Low,3,3,2,2,4,14,Medium,Female,18 - 30,2+ hours,High,No,0
+177,134.548,Fast,0.141333333,Low,0.377666667,Low,0.795666667,High,0.567333333,Low,0.267333333,High,0.043026667,Low,3,4,5,3,3,18,Medium,Female,17 & Under,1-2 hours,Medium,No,0
+178,121.3053333,Medium-Fast,0.101966667,Low,0.571666667,High,0.557,Low,0.839333333,High,0.1605,Low,0.001053333,Low,6,6,3,6,6,27,High,Male,18 - 30,1-2 hours,Medium,Yes,0
+179,123.004,Medium-Fast,0.1006,Low,0.490666667,High,0.597666667,Low,0.745666667,High,0.498466667,High,0.015293333,Low,5,3,6,4,2,20,Medium,Female,18 - 30,2+ hours,High,No,0
+180,122.107,Medium-Fast,0.215666667,High,0.420333333,Low,0.706333333,High,0.558333333,Low,0.180668637,Low,0.377333333,High,4,4,3,3,5,19,Medium,Female,18 - 30,2+ hours,High,No,0
+181,113.278,Medium-Fast,0.1825,Low,0.339,Low,0.643,Low,0.611333333,Low,0.124506667,Low,0.00082,Low,5,4,5,3,3,20,Medium,Female,17 & Under,1-2 hours,Medium,Yes,0
+182,129.633,Medium-Fast,0.289,High,0.346,Low,0.751,High,0.3995,Low,0.299605,High,0.00021556,Low,3,6,2,6,4,21,High,Male,18 - 30,0 - 1 hours,Low,Yes,1
+183,116.3563333,Medium-Fast,0.326333333,High,0.521666667,High,0.666333333,High,0.671333333,High,0.350933333,High,0,Low,4,4,2,2,4,16,Medium,Male,18 - 30,2+ hours,High,No,0
+184,135.0013333,Fast,0.215,High,0.365,Low,0.692,High,0.740666667,High,0.1022,Low,0.00002533,Low,5,6,5,5,6,27,High,Male,18 - 30,2+ hours,High,Yes,0
+185,115.3226667,Medium-Fast,0.292,High,0.713666667,High,0.763333333,High,0.718666667,High,0.191163333,Low,1.36E-05,Low,4,5,5,4,6,24,High,Female,18 - 30,1-2 hours,Medium,No,0
+186,132.936,Fast,0.172933333,Low,0.634333333,High,0.658666667,High,0.721333333,High,0.253333333,High,8.07E-07,Low,3,4,5,3,3,18,Medium,Male,18 - 30,1-2 hours,Medium,No,0
+187,129.046,Medium-Fast,0.096333333,Low,0.562666667,High,0.526666667,Low,0.731333333,High,0.165933333,Low,3.97E-06,Low,6,4,4,4,4,22,High,Female,18 - 30,2+ hours,High,No,0
+188,120.8506667,Medium-Fast,0.230333333,High,0.714666667,High,0.827666667,High,0.728,High,0.034703333,Low,0.000203667,Low,3,4,5,4,6,22,High,Male,18 - 30,2+ hours,High,Yes,0
+189,126.033,Medium-Fast,0.120333333,Low,0.484666667,High,0.612333333,Low,0.659666667,High,0.08726,Low,1.53E-05,Low,3,4,4,3,4,18,Medium,Female,18 - 30,2+ hours,High,No,0
+190,126.2306667,Medium-Fast,0.279666667,High,0.564666667,High,0.855666667,High,0.493333333,Low,0.017887,Low,0.246666667,High,4,4,4,3,5,20,Medium,Female,18 - 30,2+ hours,High,Yes,0
+191,128.3523333,Medium-Fast,0.228666667,High,0.208,Low,0.547,Low,0.581,Low,0.045773333,Low,0.001333333,Low,5,6,5,6,5,27,High,Male,18 - 30,1-2 hours,Medium,No,0
+192,140.8136667,Fast,0.391966667,High,0.728,High,0.703666667,High,0.528333333,Low,0.612666667,High,0.001714843,Low,5,4,4,5,6,24,High,Male,18 - 30,0 - 1 hours,Low,Yes,0
+193,156.376,Fast,0.122,Low,0.249,Low,0.544,Low,0.41,Low,0.522333333,High,0.00214,Low,3,4,3,4,5,19,Medium,Male,18 - 30,1-2 hours,Medium,Yes,0
+194,151.9773333,Fast,0.177,Low,0.784333333,High,0.853333333,High,0.557333333,Low,0.070436667,Low,0.00000077,Low,2,4,4,3,2,15,Medium,Female,18 - 30,1-2 hours,Medium,No,0
+195,159.81,Fast,0.222666667,High,0.334666667,Low,0.822,High,0.488333333,Low,0.01551,Low,0.000676667,Low,6,5,6,6,6,29,High,Male,18 - 30,2+ hours,High,No,0
+196,134.6723333,Fast,0.097066667,Low,0.180933333,Low,0.492,Low,0.554666667,Low,0.530333333,High,0.005799967,Low,5,4,4,4,5,22,High,Female,18 - 30,1-2 hours,Medium,No,0
+197,126.0475,Medium-Fast,0.2575,High,0.5555,High,0.7625,High,0.626,Low,0.04615,Low,0,Low,1,3,2,2,2,10,Low,Female,18 - 30,0 - 1 hours,Low,No,1
+199,129.0373333,Medium-Fast,0.220666667,High,0.389333333,Low,0.569,Low,0.756666667,High,0.2493,High,0.00000723,Low,3,3,2,2,4,14,Medium,Male,18 - 30,2+ hours,High,No,0
+200,109.0376667,Medium-Slow,0.125433333,Low,0.444333333,Low,0.738333333,High,0.617333333,Low,0.079033333,Low,0.041342553,Low,5,5,5,5,6,26,High,Female,30+,1-2 hours,Medium,No,0
+201,128.2273333,Medium-Fast,0.114666667,Low,0.223666667,Low,0.554,Low,0.624666667,Low,0.1277,Low,0,Low,3,4,4,3,5,19,Medium,Male,18 - 30,1-2 hours,Medium,No,0
+202,125.365,Medium-Fast,0.115533333,Low,0.411,Low,0.601666667,Low,0.707,High,0.207333333,Low,0.000908497,Low,3,3,5,2,6,19,Medium,Female,17 & Under,2+ hours,High,No,0
+203,125.3836667,Medium-Fast,0.193,High,0.315666667,Low,0.638333333,Low,0.6,Low,0.200166667,Low,6.25E-05,Low,3,2,2,5,5,17,Medium,Female,18 - 30,1-2 hours,Medium,No,0
+204,116.763,Medium-Fast,0.2968,High,0.423333333,Low,0.413333333,Low,0.413666667,Low,0.446666667,High,0.002070167,Low,3,5,0,5,4,17,Medium,Male,18 - 30,1-2 hours,Medium,No,0
+205,129.068,Medium-Fast,0.44175,High,0.7295,High,0.737,High,0.7,High,0.3825,High,0,Low,3,5,2,5,4,19,Medium,Female,18 - 30,2+ hours,High,Yes,1
+206,125.5563333,Medium-Fast,0.240666667,High,0.542333333,High,0.763666667,High,0.625,Low,0.1164,Low,0.0017,Low,5,5,4,6,5,25,High,Male,18 - 30,2+ hours,High,No,0
+207,124.76,Medium-Fast,0.2513,High,0.485333333,High,0.863,High,0.622333333,Low,0.11242,Low,0.00000054,Low,3,6,6,6,6,27,High,Male,18 - 30,0 - 1 hours,Low,Yes,0
+208,147.792,Fast,0.210333333,High,0.379333333,Low,0.649333333,High,0.673,High,0.163633333,Low,0.00000046,Low,5,6,4,6,4,25,High,Male,18 - 30,2+ hours,High,Yes,0
+209,108.9883333,Medium-Slow,0.291533333,High,0.495666667,High,0.755,High,0.773333333,High,0.208166667,Low,0.000467357,Low,5,4,5,3,4,21,High,Female,18 - 30,2+ hours,High,Yes,0
+210,111.2943333,Medium-Fast,0.188333333,Low,0.404333333,Low,0.599666667,Low,0.550333333,Low,0.227,High,0,Low,4,5,4,5,6,24,High,Female,18 - 30,2+ hours,High,No,0
+211,110.1876667,Medium-Slow,0.342333333,High,0.408666667,Low,0.614933333,Low,0.483333333,Low,0.297973333,High,8.49E-05,Low,4,5,4,5,3,21,High,Female,18 - 30,2+ hours,High,Yes,0
+212,150.109,Fast,0.22,High,0.63,High,0.847,High,0.67,High,0.0156,Low,0,Low,4,4,4,5,4,21,High,Female,18 - 30,2+ hours,High,Yes,2
+213,136.653,Fast,0.1157,Low,0.509333333,High,0.846333333,High,0.520333333,Low,0.086396667,Low,0.001646667,Low,2,2,3,4,5,16,Medium,Female,18 - 30,2+ hours,High,No,0
+214,129.2856667,Medium-Fast,0.196733333,High,0.481,High,0.665666667,High,0.729333333,High,0.41,High,0.0000092,Low,2,6,2,4,4,18,Medium,Female,18 - 30,2+ hours,High,No,0
+215,125.6376667,Medium-Fast,0.125866667,Low,0.519666667,High,0.687,High,0.655666667,High,0.190666667,Low,0.00000721,Low,4,3,4,2,4,17,Medium,Female,18 - 30,1-2 hours,Medium,Yes,0
+216,141.978,Fast,0.2455,High,0.585,High,0.909,High,0.464,Low,0.002096,Low,0.0000039,Low,5,5,3,5,5,23,High,Female,18 - 30,1-2 hours,Medium,Yes,1
+217,112.3145,Medium-Fast,0.255,High,0.439,Low,0.3475,Low,0.5925,Low,0.1915,Low,0.0595,High,5,6,5,6,4,26,High,Male,18 - 30,2+ hours,High,No,1
+218,105.2226667,Medium-Slow,0.1239,Low,0.412333333,Low,0.644666667,High,0.636,High,0.373333333,High,0,Low,4,4,6,5,5,24,High,Female,18 - 30,2+ hours,High,No,0
+219,93.33866667,Medium-Slow,0.135533333,Low,0.233333333,Low,0.393666667,Low,0.742666667,High,0.412366667,High,0.289154667,High,4,5,4,5,5,23,High,Female,18 - 30,2+ hours,High,Yes,0
+220,132.267,Fast,0.126933333,Low,0.531,High,0.876333333,High,0.610333333,Low,0.1222,Low,0.043026667,Low,3,5,3,3,6,20,Medium,Female,30+,0 - 1 hours,Low,Yes,0
+221,112.6423333,Medium-Fast,0.097433333,Low,0.382,Low,0.664,High,0.633666667,High,0.067533333,Low,0.021746667,Low,4,5,3,4,4,20,Medium,Female,18 - 30,2+ hours,High,Yes,0
+222,90.598,Slow,0.0696,Low,0.0596,Low,0.315,Low,0.2785,Low,0.922,High,0.9175,High,6,5,6,6,6,29,High,Female,18 - 30,1-2 hours,Medium,No,1
+223,143.7853333,Fast,0.1948,High,0.489066667,High,0.767666667,High,0.658333333,High,0.055046667,Low,0.001879,Low,2,1,3,0,3,9,Low,Female,18 - 30,2+ hours,High,Yes,0
+224,121.9683333,Medium-Fast,0.143933333,Low,0.412,Low,0.559666667,Low,0.620666667,Low,0.29125,High,0.00094419,Low,3,3,4,2,5,17,Medium,Female,18 - 30,2+ hours,High,No,0
+225,129.6866667,Medium-Fast,0.180666667,Low,0.4,Low,0.69,High,0.619666667,Low,0.104266667,Low,0.00000183,Low,4,3,5,5,4,21,High,Female,18 - 30,2+ hours,High,No,0
+226,114.6973333,Medium-Fast,0.222,High,0.406966667,Low,0.69,High,0.606,Low,0.296633333,High,0.000343333,Low,5,2,6,2,4,19,Medium,Female,18 - 30,1-2 hours,Medium,Yes,0
+227,100.3023333,Medium-Slow,0.180333333,Low,0.174333333,Low,0.4483,Low,0.560666667,Low,0.356943333,High,0.000118333,Low,4,5,1,5,2,17,Medium,Female,18 - 30,2+ hours,High,Yes,0
+228,129.501,Medium-Fast,0.327,High,0.299,Low,0.701,High,0.592,Low,0.0451,Low,0,Low,2,4,6,5,5,22,High,Male,18 - 30,1-2 hours,Medium,No,2
+229,94.86666667,Medium-Slow,0.163733333,Low,0.431,Low,0.670333333,High,0.532,Low,0.131986667,Low,0.007347367,Low,4,5,3,4,3,19,Medium,Female,17 & Under,2+ hours,High,Yes,0
+230,142.625,Fast,0.086833333,Low,0.658,High,0.713333333,High,0.738,High,0.07324,Low,3.51E-05,Low,3,3,3,4,5,18,Medium,Male,18 - 30,2+ hours,High,No,0
+231,101.3553333,Medium-Slow,0.0972,Low,0.297666667,Low,0.506666667,Low,0.599666667,Low,0.471666667,High,0.000833677,Low,5,5,3,5,5,23,High,Female,18 - 30,0 - 1 hours,Low,No,0
+232,124.538,Medium-Fast,0.251866667,High,0.553666667,High,0.711333333,High,0.560666667,Low,0.023270067,Low,0.011176333,Low,2,3,4,3,3,15,Medium,Male,18 - 30,1-2 hours,Medium,Yes,0
+233,117.334,Medium-Fast,0.2723,High,0.751,High,0.701666667,High,0.602,Low,0.048933333,Low,3.67E-05,Low,4,5,4,5,5,23,High,Female,18 - 30,0 - 1 hours,Low,Yes,0
+234,110.6493333,Medium-Slow,0.1031,Low,0.553,High,0.588333333,Low,0.834333333,High,0.330333333,High,0.273333333,High,0,3,3,1,1,8,Low,Female,18 - 30,2+ hours,High,No,0

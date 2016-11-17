@@ -3,14 +3,14 @@ import pandas as pd
 import math
 import numpy as np
 import pylab as P
+import seaborn as sns
 
 from sklearn import linear_model
 from sklearn.metrics import r2_score
 from sklearn.metrics import mean_squared_error
 
-dataset = pd.read_csv('data-files/InputTraumatic.csv')
+dataset = pd.read_csv('data_all.csv')
 # print(dataset)
-
 
 data = dataset.dance.reshape((len(dataset.dance), 1))
 CV = dataset.health.reshape((len(dataset.health), 1))
@@ -65,3 +65,16 @@ n, bins, patches = plt.hist(residual_error, 10, normed=1, alpha = 0.5)
 y_pdf = P.normpdf(bins, np.mean(residual_error), np.std(residual_error))
 l = P.plot(bins, y_pdf, 'k--', linewidth=1.5)
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
