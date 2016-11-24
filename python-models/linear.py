@@ -12,7 +12,7 @@ from sklearn.metrics import mean_squared_error
 dataset = pd.read_csv('data_all.csv')
 # print(dataset)
 
-data = dataset.dance.reshape((len(dataset.dance), 1))
+data = dataset.popularity.reshape((len(dataset.dance), 1))
 CV = dataset.health.reshape((len(dataset.health), 1))
 
 regr = linear_model.LinearRegression()

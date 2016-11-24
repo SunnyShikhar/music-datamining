@@ -7,11 +7,11 @@ from sklearn import linear_model
 from sklearn.metrics import r2_score
 from sklearn.metrics import mean_squared_error
 
-dataset = pd.read_csv('InputTraumatic.csv')
+dataset = pd.read_csv('data_all.csv')
 print(dataset)
 
 plt.figure(1)
-plt.scatter(dataset.tempo, dataset.health, color='blue')
+plt.scatter(dataset.popularity, dataset.health, color='blue')
 plt.title('Mental health as a function of song tempo')
 plt.xlabel('tempo')
 plt.ylabel('health')
@@ -65,18 +65,3 @@ plt.title('Mental health as a function of song instrumentalness')
 plt.xlabel('instrumentalness')
 plt.ylabel('health')
 plt.show()
-
-#tempo = dataset.tempo.reshape((len(dataset.tempo), 1))
-#health = dataset.health.reshape((len(dataset.health), 1))
-
-#regr = linear_model.LinearRegression()
-
-#regr.fit(tempo, health)
-
-#predicted_results = regr.predict(tempo)
-
-#plt.plot(tempo, predicted_results, color='green', linewidth=3)
-#plt.scatter(tempo, health, color='black')
-#plt.xlabel("tempo")
-#plt.ylabel("health")
-#plt.show()
