@@ -37,7 +37,7 @@ Once the survey had more than 300 entries (and approximately 1000 songs), a Pyth
         "danceability": 0.675,
         "valence": 0.49,
         "instrumentalness": 3.36e-06
-    }]
+}]
 
 For the purposes of this study, only the following features were retrieved: 
 
