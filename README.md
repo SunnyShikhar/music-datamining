@@ -16,27 +16,27 @@ The primary data was collected through a survey that asked surveyers to list the
 
 These questions are described as good indicators of an individual's mental health by the [Canadian Mental Health Association](www.cmha.ca/mental_health/mental-health-meter/).
 
-Once the survey had more than 300 entries (and approximately 1000 songs), a Python script was made to fetch data from the Spotify's music catalog using Spotify Web API. The  [Get Audio Features for a Track](https://developer.spotify.com/web-api/get-audio-features/) endpoint was used to retrieve song information in a JSON format. An example of this output is shown for the song "Starboy - The Weeknd ft. Daft Punk" 
+Once the survey had more than 300 entries (and approximately 1000 songs), a Python script was made to fetch data from the Spotify's music catalog using Spotify Web API. The  [Get Audio Features for a Track](https://developer.spotify.com/web-api/get-audio-features/) endpoint was used to retrieve song information in a JSON format. An example of this JSON output is shown below for a song.
+
+<b>"Starboy - The Weeknd ft. Daft Punk"</b>
 
 [{
-        "track_href": "https://api.spotify.com/v1/tracks/7MXVkk9YMctZqd1Srtv4MB",
-        "type": "audio_features",
-        "energy": 0.595,
-        "analysis_url": "https://api.spotify.com/v1/audio-analysis/7MXVkk9YMctZqd1Srtv4MB",
-        "acousticness": 0.168,
-        "speechiness": 0.284,
-        "liveness": 0.136,
-        "uri": "spotify:track:7MXVkk9YMctZqd1Srtv4MB",
-        "id": "7MXVkk9YMctZqd1Srtv4MB",
-        "key": 7,
-        "mode": 1,
-        "time_signature": 4,
-        "loudness": -7.033,
-        "duration_ms": 230453,
-        "tempo": 185.998,
-        "danceability": 0.675,
-        "valence": 0.49,
-        "instrumentalness": 3.36e-06
+- "track_href": "https://api.spotify.com/v1/tracks/7MXVkk9YMctZqd1Srtv4MB",
+- "type": "audio_features",
+- "analysis_url": "https://api.spotify.com/v1/audio-analysis/7MXVkk9YMctZqd1Srtv4MB",
+- "acousticness": 0.168,
+- "speechiness": 0.284,
+- "liveness": 0.136,
+- "uri": "spotify:track:7MXVkk9YMctZqd1Srtv4MB",
+- "id": "7MXVkk9YMctZqd1Srtv4MB",
+- "key": 7,
+- "mode": 1,
+- "time_signature": 4,
+- "duration_ms": 230453,
+- "tempo": 185.998,
+- "danceability": 0.675,
+- "valence": 0.49,
+- "instrumentalness": 3.36e-06
 }]
 
 For the purposes of this study, only the following features were retrieved: 
