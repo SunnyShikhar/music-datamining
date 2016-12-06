@@ -16,7 +16,9 @@ The primary data was collected through a survey that asked surveyers to list the
 
 These questions are described as good indicators of an individual's mental health by the [Canadian Mental Health Association](www.cmha.ca/mental_health/mental-health-meter/).
 
-Once the survey had more than 300 entries (and approximately 1000 songs), a Python script was made to fetch data from the Spotify's music catalog using Spotify Web API. The  [Get Audio Features for a Track](https://developer.spotify.com/web-api/get-audio-features/) endpoint was used to retrieve song information in a JSON format. An example of this output is shown for the song <b>"Starboy - The Weeknd ft. Daft Punk"</b>
+Once the survey had more than 300 entries (and approximately 1000 songs), a Python script was made to fetch data from the Spotify's music catalog using Spotify Web API. The  [Get Audio Features for a Track](https://developer.spotify.com/web-api/get-audio-features/) endpoint was used to retrieve song information in a JSON format. An example of this JSON output is shown below for a song.
+
+<b>"Starboy - The Weeknd ft. Daft Punk"</b>
 
 [{
 - "track_href": "https://api.spotify.com/v1/tracks/7MXVkk9YMctZqd1Srtv4MB",
