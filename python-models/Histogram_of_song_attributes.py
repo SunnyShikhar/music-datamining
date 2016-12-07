@@ -14,12 +14,14 @@ def PlotHistogram(dataOnX, XName):
     plt.figure(1)
     plt.hist(dataOnX)
     plt.xlabel(XName)
+    plt.title(XName + ' Histogram')
     plt.show()
 
 #This is a function that will make bar charts for any of the categorical variables
 def PlotBarChart(CategoricalVar, data, XName):
     sns.countplot(CategoricalVar, data=data)
     plt.xlabel(XName)
+    plt.title( XName + ' Bar Chart')
     plt.show()
 
 
