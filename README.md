@@ -82,6 +82,7 @@ Similarly, our data set primariy consisted of 18-30 year olds. We realzied later
 ![Figure9](https://github.com/sunnyshikhar/music-datamining/blob/master/images/livenessHistogram.png?raw=true) 
 ![Figure10](https://github.com/SunnyShikhar/music-datamining/blob/master/images/acousticHistogram.png?raw=true) 
 ![Figure11](https://github.com/sunnyshikhar/music-datamining/blob/master/images/instrumentalnessHistogram.png?raw=true) 
+
 Tempo, popularity, energy, dance and valence have a nice normal distribution which shows that listeners listen to a variety of music hovering around a mean of <b> 123 bpm, 61 popularity, 0.65 energy, 0.60 danceability, 0.45 valence</b>. Our entire dataset is primarily not listening to instrumental tracks as shown by the instrumentalness graph which means we can drop this feature as it least likely to be contributing to mental health. However let's keep exploring the data set before removing any features.
 
 #### Mental Health Graph
@@ -104,3 +105,22 @@ The following graphs plot mental health as a function of each musical feature.
 ![Figure20](https://github.com/sunnyshikhar/music-datamining/blob/master/images/healthVsInstrumentalness.png?raw=true) 
 
 The scatter plot does not show any clear relationship between mental health and any musical feature (such as linear, logarithmic etc). However, we are able to conclude that instrumentalness is a weak feature in potentially predicting mental health as mental health ranges from 5 to 30 for really low instrumental values. To say this conclusively, let's do some feature engineering to ensure the right attributes are being used to predict mental health.
+
+## Feature Engineering
+
+### Recursive Feature Elimination (RFE)
+
+The Recursive Feature Elimination (RFE) method is a feature selection approach. It works by recursively removing attributes and building a model on those attributes that remain. It uses the model accuracy to identify which attributes (and combination of attributes) contribute the most to predicting the target attribute. Using sklearn's LogisticRegression and RFE library, the following features were found to have the most impact on the mental health class variable. 
+
+| Rank  | Song Attribute  |
+|:-:|---|
+|  1 | Energy  |
+|  2 | Danceability |
+|  3 | Popularity  |
+|  4 | Tempo  |
+|  5 | Valence  |
+|  6 | Acousticness  |
+|  7 | Liveness  |
+|  8 | Instrumentalness  |
+
+As expected, instrumentalness is the least important feature along with livness and acousticness. Therefore, these three features were removed for the remainder of the study in building more models.
