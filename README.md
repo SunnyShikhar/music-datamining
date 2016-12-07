@@ -58,7 +58,49 @@ Now that all the data has been collected and cleaned, time to get into the more 
 
 ## Exploratory Data Analysis
 
+Let's begin by plotting bar charts and histograms of each variable obtained from the survey and spotify to understand it's distribution, mode, variance etc. 
 
+### Univariate Data
 
+#### Surveyers Graph
+![Figure1](https://github.com/SunnyShikhar/music-datamining/blob/master/images/genderHistogram.png?raw=true) 
+![Figure2](https://github.com/sunnyshikhar/music-datamining/blob/master/images/hoursDurationHisto.png?raw=true) 
+![Figure3](https://github.com/sunnyshikhar/music-datamining/blob/master/images/ageHistogram.png?raw=true) 
 
+53.8% of the data set consists of females, 45.3% males and less than 1% chose not to specify.
 
+Surprisingly, <b>46.6%</b> of the data set listens to 2+ hours of music, <b>35%</b> listen to 1-2 hours and <b>18.4%</b> listen to 0 - 1 hours of music. It was expected that most people would be listening to 1-2 hours, but we underestimated the number of avid music listeners. 
+
+Similarly, our data set primariy consisted of 18-30 year olds. We realzied later that this was too large of a range and should have been divided further.
+
+#### Music Graphs
+![Figure4](https://github.com/sunnyshikhar/music-datamining/blob/master/images/tempoHistogram.png?raw=true) 
+![Figure5](https://github.com/sunnyshikhar/music-datamining/blob/master/images/popularityHistogram.png?raw=true) 
+![Figure6](https://github.com/sunnyshikhar/music-datamining/blob/master/images/energyHistogram.png?raw=true) 
+![Figure7](https://github.com/sunnyshikhar/music-datamining/blob/master/images/danceHistogram.png?raw=true) 
+![Figure8](https://github.com/sunnyshikhar/music-datamining/blob/master/images/valenceHistogram.png?raw=true) 
+![Figure9](https://github.com/sunnyshikhar/music-datamining/blob/master/images/livenessHistogram.png?raw=true) 
+![Figure10](https://github.com/SunnyShikhar/music-datamining/blob/master/images/acousticHistogram.png?raw=true) 
+![Figure11](https://github.com/sunnyshikhar/music-datamining/blob/master/images/instrumentalnessHistogram.png?raw=true) 
+Tempo, popularity, energy, dance and valence have a nice normal distribution which shows that listeners listen to a variety of music hovering around a mean of <b> 123 bpm, 61 popularity, 0.65 energy, 0.60 danceability, 0.45 valence</b>. Our entire dataset is primarily not listening to instrumental tracks as shown by the instrumentalness graph which means we can drop this feature as it least likely to be contributing to mental health. However let's keep exploring the data set before removing any features.
+
+#### Mental Health Graph
+![Figure12](https://github.com/sunnyshikhar/music-datamining/blob/master/images/mentalHealthHisto.png?raw=true) 
+The mental health histogram is also normally distributed around a mental health
+score between 21-23. There are significantly less people with a low mental health
+score as majority of the people have a medium to high mental health score.
+
+### Bivariate Data
+
+#### Scatter Plots
+The following graphs plot mental health as a function of each musical feature.
+![Figure13](https://github.com/sunnyshikhar/music-datamining/blob/master/images/healthVsTempo.png?raw=true)
+![Figure14](https://github.com/sunnyshikhar/music-datamining/blob/master/images/healthVsPopularity.png?raw=true)
+![Figure15](https://github.com/sunnyshikhar/music-datamining/blob/master/images/healthVsEnergy.png?raw=true)
+![Figure16](https://github.com/sunnyshikhar/music-datamining/blob/master/images/healthVsDanceability.png?raw=true) 
+![Figure17](https://github.com/sunnyshikhar/music-datamining/blob/master/images/healthVsValence.png?raw=true) 
+![Figure18](https://github.com/sunnyshikhar/music-datamining/blob/master/images/healthVsLiveness.png?raw=true)
+![Figure19](https://github.com/sunnyshikhar/music-datamining/blob/master/images/healthVsAcousticness.png?raw=true)
+![Figure20](https://github.com/sunnyshikhar/music-datamining/blob/master/images/healthVsInstrumentalness.png?raw=true) 
+
+The scatter plot does not show any clear relationship between mental health and any musical feature (such as linear, logarithmic etc). However, we are able to conclude that instrumentalness is a weak feature in potentially predicting mental health as mental health ranges from 5 to 30 for really low instrumental values. To say this conclusively, let's do some feature engineering to ensure the right attributes are being used to predict mental health.
