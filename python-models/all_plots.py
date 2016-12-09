@@ -10,11 +10,16 @@ from sklearn.metrics import mean_squared_error
 dataset = pd.read_csv('data_all.csv')
 print(dataset)
 
+traumaDataset = dataset[dataset['traumatic_experience'] == 'Yes']
+nonTraumaDataset = dataset[dataset['traumatic_experience'] == 'No']
+
 plt.figure(1)
-plt.scatter(dataset.popularity, dataset.health, color='blue')
+plt.scatter(traumaDataset.dance, traumaDataset.health, color= 'red', label='traumatic experience')
+plt.scatter(nonTraumaDataset.dance, nonTraumaDataset.health, color = 'blue', label='non-traumatic experience')
 plt.title('Mental health as a function of song popularity')
 plt.xlabel('popularity')
 plt.ylabel('health')
+plt.legend()
 plt.show()
 
 plt.figure(2)

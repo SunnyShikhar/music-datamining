@@ -16,7 +16,14 @@ The primary data was collected through a survey that asked surveyers to list the
 
 These questions are described as good indicators of an individual's mental health by the [Canadian Mental Health Association](www.cmha.ca/mental_health/mental-health-meter/).
 
-Once the survey had more than 300 entries (and approximately 1000 songs), a Python script was made to fetch data from the Spotify's music catalog using Spotify Web API. The  [Get Audio Features for a Track](https://developer.spotify.com/web-api/get-audio-features/) endpoint was used to retrieve song information in a JSON format. An example of this JSON output is shown below for a song.
+The survey also asked general data such as:
+
+- gender
+- age range
+- hours of music they listen to per day
+- if they have experienced anything unusual/traumatic recently (to help ensure music is the main factor contributing to mental health)
+
+Once the survey had more than 300 entries (and approximately 1000 songs), a Python script was made to fetch data from Spotify's music catalog using Spotify Web API. The  [Get Audio Features for a Track](https://developer.spotify.com/web-api/get-audio-features/) endpoint was used to retrieve song information in a JSON format. An example of this JSON output is shown below for a song.
 
 <b>"Starboy - The Weeknd ft. Daft Punk"</b>
 
@@ -62,7 +69,7 @@ Let's begin by plotting bar charts and histograms of each variable obtained from
 
 ### Univariate Data
 
-#### Surveyers Graph
+#### General Graphs
 ![Figure1](https://github.com/SunnyShikhar/music-datamining/blob/master/images/genderHistogram.png?raw=true) 
 ![Figure2](https://github.com/sunnyshikhar/music-datamining/blob/master/images/hoursDurationHisto.png?raw=true) 
 ![Figure3](https://github.com/sunnyshikhar/music-datamining/blob/master/images/ageHistogram.png?raw=true) 
@@ -83,7 +90,7 @@ Similarly, our data set primariy consisted of 18-30 year olds. We realzied later
 ![Figure10](https://github.com/SunnyShikhar/music-datamining/blob/master/images/acousticHistogram.png?raw=true) 
 ![Figure11](https://github.com/sunnyshikhar/music-datamining/blob/master/images/instrumentalnessHistogram.png?raw=true) 
 
-Tempo, popularity, energy, dance and valence have a nice normal distribution which shows that listeners listen to a variety of music hovering around a mean of <b> 123 bpm, 61 popularity, 0.65 energy, 0.60 danceability, 0.45 valence</b>. Our entire dataset is primarily not listening to instrumental tracks as shown by the instrumentalness graph which means we can drop this feature as it least likely to be contributing to mental health. However let's keep exploring the data set before removing any features.
+Tempo, popularity, energy, dance and valence have a nice normal distribution which shows that listeners listen to a variety of music hovering around a mean of <b> 123 bpm, 61 popularity, 0.65 energy, 0.60 danceability, 0.45 valence</b>. The entire dataset is primarily not listening to instrumental tracks as shown by the instrumentalness graph which means we can drop this feature as it is least likely to be contributing to mental health. However let's keep exploring the data set before removing any features.
 
 #### Mental Health Graph
 ![Figure12](https://github.com/sunnyshikhar/music-datamining/blob/master/images/mentalHealthHisto.png?raw=true) 
@@ -124,3 +131,32 @@ The Recursive Feature Elimination (RFE) method is a feature selection approach. 
 |  8 | Instrumentalness  |
 
 As expected, instrumentalness is the least important feature along with livness and acousticness. Therefore, these three features were removed for the remainder of the study in building more models.
+
+## Regression
+
+### Linear Regression
+
+As noticed through scatter plots, there is no graph that distinctly shows any linear or non-linear relationship. Therefore, more scatter plots were investigated. When plotting danceability of songs for people who said they went through a traumatic experience and those who didn't with mental health hinted that there might be a relationship present. Although the scatter plot is still difficult to interpret, the filtered plot is shown below:
+
+![Figure](https://github.com/sunnyshikhar/music-datamining/blob/master/images/traumaScatter.png?raw=true) 
+
+Based on the observations of the scatter plots, it was hypothesized that linear regression model would not be the best model to represent the dataset.To conclude this hypothesis, a linear regression analysis was conducted on mental health score relative to the danceability factor for individuals who recently encountered a traumatic experience. Danceability song attribute was chosen as the scatter plot resembled the most to a
+linear trend in comparison to other song attributes. 
+
+![Figure](https://github.com/sunnyshikhar/music-datamining/blob/master/images/traumaRegression.png?raw=true)
+![Figure](https://github.com/sunnyshikhar/music-datamining/blob/master/images/traumaResidualHisto.png?raw=true)
+![Figure](https://github.com/sunnyshikhar/music-datamining/blob/master/images/residualDistribution.png?raw=true)
+
+| Field  | Value  |
+|:-:|---|
+| Coefficients (m))  | 15.21 |
+| Intercept (b) | 8.94 |
+| Equation of the Line  | y = (15.21)(danceability) + 8.94 |
+| Mean Residual Sum of Squares  | 19.59  |
+| RMSE  |  4.42  |
+| R-Squared  | 0.14  |
+| Mean of Residuals  | 4.42   |
+| Standard Deviation of Results |  4.42  |
+
+
+The residual plot of mental health scores against danceability showed a normal distribution concentrated around zero, validating that linear regression is an appropriate model although not an applicable one. 

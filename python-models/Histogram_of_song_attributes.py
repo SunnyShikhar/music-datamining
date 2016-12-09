@@ -48,6 +48,12 @@ PlotHistogram(dataset.acoustic, 'acousticness')
 PlotHistogram(dataset.instrumental, 'instrumentalness')
 
 PlotHistogram(dataset.health, 'total mental health')
+PlotHistogram(dataset.enjoy_life, 'Ability to Enjoy Life')
+PlotHistogram(dataset.resilience, 'Resiliency')
+PlotHistogram(dataset.balanced, 'Ability to Live A Balanced Lifestyle')
+PlotHistogram(dataset.emotional_flexibility, 'Emotional Flexibility')
+PlotHistogram(dataset.self_actualization, 'Self Actualization/Awareness')
+
 PlotBarChart(dataset.health_categorical, dataset, 'Mental Health')
 PlotBarChart(dataset.gender, dataset, 'gender')
 PlotBarChart(dataset.age_range, dataset, 'age range')
