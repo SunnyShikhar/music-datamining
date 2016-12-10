@@ -6,15 +6,13 @@ Python and Spotipy (Python Spotify Web Wrapper) were used to create the data min
 
 ## Data Collection
 
-The primary data was collected through a survey that asked surveyers to list their 3 favourite songs at the moment and to rate their mental health using a likert scale on the following topics:
+The primary data was collected through a survey that asked surveyers to list their 3 favourite songs at the moment and to rate their mental health using a likert scale. The following questions were asked as they are described to be good indicators of an individual's mental health by the [Canadian Mental Health Association](www.cmha.ca/mental_health/mental-health-meter/):
 
 - ability to enjoy life
 - resilience
 - balanced lifestyle
 - emotional flexibility
 - self-actualization
-
-These questions are described as good indicators of an individual's mental health by the [Canadian Mental Health Association](www.cmha.ca/mental_health/mental-health-meter/).
 
 The survey also asked general data such as:
 
@@ -102,7 +100,7 @@ score as majority of the people have a medium to high mental health score.
 
 #### Scatter Plots
 The following graphs plot mental health as a function of each musical feature.
-![Figure13](https://github.com/sunnyshikhar/music-datamining/blob/master/images/healthVsTempo.png?raw=true)
+
 ![Figure14](https://github.com/sunnyshikhar/music-datamining/blob/master/images/healthVsPopularity.png?raw=true)
 ![Figure15](https://github.com/sunnyshikhar/music-datamining/blob/master/images/healthVsEnergy.png?raw=true)
 ![Figure16](https://github.com/sunnyshikhar/music-datamining/blob/master/images/healthVsDanceability.png?raw=true) 
@@ -151,7 +149,7 @@ linear trend in comparison to other song attributes.
 |:-:|---|
 | Coefficients (m))  | 15.21 |
 | Intercept (b) | 8.94 |
-| Equation of the Line  | y = (15.21)(danceability) + 8.94 |
+| Equation of the Line  | Mental Health = (15.21)(danceability) + 8.94 |
 | Mean Residual Sum of Squares  | 19.59  |
 | RMSE  |  4.42  |
 | R-Squared  | 0.14  |
@@ -162,5 +160,14 @@ linear trend in comparison to other song attributes.
 The residual plot of mental health scores against danceability showed a normal distribution concentrated around zero. This validates that a linear regression model is an appropriate model although not an applicable one due to such a wide spread of data points. The R-squared value obtained for the linear regression model was 14% which is fairly low. This further shows that the model does not account for much variability in
 the data.
 
-### Multi Linear Regression
+### Multiple Linear Regression
 
+In order to improve the r-squared value, a multiple regression was conducted using the top 5 features from RFE to predict Mental Health. Sklearn's linear_model library was used which uses the Ordinary Least Squares (OLS) method to conduct it's multiple linear regression. OLS or linear least squares method computes the least squares solution using a singular value decomposition of X. This means the algorithm attempts to minimize the sum of squares of residuals. The output is shown below. 
+
+![Figure](https://github.com/sunnyshikhar/music-datamining/blob/master/images/OLSregression.png?raw=true)
+
+The R-squared value increases from 13% in the linear regression to 20.5% in the multi linear regression. However, it is still a weak r-squared value. However, the adjusted r-squared is significantly lower at 15.8%. The adjusted R-squared is a modified version of R-squared that has been adjusted for the number of predictors in the model. This could mean that even 5 features are too many (or too few) to predict mental health and that the gap between r-squared and adjusted r-squared could be less by adding or removing features. 
+
+Regardless, it is conclusive that a linear model is not an accurate model to represent mental health and musical features. Let's keep searching!
+
+## Association 
