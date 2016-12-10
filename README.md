@@ -4,6 +4,27 @@ An exploratory research to find any correlation between a listener's preference 
 
 Python and Spotipy (Python Spotify Web Wrapper) were used to create the data mining models and to retrieve song information from Spotify's Web API.
 
+Table of Contents
+=================
+
+   * [Mental Health as a Function of Music - Data Mining](#mental-health-as-a-function-of-music---data-mining)
+      * [Data Collection](#data-collection)
+      * [Exploratory Data Analysis](#exploratory-data-analysis)
+         * [Univariate Data](#univariate-data)
+            * [General Graphs](#general-graphs)
+            * [Music Graphs](#music-graphs)
+            * [Mental Health Graph](#mental-health-graph)
+         * [Bivariate Data](#bivariate-data)
+            * [Scatter Plots](#scatter-plots)
+      * [Feature Engineering](#feature-engineering)
+         * [Recursive Feature Elimination (RFE)](#recursive-feature-elimination-rfe)
+      * [Regression](#regression)
+         * [Linear Regression](#linear-regression)
+         * [Multiple Linear Regression](#multiple-linear-regression)
+      * [Association](#association)
+
+
+
 ## Data Collection
 
 The primary data was collected through a survey that asked surveyers to list their 3 favourite songs at the moment and to rate their mental health using a likert scale. The following questions were asked as they are described to be good indicators of an individual's mental health by the [Canadian Mental Health Association](www.cmha.ca/mental_health/mental-health-meter/):
@@ -100,7 +121,7 @@ score as majority of the people have a medium to high mental health score.
 
 #### Scatter Plots
 The following graphs plot mental health as a function of each musical feature.
-
+![Figure14](https://github.com/sunnyshikhar/music-datamining/blob/master/images/healthVsTempo.png?raw=true)
 ![Figure14](https://github.com/sunnyshikhar/music-datamining/blob/master/images/healthVsPopularity.png?raw=true)
 ![Figure15](https://github.com/sunnyshikhar/music-datamining/blob/master/images/healthVsEnergy.png?raw=true)
 ![Figure16](https://github.com/sunnyshikhar/music-datamining/blob/master/images/healthVsDanceability.png?raw=true) 
