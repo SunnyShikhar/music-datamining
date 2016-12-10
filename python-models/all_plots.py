@@ -24,9 +24,9 @@ plt.show()
 
 plt.figure(2)
 plt.scatter(dataset.tempo, dataset.health, color='blue')
-plt.title('Ability to enjoy life as a function of song tempo')
-plt.xlabel('tempo')
-plt.ylabel('ability to enjoy life')
+plt.title('Mental Health as a function of song tempo')
+plt.xlabel('tempo (bpm)')
+plt.ylabel('health')
 plt.show()
 
 plt.figure(1)
