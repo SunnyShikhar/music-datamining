@@ -14,7 +14,7 @@ The primary data was collected through a survey that asked surveyers to list the
 - emotional flexibility
 - self-actualization
 
-The survey also asked general data such as:
+The survey also collected general data such as:
 
 - gender
 - age range
