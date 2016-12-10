@@ -5,7 +5,7 @@ An exploratory research to find any correlation between a listener's preference 
 Python and Spotipy (Python Spotify Web Wrapper) were used to create the data mining models and to retrieve song information from Spotify's Web API.
 
 Table of Contents
-=================
+-----------------
 
    * [Mental Health as a Function of Music - Data Mining](#mental-health-as-a-function-of-music---data-mining)
       * [Data Collection](#data-collection)
