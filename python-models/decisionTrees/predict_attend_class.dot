@@ -1,0 +1,3 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="energy <= 75.5\nentropy = 1.5698\nsamples = 255\nvalue = [95, 68, 92]\nclass = High-Health", fillcolor="#e5813905"] ;

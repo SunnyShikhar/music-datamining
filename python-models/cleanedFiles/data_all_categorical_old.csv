@@ -1,0 +1,234 @@
+tempo_categorical,liveness_categorical,valence_categorical,energy_categorical,dance_categorical,acoustic_categorical,instrumental_categorical,health_categorical,gender,age_range,hours_of_music,hours_of_music_categorical,traumatic_experience
+Medium-Slow-tempo,Low-live,High-Valence,Low-Energy,High-dance,High-acoustic,Low-instrumental,High-Health,Male,18 - 30,1-2 hours,Medium,No
+Medium-Fast-tempo,Low-live,Low-Valence,Low-Energy,Low-dance,Low-acoustic,Low-instrumental,High-Health,Male,18 - 30,1-2 hours,Medium,No
+Fast-tempo,Low-live,High-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,High-Health,Female,18 - 30,0 - 1 hours,Low,No
+Medium-Fast-tempo,Low-live,High-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,High-Health,Male,18 - 30,2+ hours,High,No
+Fast-tempo,Low-live,Low-Valence,High-Energy,Low-dance,High-acoustic,High-instrumental,Medium-Health,Female,18 - 30,0 - 1 hours,Low,Yes
+Fast-tempo,Low-live,Low-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,High-Health,Male,18 - 30,0 - 1 hours,Low,No
+Fast-tempo,High-live,Low-Valence,Low-Energy,High-dance,Low-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,1-2 hours,Medium,No
+Medium-Slow-tempo,High-live,Low-Valence,Low-Energy,Low-dance,High-acoustic,Low-instrumental,High-Health,Female,18 - 30,1-2 hours,Medium,No
+Medium-Fast-tempo,Low-live,Low-Valence,Low-Energy,High-dance,High-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,2+ hours,High,No
+Medium-Fast-tempo,Low-live,High-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,2+ hours,High,No
+Medium-Slow-tempo,High-live,Low-Valence,Low-Energy,High-dance,High-acoustic,Low-instrumental,High-Health,Female,18 - 30,2+ hours,High,No
+Medium-Fast-tempo,High-live,Low-Valence,Low-Energy,Low-dance,High-acoustic,High-instrumental,High-Health,Male,18 - 30,2+ hours,High,Yes
+Fast-tempo,Low-live,Low-Valence,High-Energy,Low-dance,Low-acoustic,High-instrumental,Medium-Health,Male,18 - 30,0 - 1 hours,Low,No
+Medium-Slow-tempo,High-live,Low-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,High-Health,Female,18 - 30,1-2 hours,Medium,No
+Medium-Fast-tempo,Low-live,High-Valence,High-Energy,High-dance,High-acoustic,Low-instrumental,High-Health,Male,18 - 30,1-2 hours,Medium,No
+Fast-tempo,High-live,High-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,Low-Health,Male,18 - 30,1-2 hours,Medium,Yes
+Medium-Fast-tempo,High-live,High-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,2+ hours,High,No
+Fast-tempo,Low-live,Low-Valence,Low-Energy,High-dance,Low-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,2+ hours,High,No
+Medium-Slow-tempo,High-live,Low-Valence,Low-Energy,Low-dance,High-acoustic,Low-instrumental,High-Health,Male,18 - 30,0 - 1 hours,Low,No
+Fast-tempo,Low-live,Low-Valence,Low-Energy,Low-dance,Low-acoustic,Low-instrumental,High-Health,Male,18 - 30,1-2 hours,Medium,No
+Medium-Slow-tempo,High-live,Low-Valence,Low-Energy,Low-dance,High-acoustic,High-instrumental,High-Health,Male,18 - 30,2+ hours,High,No
+Medium-Slow-tempo,High-live,Low-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,2+ hours,High,No
+Medium-Fast-tempo,Low-live,High-Valence,Low-Energy,High-dance,High-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,1-2 hours,Medium,Yes
+Fast-tempo,Low-live,Low-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,0 - 1 hours,Low,Yes
+Fast-tempo,Low-live,Low-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,2+ hours,High,Yes
+Medium-Slow-tempo,Low-live,Low-Valence,High-Energy,High-dance,High-acoustic,Low-instrumental,High-Health,Male,18 - 30,2+ hours,High,No
+Medium-Slow-tempo,High-live,High-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,High-Health,Male,18 - 30,0 - 1 hours,Low,No
+Medium-Fast-tempo,Low-live,High-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,High-Health,Female,18 - 30,2+ hours,High,Yes
+Medium-Fast-tempo,High-live,High-Valence,High-Energy,High-dance,Low-acoustic,High-instrumental,Medium-Health,Male,18 - 30,0 - 1 hours,Low,No
+Fast-tempo,Low-live,High-Valence,Low-Energy,Low-dance,High-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,1-2 hours,Medium,Yes
+Fast-tempo,Low-live,High-Valence,Low-Energy,Low-dance,High-acoustic,Low-instrumental,High-Health,Male,18 - 30,2+ hours,High,No
+Medium-Slow-tempo,High-live,High-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,High-Health,Male,17 & Under,1-2 hours,Medium,No
+Fast-tempo,Low-live,Low-Valence,High-Energy,Low-dance,Low-acoustic,High-instrumental,Medium-Health,Female,18 - 30,0 - 1 hours,Low,Yes
+Medium-Slow-tempo,Low-live,High-Valence,Low-Energy,High-dance,High-acoustic,Low-instrumental,High-Health,Male,18 - 30,1-2 hours,Medium,Yes
+Slow-tempo,High-live,High-Valence,High-Energy,Low-dance,High-acoustic,Low-instrumental,High-Health,Male,18 - 30,0 - 1 hours,Low,No
+Fast-tempo,High-live,High-Valence,High-Energy,Low-dance,Low-acoustic,High-instrumental,Medium-Health,Male,18 - 30,2+ hours,High,No
+Medium-Fast-tempo,Low-live,Low-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,High-Health,Male,18 - 30,2+ hours,High,No
+Fast-tempo,Low-live,Low-Valence,Low-Energy,Low-dance,Low-acoustic,Low-instrumental,High-Health,Male,18 - 30,2+ hours,High,No
+Medium-Fast-tempo,High-live,High-Valence,Low-Energy,Low-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,1-2 hours,Medium,No
+Medium-Fast-tempo,High-live,High-Valence,Low-Energy,Low-dance,High-acoustic,Low-instrumental,Low-Health,Male,18 - 30,1-2 hours,Medium,No
+Fast-tempo,Low-live,High-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,High-Health,Male,18 - 30,1-2 hours,Medium,No
+Medium-Fast-tempo,Low-live,Low-Valence,Low-Energy,Low-dance,High-acoustic,High-instrumental,High-Health,Male,30+,1-2 hours,Medium,No
+Medium-Fast-tempo,Low-live,Low-Valence,High-Energy,High-dance,Low-acoustic,High-instrumental,Low-Health,Male,18 - 30,2+ hours,High,No
+Medium-Fast-tempo,Low-live,High-Valence,Low-Energy,High-dance,Low-acoustic,High-instrumental,Medium-Health,Female,18 - 30,1-2 hours,Medium,No
+Medium-Slow-tempo,Low-live,High-Valence,Low-Energy,High-dance,Low-acoustic,Low-instrumental,Low-Health,Female,18 - 30,1-2 hours,Medium,Yes
+Medium-Slow-tempo,Low-live,High-Valence,High-Energy,High-dance,High-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,0 - 1 hours,Low,No
+Fast-tempo,Low-live,High-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,2+ hours,High,No
+Medium-Slow-tempo,Low-live,High-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,High-Health,Female,18 - 30,1-2 hours,Medium,No
+Medium-Fast-tempo,High-live,High-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,High-Health,Prefer not to specify,18 - 30,1-2 hours,Medium,Yes
+Fast-tempo,Low-live,Low-Valence,Low-Energy,Low-dance,High-acoustic,Low-instrumental,High-Health,Male,18 - 30,2+ hours,High,No
+Medium-Slow-tempo,Low-live,High-Valence,Low-Energy,Low-dance,High-acoustic,Low-instrumental,High-Health,Female,18 - 30,1-2 hours,Medium,Yes
+Fast-tempo,High-live,High-Valence,Low-Energy,Low-dance,High-acoustic,Low-instrumental,High-Health,Female,18 - 30,2+ hours,High,Yes
+Medium-Slow-tempo,High-live,High-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,High-Health,Male,18 - 30,1-2 hours,Medium,No
+Fast-tempo,Low-live,Low-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,2+ hours,High,Yes
+Medium-Slow-tempo,Low-live,Low-Valence,Low-Energy,High-dance,Low-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,1-2 hours,Medium,Yes
+Fast-tempo,Low-live,Low-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,Low-Health,Male,18 - 30,2+ hours,High,No
+Fast-tempo,Low-live,High-Valence,Low-Energy,Low-dance,High-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,1-2 hours,Medium,No
+Medium-Fast-tempo,High-live,High-Valence,Low-Energy,High-dance,High-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,2+ hours,High,No
+Medium-Fast-tempo,High-live,High-Valence,Low-Energy,Low-dance,High-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,0 - 1 hours,Low,Yes
+Medium-Fast-tempo,High-live,High-Valence,High-Energy,High-dance,High-acoustic,Low-instrumental,High-Health,Female,18 - 30,2+ hours,High,Yes
+Fast-tempo,Low-live,High-Valence,High-Energy,High-dance,Low-acoustic,High-instrumental,Medium-Health,Female,18 - 30,1-2 hours,Medium,No
+Fast-tempo,Low-live,Low-Valence,Low-Energy,High-dance,Low-acoustic,Low-instrumental,High-Health,Male,18 - 30,1-2 hours,Medium,No
+Medium-Fast-tempo,High-live,High-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,0 - 1 hours,Low,Yes
+Medium-Fast-tempo,Low-live,High-Valence,Low-Energy,High-dance,High-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,1-2 hours,Medium,Yes
+Medium-Fast-tempo,High-live,Low-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,High-Health,Female,18 - 30,1-2 hours,Medium,No
+Fast-tempo,Low-live,High-Valence,Low-Energy,High-dance,High-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,0 - 1 hours,Low,Yes
+Medium-Fast-tempo,Low-live,High-Valence,High-Energy,High-dance,High-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,2+ hours,High,Yes
+Fast-tempo,High-live,High-Valence,High-Energy,High-dance,High-acoustic,Low-instrumental,High-Health,Female,18 - 30,2+ hours,High,Yes
+Medium-Fast-tempo,Low-live,High-Valence,High-Energy,High-dance,High-acoustic,Low-instrumental,Medium-Health,Male,30+,1-2 hours,Medium,No
+Medium-Slow-tempo,Low-live,High-Valence,Low-Energy,Low-dance,Low-acoustic,High-instrumental,High-Health,Female,30+,1-2 hours,Medium,Yes
+Fast-tempo,High-live,High-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,High-Health,Female,18 - 30,2+ hours,High,Yes
+Medium-Slow-tempo,Low-live,Low-Valence,Low-Energy,Low-dance,Low-acoustic,Low-instrumental,High-Health,Female,18 - 30,2+ hours,High,Yes
+Medium-Slow-tempo,Low-live,Low-Valence,Low-Energy,Low-dance,High-acoustic,High-instrumental,Medium-Health,Male,18 - 30,1-2 hours,Medium,No
+Medium-Fast-tempo,Low-live,High-Valence,Low-Energy,High-dance,High-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,2+ hours,High,No
+Medium-Slow-tempo,Low-live,Low-Valence,Low-Energy,High-dance,High-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,1-2 hours,Medium,Yes
+Fast-tempo,High-live,High-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,1-2 hours,Medium,No
+Medium-Slow-tempo,Low-live,High-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,2+ hours,High,No
+Medium-Fast-tempo,Low-live,Low-Valence,High-Energy,Low-dance,High-acoustic,High-instrumental,High-Health,Male,18 - 30,2+ hours,High,Yes
+Medium-Slow-tempo,High-live,Low-Valence,Low-Energy,Low-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,1-2 hours,Medium,Yes
+Fast-tempo,High-live,Low-Valence,Low-Energy,High-dance,Low-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,1-2 hours,Medium,No
+Medium-Slow-tempo,High-live,Low-Valence,Low-Energy,Low-dance,Low-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,2+ hours,High,No
+Medium-Slow-tempo,Low-live,Low-Valence,Low-Energy,Low-dance,High-acoustic,High-instrumental,High-Health,Female,18 - 30,2+ hours,High,No
+Fast-tempo,Low-live,High-Valence,Low-Energy,High-dance,High-acoustic,Low-instrumental,High-Health,Female,18 - 30,2+ hours,High,No
+Medium-Fast-tempo,Low-live,High-Valence,High-Energy,Low-dance,Low-acoustic,High-instrumental,High-Health,Male,18 - 30,2+ hours,High,No
+Fast-tempo,Low-live,High-Valence,Low-Energy,High-dance,Low-acoustic,Low-instrumental,High-Health,Male,18 - 30,2+ hours,High,Yes
+Fast-tempo,Low-live,High-Valence,Low-Energy,High-dance,High-acoustic,Low-instrumental,High-Health,Female,18 - 30,2+ hours,High,Yes
+Medium-Fast-tempo,High-live,Low-Valence,Low-Energy,High-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,0 - 1 hours,Low,No
+Medium-Fast-tempo,Low-live,Low-Valence,Low-Energy,High-dance,High-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,2+ hours,High,No
+Medium-Fast-tempo,Low-live,Low-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,1-2 hours,Medium,Yes
+Fast-tempo,Low-live,High-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,0 - 1 hours,Low,No
+Medium-Slow-tempo,High-live,Low-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,1-2 hours,Medium,Yes
+Fast-tempo,High-live,Low-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,0 - 1 hours,Low,No
+Medium-Fast-tempo,High-live,Low-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,High-Health,Male,30+,1-2 hours,Medium,No
+Medium-Fast-tempo,Low-live,High-Valence,High-Energy,High-dance,High-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,2+ hours,High,No
+Medium-Slow-tempo,High-live,High-Valence,Low-Energy,High-dance,High-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,0 - 1 hours,Low,Yes
+Medium-Slow-tempo,Low-live,Low-Valence,Low-Energy,High-dance,High-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,0 - 1 hours,Low,No
+Medium-Slow-tempo,Low-live,High-Valence,Low-Energy,High-dance,High-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,2+ hours,High,Yes
+Medium-Slow-tempo,High-live,Low-Valence,Low-Energy,Low-dance,Low-acoustic,Low-instrumental,High-Health,Female,18 - 30,2+ hours,High,No
+Medium-Slow-tempo,Low-live,Low-Valence,Low-Energy,High-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,2+ hours,High,No
+Medium-Slow-tempo,High-live,Low-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,High-Health,Male,18 - 30,0 - 1 hours,Low,No
+Medium-Fast-tempo,High-live,Low-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,1-2 hours,Medium,Yes
+Fast-tempo,Low-live,High-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,2+ hours,High,No
+Fast-tempo,High-live,Low-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,2+ hours,High,No
+Medium-Fast-tempo,Low-live,Low-Valence,Low-Energy,High-dance,High-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,1-2 hours,Medium,No
+Medium-Fast-tempo,Low-live,Low-Valence,High-Energy,Low-dance,High-acoustic,High-instrumental,Medium-Health,Female,18 - 30,0 - 1 hours,Low,Yes
+Fast-tempo,Low-live,High-Valence,Low-Energy,High-dance,High-acoustic,Low-instrumental,High-Health,Male,18 - 30,1-2 hours,Medium,No
+Fast-tempo,Low-live,Low-Valence,Low-Energy,Low-dance,High-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,1-2 hours,Medium,No
+Fast-tempo,Low-live,Low-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,2+ hours,High,No
+Fast-tempo,High-live,Low-Valence,High-Energy,Low-dance,Low-acoustic,High-instrumental,Medium-Health,Female,18 - 30,2+ hours,High,No
+Medium-Slow-tempo,Low-live,High-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,2+ hours,High,No
+Medium-Fast-tempo,High-live,High-Valence,Low-Energy,High-dance,Low-acoustic,Low-instrumental,High-Health,Female,18 - 30,0 - 1 hours,Low,No
+Medium-Fast-tempo,High-live,High-Valence,Low-Energy,High-dance,High-acoustic,Low-instrumental,High-Health,Male,18 - 30,2+ hours,High,Yes
+Medium-Slow-tempo,Low-live,Low-Valence,Low-Energy,Low-dance,High-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,1-2 hours,Medium,Yes
+Medium-Fast-tempo,High-live,Low-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,0 - 1 hours,Low,Yes
+Fast-tempo,Low-live,High-Valence,Low-Energy,High-dance,High-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,2+ hours,High,Yes
+Fast-tempo,High-live,High-Valence,High-Energy,High-dance,High-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,1-2 hours,Medium,Yes
+Medium-Slow-tempo,Low-live,High-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,High-Health,Female,18 - 30,2+ hours,High,No
+Medium-Slow-tempo,High-live,Low-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,High-Health,Male,18 - 30,0 - 1 hours,Low,No
+Fast-tempo,Low-live,Low-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,0 - 1 hours,Low,No
+Medium-Fast-tempo,High-live,Low-Valence,High-Energy,Low-dance,Low-acoustic,High-instrumental,Medium-Health,Male,18 - 30,2+ hours,High,Yes
+Medium-Fast-tempo,Low-live,High-Valence,High-Energy,Low-dance,High-acoustic,Low-instrumental,High-Health,Male,18 - 30,0 - 1 hours,Low,No
+Medium-Fast-tempo,Low-live,Low-Valence,Low-Energy,High-dance,Low-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,0 - 1 hours,Low,Yes
+Fast-tempo,Low-live,High-Valence,Low-Energy,High-dance,Low-acoustic,Low-instrumental,High-Health,Male,18 - 30,1-2 hours,Medium,Yes
+Medium-Fast-tempo,High-live,Low-Valence,Low-Energy,High-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,2+ hours,High,Yes
+Medium-Fast-tempo,High-live,High-Valence,Low-Energy,Low-dance,High-acoustic,High-instrumental,Medium-Health,Male,18 - 30,2+ hours,High,Yes
+Fast-tempo,Low-live,High-Valence,Low-Energy,High-dance,High-acoustic,Low-instrumental,High-Health,Female,18 - 30,1-2 hours,Medium,No
+Medium-Slow-tempo,Low-live,High-Valence,Low-Energy,Low-dance,High-acoustic,Low-instrumental,High-Health,Female,18 - 30,2+ hours,High,No
+Medium-Fast-tempo,High-live,Low-Valence,Low-Energy,Low-dance,Low-acoustic,Low-instrumental,High-Health,Male,18 - 30,1-2 hours,Medium,No
+Medium-Fast-tempo,Low-live,High-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,17 & Under,2+ hours,High,Yes
+Medium-Slow-tempo,Low-live,Low-Valence,Low-Energy,Low-dance,High-acoustic,High-instrumental,Medium-Health,Female,17 & Under,2+ hours,High,Yes
+Fast-tempo,High-live,Low-Valence,Low-Energy,Low-dance,High-acoustic,Low-instrumental,High-Health,Female,18 - 30,1-2 hours,Medium,No
+Fast-tempo,Low-live,High-Valence,Low-Energy,High-dance,Low-acoustic,Low-instrumental,High-Health,Female,18 - 30,1-2 hours,Medium,No
+Medium-Slow-tempo,Low-live,High-Valence,Low-Energy,High-dance,High-acoustic,Low-instrumental,Low-Health,Male,18 - 30,2+ hours,High,No
+Fast-tempo,Low-live,High-Valence,High-Energy,High-dance,Low-acoustic,High-instrumental,Medium-Health,Male,18 - 30,1-2 hours,Medium,Yes
+Medium-Slow-tempo,Low-live,Low-Valence,Low-Energy,High-dance,High-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,1-2 hours,Medium,Yes
+Medium-Slow-tempo,Low-live,High-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,17 & Under,2+ hours,High,No
+Fast-tempo,Low-live,Low-Valence,Low-Energy,High-dance,Low-acoustic,Low-instrumental,High-Health,Female,18 - 30,2+ hours,High,Yes
+Medium-Fast-tempo,High-live,Low-Valence,Low-Energy,High-dance,High-acoustic,High-instrumental,Medium-Health,Prefer not to specify,30+,2+ hours,High,Yes
+Fast-tempo,High-live,High-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,2+ hours,High,No
+Medium-Slow-tempo,Low-live,Low-Valence,Low-Energy,Low-dance,High-acoustic,Low-instrumental,Low-Health,Female,18 - 30,2+ hours,High,No
+Fast-tempo,Low-live,Low-Valence,Low-Energy,Low-dance,High-acoustic,Low-instrumental,Medium-Health,Male,17 & Under,2+ hours,High,Yes
+Fast-tempo,High-live,Low-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,High-Health,Male,18 - 30,2+ hours,High,No
+Medium-Slow-tempo,Low-live,Low-Valence,Low-Energy,Low-dance,High-acoustic,Low-instrumental,High-Health,Female,18 - 30,2+ hours,High,No
+Medium-Slow-tempo,High-live,Low-Valence,Low-Energy,Low-dance,Low-acoustic,High-instrumental,High-Health,Female,18 - 30,1-2 hours,Medium,No
+Fast-tempo,High-live,High-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,0 - 1 hours,Low,Yes
+Medium-Fast-tempo,High-live,High-Valence,High-Energy,High-dance,Low-acoustic,High-instrumental,Medium-Health,Male,30+,0 - 1 hours,Low,Yes
+Medium-Slow-tempo,High-live,High-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,30+,1-2 hours,Medium,No
+Fast-tempo,Low-live,Low-Valence,Low-Energy,Low-dance,High-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,0 - 1 hours,Low,No
+Medium-Fast-tempo,High-live,Low-Valence,Low-Energy,Low-dance,High-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,1-2 hours,Medium,Yes
+Medium-Slow-tempo,Low-live,Low-Valence,Low-Energy,High-dance,High-acoustic,Low-instrumental,High-Health,Female,18 - 30,2+ hours,High,No
+Medium-Fast-tempo,High-live,Low-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,2+ hours,High,No
+Medium-Fast-tempo,Low-live,Low-Valence,Low-Energy,Low-dance,Low-acoustic,Low-instrumental,High-Health,Female,18 - 30,2+ hours,High,No
+Medium-Slow-tempo,Low-live,Low-Valence,High-Energy,High-dance,High-acoustic,High-instrumental,High-Health,Female,18 - 30,1-2 hours,Medium,No
+Medium-Slow-tempo,Low-live,High-Valence,High-Energy,High-dance,High-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,2+ hours,High,No
+Fast-tempo,Low-live,High-Valence,Low-Energy,High-dance,Low-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,2+ hours,High,No
+Medium-Slow-tempo,High-live,Low-Valence,Low-Energy,High-dance,Low-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,0 - 1 hours,Low,No
+Medium-Fast-tempo,High-live,Low-Valence,Low-Energy,High-dance,Low-acoustic,Low-instrumental,Low-Health,Male,18 - 30,1-2 hours,Medium,No
+Medium-Fast-tempo,Low-live,High-Valence,Low-Energy,High-dance,High-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,2+ hours,High,No
+Medium-Fast-tempo,Low-live,Low-Valence,Low-Energy,Low-dance,High-acoustic,Low-instrumental,Low-Health,Female,18 - 30,2+ hours,High,Yes
+Medium-Fast-tempo,Low-live,High-Valence,Low-Energy,High-dance,High-acoustic,Low-instrumental,High-Health,Male,18 - 30,2+ hours,High,No
+Fast-tempo,Low-live,High-Valence,Low-Energy,High-dance,High-acoustic,Low-instrumental,High-Health,Male,18 - 30,2+ hours,High,No
+Medium-Fast-tempo,Low-live,Low-Valence,Low-Energy,High-dance,High-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,0 - 1 hours,Low,No
+Medium-Slow-tempo,High-live,High-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,2+ hours,High,No
+Fast-tempo,Low-live,High-Valence,Low-Energy,High-dance,Low-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,2+ hours,High,Yes
+Fast-tempo,Low-live,High-Valence,High-Energy,High-dance,Low-acoustic,High-instrumental,Medium-Health,Female,18 - 30,1-2 hours,Medium,No
+Medium-Fast-tempo,Low-live,High-Valence,Low-Energy,High-dance,Low-acoustic,Low-instrumental,High-Health,Female,18 - 30,2+ hours,High,Yes
+Medium-Slow-tempo,High-live,High-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,1-2 hours,Medium,No
+Medium-Fast-tempo,Low-live,Low-Valence,Low-Energy,Low-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,1-2 hours,Medium,No
+Medium-Fast-tempo,Low-live,High-Valence,Low-Energy,High-dance,Low-acoustic,Low-instrumental,Low-Health,Female,18 - 30,0 - 1 hours,Low,Yes
+Fast-tempo,High-live,Low-Valence,High-Energy,Low-dance,Low-acoustic,High-instrumental,Medium-Health,Male,18 - 30,2+ hours,High,No
+Medium-Fast-tempo,High-live,Low-Valence,Low-Energy,High-dance,High-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,1-2 hours,Medium,No
+Medium-Fast-tempo,High-live,High-Valence,High-Energy,Low-dance,High-acoustic,Low-instrumental,High-Health,Male,18 - 30,2+ hours,High,Yes
+Fast-tempo,Low-live,High-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,1-2 hours,Medium,No
+Medium-Fast-tempo,Low-live,Low-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,2+ hours,High,Yes
+Fast-tempo,Low-live,High-Valence,Low-Energy,High-dance,Low-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,1-2 hours,Medium,Yes
+Slow-tempo,Low-live,High-Valence,Low-Energy,High-dance,High-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,2+ hours,High,No
+Fast-tempo,Low-live,Low-Valence,High-Energy,Low-dance,High-acoustic,Low-instrumental,Medium-Health,Female,17 & Under,1-2 hours,Medium,No
+Medium-Fast-tempo,Low-live,High-Valence,Low-Energy,High-dance,Low-acoustic,Low-instrumental,High-Health,Male,18 - 30,1-2 hours,Medium,Yes
+Medium-Fast-tempo,Low-live,High-Valence,Low-Energy,High-dance,High-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,2+ hours,High,No
+Medium-Fast-tempo,High-live,Low-Valence,High-Energy,Low-dance,Low-acoustic,High-instrumental,Medium-Health,Female,18 - 30,2+ hours,High,No
+Medium-Fast-tempo,Low-live,Low-Valence,Low-Energy,Low-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,17 & Under,1-2 hours,Medium,Yes
+Medium-Fast-tempo,High-live,Low-Valence,High-Energy,Low-dance,High-acoustic,Low-instrumental,High-Health,Male,18 - 30,0 - 1 hours,Low,Yes
+Medium-Fast-tempo,High-live,High-Valence,High-Energy,High-dance,High-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,2+ hours,High,No
+Fast-tempo,High-live,Low-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,High-Health,Male,18 - 30,2+ hours,High,Yes
+Medium-Fast-tempo,High-live,High-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,High-Health,Female,18 - 30,1-2 hours,Medium,No
+Fast-tempo,Low-live,High-Valence,High-Energy,High-dance,High-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,1-2 hours,Medium,No
+Medium-Fast-tempo,Low-live,High-Valence,Low-Energy,High-dance,Low-acoustic,Low-instrumental,High-Health,Female,18 - 30,2+ hours,High,No
+Medium-Fast-tempo,High-live,High-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,High-Health,Male,18 - 30,2+ hours,High,Yes
+Medium-Fast-tempo,Low-live,High-Valence,Low-Energy,High-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,2+ hours,High,No
+Medium-Fast-tempo,High-live,High-Valence,High-Energy,Low-dance,Low-acoustic,High-instrumental,Medium-Health,Female,18 - 30,2+ hours,High,Yes
+Medium-Fast-tempo,High-live,Low-Valence,Low-Energy,Low-dance,Low-acoustic,Low-instrumental,High-Health,Male,18 - 30,1-2 hours,Medium,No
+Fast-tempo,High-live,High-Valence,High-Energy,Low-dance,High-acoustic,Low-instrumental,High-Health,Male,18 - 30,0 - 1 hours,Low,Yes
+Fast-tempo,Low-live,Low-Valence,Low-Energy,Low-dance,High-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,1-2 hours,Medium,Yes
+Fast-tempo,Low-live,High-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,1-2 hours,Medium,No
+Fast-tempo,High-live,Low-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,High-Health,Male,18 - 30,2+ hours,High,No
+Fast-tempo,Low-live,Low-Valence,Low-Energy,Low-dance,High-acoustic,Low-instrumental,High-Health,Female,18 - 30,1-2 hours,Medium,No
+Medium-Fast-tempo,High-live,High-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,Low-Health,Female,18 - 30,0 - 1 hours,Low,No
+Medium-Fast-tempo,High-live,Low-Valence,Low-Energy,High-dance,High-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,2+ hours,High,No
+Medium-Slow-tempo,Low-live,Low-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,High-Health,Female,30+,1-2 hours,Medium,No
+Medium-Fast-tempo,Low-live,Low-Valence,Low-Energy,Low-dance,Low-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,1-2 hours,Medium,No
+Medium-Fast-tempo,Low-live,Low-Valence,Low-Energy,High-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,17 & Under,2+ hours,High,No
+Medium-Fast-tempo,High-live,Low-Valence,Low-Energy,Low-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,1-2 hours,Medium,No
+Medium-Fast-tempo,High-live,Low-Valence,Low-Energy,Low-dance,High-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,1-2 hours,Medium,No
+Medium-Fast-tempo,High-live,High-Valence,High-Energy,High-dance,High-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,2+ hours,High,Yes
+Medium-Fast-tempo,High-live,High-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,High-Health,Male,18 - 30,2+ hours,High,No
+Medium-Fast-tempo,High-live,High-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,High-Health,Male,18 - 30,0 - 1 hours,Low,Yes
+Fast-tempo,High-live,Low-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,High-Health,Male,18 - 30,2+ hours,High,Yes
+Medium-Slow-tempo,High-live,High-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,High-Health,Female,18 - 30,2+ hours,High,Yes
+Medium-Fast-tempo,Low-live,Low-Valence,Low-Energy,Low-dance,High-acoustic,Low-instrumental,High-Health,Female,18 - 30,2+ hours,High,No
+Medium-Slow-tempo,High-live,Low-Valence,Low-Energy,Low-dance,High-acoustic,Low-instrumental,High-Health,Female,18 - 30,2+ hours,High,Yes
+Fast-tempo,High-live,High-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,High-Health,Female,18 - 30,2+ hours,High,Yes
+Fast-tempo,Low-live,High-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,2+ hours,High,No
+Medium-Fast-tempo,High-live,High-Valence,High-Energy,High-dance,High-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,2+ hours,High,No
+Medium-Fast-tempo,Low-live,High-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,1-2 hours,Medium,Yes
+Fast-tempo,High-live,High-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,High-Health,Female,18 - 30,1-2 hours,Medium,Yes
+Medium-Fast-tempo,High-live,Low-Valence,Low-Energy,Low-dance,Low-acoustic,High-instrumental,High-Health,Male,18 - 30,2+ hours,High,No
+Medium-Slow-tempo,Low-live,Low-Valence,High-Energy,High-dance,High-acoustic,Low-instrumental,High-Health,Female,18 - 30,2+ hours,High,No
+Medium-Slow-tempo,Low-live,Low-Valence,Low-Energy,High-dance,High-acoustic,High-instrumental,High-Health,Female,18 - 30,2+ hours,High,Yes
+Fast-tempo,Low-live,High-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,30+,0 - 1 hours,Low,Yes
+Medium-Fast-tempo,Low-live,Low-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,2+ hours,High,Yes
+Slow-tempo,Low-live,Low-Valence,Low-Energy,Low-dance,High-acoustic,High-instrumental,High-Health,Female,18 - 30,1-2 hours,Medium,No
+Fast-tempo,High-live,High-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,Low-Health,Female,18 - 30,2+ hours,High,Yes
+Medium-Fast-tempo,Low-live,Low-Valence,Low-Energy,Low-dance,High-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,2+ hours,High,No
+Medium-Fast-tempo,Low-live,Low-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,High-Health,Female,18 - 30,2+ hours,High,No
+Medium-Fast-tempo,High-live,Low-Valence,High-Energy,Low-dance,High-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,1-2 hours,Medium,Yes
+Medium-Slow-tempo,Low-live,Low-Valence,Low-Energy,Low-dance,High-acoustic,Low-instrumental,Medium-Health,Female,18 - 30,2+ hours,High,Yes
+Medium-Fast-tempo,High-live,Low-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,High-Health,Male,18 - 30,1-2 hours,Medium,No
+Medium-Slow-tempo,Low-live,Low-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,Medium-Health,Female,17 & Under,2+ hours,High,Yes
+Fast-tempo,Low-live,High-Valence,High-Energy,High-dance,Low-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,2+ hours,High,No
+Medium-Slow-tempo,Low-live,Low-Valence,Low-Energy,Low-dance,High-acoustic,Low-instrumental,High-Health,Female,18 - 30,0 - 1 hours,Low,No
+Medium-Fast-tempo,High-live,High-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,Medium-Health,Male,18 - 30,1-2 hours,Medium,Yes
+Medium-Fast-tempo,High-live,High-Valence,High-Energy,Low-dance,Low-acoustic,Low-instrumental,High-Health,Female,18 - 30,0 - 1 hours,Low,Yes
+Medium-Slow-tempo,Low-live,High-Valence,Low-Energy,High-dance,High-acoustic,High-instrumental,Low-Health,Female,18 - 30,2+ hours,High,No

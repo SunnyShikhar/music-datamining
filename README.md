@@ -199,13 +199,13 @@ The APRIORI algorithm was used for association rule mining. Since there were onl
 
 As expected, association rules for mental health had a very low confidence. There are several reasons as to why the APRIORI algorithm did not generate good association rules for mental health based on the dataset. One factor could be that music may not be a dominant influence on a person’s mental health leading to poor association rules. Another factor could be the lack of song data. However, some interesting associations amongst features are shown below: 
 
-| Rule  | Association  | Confidence |
+| Rule | Association | Confidence |
 |:-:|---|---|
-| High Popularity + High Valence  | High Danceability  | 96.7%  |
-| Low Popularity + Low Valence   | Low Danceability  | 94.1%  |
-| High Energy + Fast Tempo + No Traumatic Experience  | Low Danceability  | 75%  |
-| High Danceability + Medium Popularity + High Valence  | Female  | 70%  |
-| High Dance + Low Energy |  No Traumatic Experience | 70%  |
+| High Popularity + High Valence | High Danceability | 96.7% |
+| Low Popularity + Low Valence | Low Danceability | 94.1% |
+| High Energy + Fast Tempo + No Traumatic Experience | Low Danceability | 75% |
+| High Danceability + Medium Popularity + High Valence | Female | 70% |
+| High Dance + Low Energy | No Traumatic Experience | 70% |
 
 
 These were a few of the sensible rules out of thousands of rules. "High Popularity + High Valence -> High Danceability" and vice versa could indicate that songs that perhaps songs that get popular on Spotify may primarily be highly danceable songs. The other rules are interesting as well, such as "High Danceability + Medium Popularity + High Valence" has a 70% confidence of being a female. Let's see what type of clusters we can identify to see what "type" of people exist in the dataset. 
@@ -262,10 +262,10 @@ The top 4 features were selected as they had the highest accuracy of the model 0
 
 |   |   |   | Predicted  |   |
 |:-:|---|---|---|---|
-|   |   |  High |  Medium  |  Low  |
-|   | High  |  37 | 45  | 13  |
-| <b>Actual</b> | Medium  | 19  | 62  | 11  |
-|   |  Low |  33 | 24  | 11  |
+|   |   | High | Medium |  Low |
+|   | High  | 37 | 45 | 13 |
+| <b>Actual</b> | Medium | 19 | 62 | 11 |
+|   | Low | 33 | 24 | 11 |
 
 The surprising weakness was that the model incorrectly predicted 33 data points to have a high mental health when they have a low mental health. This is the most glaring problem with the model. Since medium health falls in the middle of high and low health, some overlap in prediction of medium mental health isexpected. However, incorrectly predicting high mental health when it is in fact low mental health, or vice versa is a significant flaw. This is due to the scattered distribution of the data points.
 
@@ -273,12 +273,30 @@ To ensure that the model is not overfitting, the data was cross validated with 1
 
 |  Description | Energy  | Dance  | Popularity   | Tempo  | Result Health   | Confidence   |
 |:-:|---|---|---|---|---|---|
-|  High Value Features |  0.95 | 0.95  | 100  | 150  | High  | 70.3%  |
-| Mid-High Value Features  | 0.7  |  0.7 |  70 | 140  | High | 40.2%  |
-|  Medium Value Features |  0.6 | 0.6  | 60   | 120  | Medium |  47.1% |
-|  Low Value Features |  0.2 | 0.2  | 20   | 100   | Low  | 93.3% |
+| High Value Features | 0.95 | 0.95 | 100 | 150 | High | 70.3% |
+| Mid-High Value Features | 0.7 | 0.7 | 70 | 140 | High | 40.2% |
+| Medium Value Features | 0.6 | 0.6 | 60 | 120 | Medium | 47.1% |
+| Low Value Features | 0.2 | 0.2 | 20 | 100 | Low | 93.3% |
 
 Although the accuracy of the model is weak, the model of the output is as hypothesized: users who listen to songs with high dance, energy, tempo and popularity are 63% probable to have a high mental health. Conversely, those who listen to all features with extremely low values are 93.3% probable to have low mental health. Therefore the model is useful to predict mentalhealth when the feature values are extreme, either extremely high or low. However, the Naive Bayes’ model struggles to predict mental health when the song attributes hover around 0.5, as shown by the probability of prediction for each cluster. The model struggles to predict mid-ranged values as most values in the dataset are centered around the middle, as seen by the scatterplot figures.
 
+## Recommendations
+
+Naive Bayes’ can be used as a powerful tool to recommend songs to users to improve their mental health since it predicts low and high mental health with a strong probability for extreme values of each song attributes. Therefore, if it is known that a person has low mental health, songs can be recommended to users that have a high probability of improving mental health due to the Naive Bayes’ prediction. In addition to individual songs, a playlist which averages out to yield a high mental health prediction could be recommended. For example:
+
+- Juju On That Beat (TZ Anthem) - Zay Hilfigerrr
+- This Is What You Came For - Calvin Harris
+- La Bicicleta - Carlos Vives 
+
+The combination of the above songs can improve your stress level and mental health according to our model, as these songs combined are predicted to have a high mental health with a probability of 60%”.
+
 ## Conclusion
 
+Data mining procedures such as linear regression, association, clustering and Naïve Bayes’ were used to analyze the effect that music has on a person’s overall mental health. The song attributes of each song inputted by individuals were obtained by using Spotify's Web API.
+
+Based on the results of association rule mining, zero song attributes were associated with any of the categorical mental health variables if a high confidence level was used. In addition, the best linear regression model (mental health vs danceability) has an R-squared value of 13%
+which does not account for much variability in the dataset. Naïve Bayes’ model has a low accuracy but provides usable predictions and matches the initial hypothesis. However, there are several reasons as to why the results of the data mining procedures were not favorable. This could be due to the lack of song data as only three songs were collected per individual. Three songs are not an accurate representation of an individual’s music preferences.
+
+Furthermore, lyrical content was also not considered in this project. For instance, a song may have a high tempo, energy and danceability factors, but the song may have negative lyrical content. Another reason may be due to the lack of diversity of people who completed the survey. Only 12% of the dataset consisted of people who were under 17 or above 30 years old. The rest of the individuals were between the age ranges of 18-30 years old.
+
+In addition, a major potential reason as to why the data mining techniques did not yield good results may be because music is not major influence on a person’s mental health. Other factors such as relationship and financial status could have more of an effect on a person’s mental health. However, Naïve Bayes’ provided the best model given the flaws in the data set to predict mental health and use to improve individuals’ mental health by recommending songs.
