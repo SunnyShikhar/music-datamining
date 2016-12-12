@@ -201,12 +201,11 @@ As expected, association rules for mental health had a very low confidence. Ther
 
 | Rule | Association | Confidence |
 |:-:|---|---|
-| High Popularity + High Valence | High Danceability | 96.7% |
-| Low Popularity + Low Valence | Low Danceability | 94.1% |
+| High Popularity + High Valence | High Danceability  | 96.7% |
+| Low Popularity + Low Valence | Low Danceability  | 94.1% |
 | High Energy + Fast Tempo + No Traumatic Experience | Low Danceability | 75% |
 | High Danceability + Medium Popularity + High Valence | Female | 70% |
-| High Dance + Low Energy | No Traumatic Experience | 70% |
-
+| High Dance + Low Energy  | No Traumatic Experience  | 70% |
 
 These were a few of the sensible rules out of thousands of rules. "High Popularity + High Valence -> High Danceability" and vice versa could indicate that songs that perhaps songs that get popular on Spotify may primarily be highly danceable songs. The other rules are interesting as well, such as "High Danceability + Medium Popularity + High Valence" has a 70% confidence of being a female. Let's see what type of clusters we can identify to see what "type" of people exist in the dataset. 
 
@@ -300,3 +299,5 @@ which does not account for much variability in the dataset. Naïve Bayes’ mode
 Furthermore, lyrical content was also not considered in this project. For instance, a song may have a high tempo, energy and danceability factors, but the song may have negative lyrical content. Another reason may be due to the lack of diversity of people who completed the survey. Only 12% of the dataset consisted of people who were under 17 or above 30 years old. The rest of the individuals were between the age ranges of 18-30 years old.
 
 In addition, a major potential reason as to why the data mining techniques did not yield good results may be because music is not major influence on a person’s mental health. Other factors such as relationship and financial status could have more of an effect on a person’s mental health. However, Naïve Bayes’ provided the best model given the flaws in the data set to predict mental health and use to improve individuals’ mental health by recommending songs.
+
+In the future, we can attempt Logistic Regression/Support Vector Machines to classify our data set.
