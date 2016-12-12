@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import matplotlib
 from mpl_toolkits.mplot3d import Axes3D
 
-dataset = pd.read_csv('data_all.csv')
+dataset = pd.read_csv('data_all_norm_RFE.csv')
 print(dataset)
 
 KM = KMeans(n_clusters=2, init='k-means++', random_state=170)
@@ -118,61 +118,63 @@ KM15 = KM15.fit(dataset)
 print("The cluster centroids are: \n", KM15.cluster_centers_)
 print("Cluster", KM15.labels_)
 print("Sum of distances of samples to their closest cluster center: ", KM15.inertia_)
+#
+colors = ['blue','yellow', 'green', 'red'] #'black']
 
-colors = ['blue','yellow']
-
-# def Tempo(y_data, y_name):
-#     plt.scatter(dataset.tempo, y_data, c=KM.labels_, cmap=matplotlib.colors.ListedColormap(colors), s=75)
-#     plt.xlabel('tempo')
-#     plt.ylabel(y_name)
-#     plt.show()
-# Tempo(dataset.popularity, 'popularity');
-# Tempo(dataset.valence, 'valence');
-# Tempo(dataset.energy, 'energy');
-# Tempo(dataset.dance, 'dance');
+def Tempo(y_data, y_name):
+    plt.scatter(dataset.tempo, y_data, c=KM4.labels_, cmap=matplotlib.colors.ListedColormap(colors), s=75)
+    plt.xlabel('tempo')
+    plt.ylabel(y_name)
+    plt.show()
+Tempo(dataset.popularity, 'popularity');
+Tempo(dataset.valence, 'valence');
+Tempo(dataset.energy, 'energy');
+Tempo(dataset.dance, 'dance');
 # Tempo(dataset.acoustic, 'acoustic');
 # Tempo(dataset.instrumental, 'instrumental');
-# # #
-# def Popularity(y_data, y_name):
-#     plt.scatter(dataset.popularity, y_data, c=KM.labels_, cmap=matplotlib.colors.ListedColormap(colors), s=75)
-#     plt.xlabel('popularity')
-#     plt.ylabel(y_name)
-#     plt.show()
-# Popularity(dataset.valence, 'valence');
-# Popularity(dataset.energy, 'energy');
-# Popularity(dataset.dance, 'dance');
+# Tempo(dataset.liveness, 'liveness');
+# #
+def Popularity(y_data, y_name):
+    plt.scatter(dataset.popularity, y_data, c=KM4.labels_, cmap=matplotlib.colors.ListedColormap(colors), s=75)
+    plt.xlabel('popularity')
+    plt.ylabel(y_name)
+    plt.show()
+Popularity(dataset.valence, 'valence');
+Popularity(dataset.energy, 'energy');
+Popularity(dataset.dance, 'dance');
 # Popularity(dataset.acoustic, 'acoustic');
 # Popularity(dataset.instrumental, 'instrumental');
-#
-# def Valence(y_data, y_name):
-#     plt.scatter(dataset.valence, y_data, c=KM.labels_, cmap=matplotlib.colors.ListedColormap(colors), s=75)
-#     plt.xlabel('valence')
-#     plt.ylabel(y_name)
-#     plt.show()
-# Valence(dataset.energy, 'energy');
-# Valence(dataset.dance, 'dance');
+# Popularity(dataset.liveness, 'liveness');
+
+def Valence(y_data, y_name):
+    plt.scatter(dataset.valence, y_data, c=KM4.labels_, cmap=matplotlib.colors.ListedColormap(colors), s=75)
+    plt.xlabel('valence')
+    plt.ylabel(y_name)
+    plt.show()
+Valence(dataset.energy, 'energy');
+Valence(dataset.dance, 'dance');
 # Valence(dataset.acoustic, 'acoustic');
 # Valence(dataset.instrumental, 'instrumental');
-# #
-# def Energy(y_data, y_name):
-#     plt.scatter(dataset.energy, y_data, c=KM.labels_, cmap=matplotlib.colors.ListedColormap(colors), s=75)
-#     plt.xlabel('energy')
-#     plt.ylabel(y_name)
-#     plt.show()
-# Energy(dataset.dance, 'dance');
+#
+def Energy(y_data, y_name):
+    plt.scatter(dataset.energy, y_data, c=KM4.labels_, cmap=matplotlib.colors.ListedColormap(colors), s=75)
+    plt.xlabel('energy')
+    plt.ylabel(y_name)
+    plt.show()
+Energy(dataset.dance, 'dance');
 # Energy(dataset.acoustic, 'acoustic');
 # Energy(dataset.instrumental, 'instrumental');
-#
+
 # def Dance(y_data, y_name):
-#     plt.scatter(dataset.dance, y_data, c=KM.labels_, cmap=matplotlib.colors.ListedColormap(colors), s=75)
+#     plt.scatter(dataset.dance, y_data, c=KM4.labels_, cmap=matplotlib.colors.ListedColormap(colors), s=75)
 #     plt.xlabel('dance')
 #     plt.ylabel(y_name)
 #     plt.show()
 # Dance(dataset.acoustic, 'acoustic');
 # Dance(dataset.instrumental, 'instrumental');
-#
+
 # def Acoustic(y_data, y_name):
-#     plt.scatter(dataset.acoustic, y_data, c=KM.labels_, cmap=matplotlib.colors.ListedColormap(colors), s=75)
+#     plt.scatter(dataset.acoustic, y_data, c=KM5.labels_, cmap=matplotlib.colors.ListedColormap(colors), s=75)
 #     plt.xlabel('acoustic')
 #     plt.ylabel(y_name)
 #     plt.show()

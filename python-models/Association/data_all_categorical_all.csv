@@ -1,0 +1,256 @@
+energy_categorical,dance_categorical,liveness_categorical,valence_categorical,tempo_categorical,instrumental_categorical,acoustic_categorical,popularity_categorical,health_categorical,gender,age_range,hours_of_music,traumatic_experience
+Low-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Slow-Tempo,Low-Instrumental,High-Acoustic,High-Popularity,High-Health,Male,18 - 30,1-2 hours,No
+Low-Energy,Low-Dance,Low-Liveness,Low-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,High-Health,Male,18 - 30,1-2 hours,No
+High-Energy,High-Dance,Low-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,High-Health,Female,18 - 30,0 - 1 hours,No
+High-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,High-Health,Male,18 - 30,2+ hours,No
+High-Energy,Low-Dance,Low-Liveness,Low-Valence,Fast-Tempo,High-Instrumental,High-Acoustic,Low-Popularity,Low-Health,Female,18 - 30,0 - 1 hours,Yes
+High-Energy,Low-Dance,Low-Liveness,Low-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,Low-Popularity,High-Health,Male,18 - 30,0 - 1 hours,No
+Low-Energy,High-Dance,High-Liveness,Low-Valence,Medium-Slow-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,High-Health,Female,18 - 30,1-2 hours,No
+Low-Energy,High-Dance,Low-Liveness,Low-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Low-Health,Male,18 - 30,2+ hours,No
+High-Energy,Low-Dance,Low-Liveness,Low-Valence,Fast-Tempo,High-Instrumental,Low-Acoustic,Low-Popularity,Low-Health,Male,18 - 30,0 - 1 hours,No
+High-Energy,High-Dance,High-Liveness,Low-Valence,Medium-Slow-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,High-Health,Female,18 - 30,1-2 hours,No
+High-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Low-Popularity,Low-Health,Female,18 - 30,2+ hours,No
+Low-Energy,High-Dance,High-Liveness,Low-Valence,Medium-Slow-Tempo,Low-Instrumental,High-Acoustic,High-Popularity,High-Health,Male,18 - 30,0 - 1 hours,No
+Low-Energy,Low-Dance,High-Liveness,Low-Valence,Medium-Slow-Tempo,High-Instrumental,High-Acoustic,Low-Popularity,High-Health,Male,18 - 30,2+ hours,No
+High-Energy,Low-Dance,High-Liveness,Low-Valence,Medium-Slow-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Male,18 - 30,2+ hours,No
+Low-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Medium-Health,Female,18 - 30,1-2 hours,Yes
+High-Energy,Low-Dance,Low-Liveness,Low-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Female,18 - 30,0 - 1 hours,Yes
+High-Energy,Low-Dance,Low-Liveness,Low-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Low-Health,Female,18 - 30,2+ hours,Yes
+High-Energy,High-Dance,Low-Liveness,Low-Valence,Medium-Slow-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,High-Health,Male,18 - 30,2+ hours,No
+High-Energy,High-Dance,High-Liveness,High-Valence,Medium-Slow-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,High-Health,Male,18 - 30,0 - 1 hours,No
+High-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,High-Health,Female,18 - 30,2+ hours,Yes
+Low-Energy,Low-Dance,Low-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Medium-Health,Male,18 - 30,1-2 hours,Yes
+Low-Energy,High-Dance,Low-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,High-Acoustic,Low-Popularity,High-Health,Male,18 - 30,2+ hours,No
+High-Energy,High-Dance,High-Liveness,High-Valence,Medium-Slow-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,High-Health,Male,17 & Under,1-2 hours,No
+High-Energy,High-Dance,Low-Liveness,Low-Valence,Fast-Tempo,High-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Female,18 - 30,0 - 1 hours,Yes
+High-Energy,Low-Dance,High-Liveness,High-Valence,Slow-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,High-Health,Male,18 - 30,0 - 1 hours,No
+High-Energy,Low-Dance,High-Liveness,High-Valence,Fast-Tempo,High-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Male,18 - 30,2+ hours,No
+High-Energy,High-Dance,Low-Liveness,Low-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,High-Health,Male,18 - 30,2+ hours,No
+Low-Energy,High-Dance,Low-Liveness,Low-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,High-Health,Male,18 - 30,2+ hours,No
+Low-Energy,Low-Dance,High-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Low-Health,Male,18 - 30,1-2 hours,No
+Low-Energy,Low-Dance,Low-Liveness,Low-Valence,Medium-Fast-Tempo,High-Instrumental,High-Acoustic,Low-Popularity,High-Health,Male,30+,1-2 hours,No
+High-Energy,High-Dance,Low-Liveness,Low-Valence,Medium-Fast-Tempo,High-Instrumental,Low-Acoustic,High-Popularity,Low-Health,Male,18 - 30,2+ hours,No
+Low-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Fast-Tempo,High-Instrumental,Low-Acoustic,High-Popularity,Medium-Health,Female,18 - 30,1-2 hours,No
+Low-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Slow-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,Low-Health,Female,18 - 30,1-2 hours,Yes
+High-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Slow-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Low-Health,Female,18 - 30,0 - 1 hours,No
+High-Energy,High-Dance,Low-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,Low-Health,Female,18 - 30,2+ hours,No
+High-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Slow-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,High-Health,Female,18 - 30,1-2 hours,No
+Low-Energy,Low-Dance,Low-Liveness,Low-Valence,Fast-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,High-Health,Male,18 - 30,2+ hours,No
+Low-Energy,Low-Dance,Low-Liveness,High-Valence,Medium-Slow-Tempo,Low-Instrumental,High-Acoustic,Low-Popularity,High-Health,Female,18 - 30,1-2 hours,Yes
+High-Energy,High-Dance,High-Liveness,High-Valence,Medium-Slow-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,High-Health,Male,18 - 30,1-2 hours,No
+High-Energy,High-Dance,Low-Liveness,Low-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Female,18 - 30,2+ hours,Yes
+Low-Energy,High-Dance,Low-Liveness,Low-Valence,Medium-Slow-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Low-Health,Male,18 - 30,1-2 hours,Yes
+High-Energy,Low-Dance,Low-Liveness,Low-Valence,Fast-Tempo,High-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Female,18 - 30,1-2 hours,No
+Low-Energy,High-Dance,High-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Low-Health,Male,18 - 30,2+ hours,No
+Low-Energy,Low-Dance,High-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Low-Health,Female,18 - 30,0 - 1 hours,Yes
+High-Energy,High-Dance,High-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,High-Health,Female,18 - 30,2+ hours,Yes
+Low-Energy,High-Dance,Low-Liveness,High-Valence,Fast-Tempo,High-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Female,18 - 30,1-2 hours,No
+High-Energy,High-Dance,High-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Low-Health,Female,18 - 30,0 - 1 hours,Yes
+Low-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,High-Acoustic,High-Popularity,Medium-Health,Female,18 - 30,1-2 hours,Yes
+High-Energy,Low-Dance,High-Liveness,Low-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Low-Popularity,High-Health,Female,18 - 30,1-2 hours,No
+Low-Energy,High-Dance,Low-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Low-Health,Female,18 - 30,0 - 1 hours,Yes
+High-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Medium-Health,Female,18 - 30,2+ hours,Yes
+High-Energy,High-Dance,High-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,High-Health,Female,18 - 30,2+ hours,Yes
+High-Energy,High-Dance,High-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,High-Health,Female,18 - 30,2+ hours,Yes
+Low-Energy,High-Dance,Low-Liveness,Low-Valence,Medium-Slow-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,High-Health,Female,18 - 30,2+ hours,Yes
+Low-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,High-Acoustic,High-Popularity,Low-Health,Female,18 - 30,2+ hours,No
+Low-Energy,High-Dance,Low-Liveness,Low-Valence,Medium-Slow-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Medium-Health,Female,18 - 30,1-2 hours,Yes
+High-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Slow-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Male,18 - 30,2+ hours,No
+High-Energy,Low-Dance,Low-Liveness,Low-Valence,Medium-Fast-Tempo,High-Instrumental,High-Acoustic,Medium-Popularity,High-Health,Male,18 - 30,2+ hours,Yes
+Low-Energy,High-Dance,High-Liveness,Low-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Male,18 - 30,1-2 hours,No
+Low-Energy,High-Dance,High-Liveness,Low-Valence,Medium-Slow-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Male,18 - 30,2+ hours,No
+Low-Energy,Low-Dance,Low-Liveness,Low-Valence,Medium-Slow-Tempo,High-Instrumental,High-Acoustic,Medium-Popularity,High-Health,Female,18 - 30,2+ hours,No
+Low-Energy,High-Dance,Low-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,High-Acoustic,High-Popularity,High-Health,Female,18 - 30,2+ hours,No
+High-Energy,Low-Dance,Low-Liveness,High-Valence,Medium-Fast-Tempo,High-Instrumental,Low-Acoustic,Medium-Popularity,High-Health,Male,18 - 30,2+ hours,No
+Low-Energy,High-Dance,High-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,High-Health,Male,18 - 30,2+ hours,Yes
+Low-Energy,High-Dance,Low-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,High-Acoustic,High-Popularity,High-Health,Female,18 - 30,2+ hours,Yes
+Low-Energy,High-Dance,Low-Liveness,Low-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Low-Health,Male,18 - 30,2+ hours,No
+High-Energy,Low-Dance,Low-Liveness,Low-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Male,18 - 30,1-2 hours,Yes
+High-Energy,High-Dance,High-Liveness,Low-Valence,Medium-Slow-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Low-Health,Female,18 - 30,1-2 hours,Yes
+High-Energy,High-Dance,High-Liveness,Low-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,High-Health,Male,30+,1-2 hours,No
+High-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Medium-Health,Female,18 - 30,2+ hours,No
+Low-Energy,High-Dance,Low-Liveness,Low-Valence,Medium-Slow-Tempo,Low-Instrumental,High-Acoustic,High-Popularity,Low-Health,Female,18 - 30,0 - 1 hours,No
+Low-Energy,Low-Dance,High-Liveness,Low-Valence,Medium-Slow-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,High-Health,Female,18 - 30,2+ hours,No
+High-Energy,High-Dance,High-Liveness,Low-Valence,Medium-Slow-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,High-Health,Male,18 - 30,0 - 1 hours,No
+High-Energy,High-Dance,Low-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Female,18 - 30,2+ hours,No
+High-Energy,Low-Dance,High-Liveness,Low-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Low-Health,Female,18 - 30,2+ hours,No
+High-Energy,Low-Dance,Low-Liveness,Low-Valence,Medium-Fast-Tempo,High-Instrumental,High-Acoustic,Medium-Popularity,Medium-Health,Female,18 - 30,0 - 1 hours,Yes
+Low-Energy,High-Dance,Low-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,High-Acoustic,High-Popularity,High-Health,Male,18 - 30,1-2 hours,No
+Low-Energy,Low-Dance,Low-Liveness,Low-Valence,Fast-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Low-Health,Female,18 - 30,1-2 hours,No
+High-Energy,Low-Dance,Low-Liveness,Low-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,Low-Popularity,Low-Health,Male,18 - 30,2+ hours,No
+High-Energy,Low-Dance,High-Liveness,Low-Valence,Fast-Tempo,High-Instrumental,Low-Acoustic,Low-Popularity,Low-Health,Female,18 - 30,2+ hours,No
+High-Energy,High-Dance,High-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Female,18 - 30,2+ hours,No
+Low-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,High-Health,Female,18 - 30,0 - 1 hours,No
+High-Energy,High-Dance,High-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,High-Acoustic,High-Popularity,Low-Health,Female,18 - 30,1-2 hours,Yes
+High-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Slow-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,High-Health,Female,18 - 30,2+ hours,No
+Low-Energy,High-Dance,High-Liveness,Low-Valence,Medium-Slow-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,High-Health,Male,18 - 30,0 - 1 hours,No
+High-Energy,High-Dance,Low-Liveness,Low-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,Medium-Health,Male,18 - 30,0 - 1 hours,No
+High-Energy,Low-Dance,High-Liveness,Low-Valence,Medium-Fast-Tempo,High-Instrumental,Low-Acoustic,Low-Popularity,Low-Health,Male,18 - 30,2+ hours,Yes
+High-Energy,Low-Dance,Low-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,High-Acoustic,High-Popularity,High-Health,Male,18 - 30,0 - 1 hours,No
+Low-Energy,High-Dance,Low-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,High-Health,Male,18 - 30,1-2 hours,Yes
+Low-Energy,High-Dance,High-Liveness,Low-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,Medium-Health,Female,18 - 30,2+ hours,Yes
+Low-Energy,Low-Dance,High-Liveness,High-Valence,Medium-Fast-Tempo,High-Instrumental,High-Acoustic,Low-Popularity,Low-Health,Male,18 - 30,2+ hours,Yes
+Low-Energy,Low-Dance,Low-Liveness,High-Valence,Medium-Slow-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,High-Health,Female,18 - 30,2+ hours,No
+Low-Energy,High-Dance,High-Liveness,Low-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,High-Health,Male,18 - 30,1-2 hours,No
+High-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Female,17 & Under,2+ hours,Yes
+Low-Energy,Low-Dance,Low-Liveness,Low-Valence,Medium-Slow-Tempo,High-Instrumental,High-Acoustic,Medium-Popularity,Low-Health,Female,17 & Under,2+ hours,Yes
+Low-Energy,Low-Dance,High-Liveness,Low-Valence,Fast-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,High-Health,Female,18 - 30,1-2 hours,No
+Low-Energy,High-Dance,Low-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,High-Health,Female,18 - 30,1-2 hours,No
+High-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Slow-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Low-Health,Male,18 - 30,2+ hours,No
+High-Energy,High-Dance,Low-Liveness,High-Valence,Fast-Tempo,High-Instrumental,Low-Acoustic,Low-Popularity,Medium-Health,Male,18 - 30,1-2 hours,Yes
+Low-Energy,High-Dance,Low-Liveness,Low-Valence,Medium-Slow-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Low-Health,Male,18 - 30,1-2 hours,Yes
+High-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Slow-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Female,17 & Under,2+ hours,No
+Low-Energy,High-Dance,Low-Liveness,Low-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,High-Health,Female,18 - 30,2+ hours,Yes
+High-Energy,Low-Dance,High-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,Low-Popularity,Low-Health,Female,18 - 30,2+ hours,No
+Low-Energy,Low-Dance,Low-Liveness,Low-Valence,Medium-Slow-Tempo,Low-Instrumental,High-Acoustic,Low-Popularity,Low-Health,Female,18 - 30,2+ hours,No
+Low-Energy,Low-Dance,Low-Liveness,Low-Valence,Fast-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Medium-Health,Male,17 & Under,2+ hours,Yes
+High-Energy,High-Dance,High-Liveness,Low-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,High-Health,Male,18 - 30,2+ hours,No
+Low-Energy,Low-Dance,High-Liveness,Low-Valence,Medium-Slow-Tempo,Low-Instrumental,Low-Acoustic,Low-Popularity,High-Health,Female,18 - 30,1-2 hours,No
+High-Energy,High-Dance,High-Liveness,High-Valence,Medium-Fast-Tempo,High-Instrumental,Low-Acoustic,Low-Popularity,Medium-Health,Male,30+,0 - 1 hours,Yes
+High-Energy,High-Dance,High-Liveness,High-Valence,Medium-Slow-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Low-Health,Female,30+,1-2 hours,No
+Low-Energy,Low-Dance,Low-Liveness,Low-Valence,Fast-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Low-Health,Female,18 - 30,0 - 1 hours,No
+High-Energy,Low-Dance,High-Liveness,Low-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Male,18 - 30,2+ hours,No
+Low-Energy,High-Dance,Low-Liveness,Low-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,High-Health,Female,18 - 30,2+ hours,No
+High-Energy,High-Dance,High-Liveness,Low-Valence,Fast-Tempo,High-Instrumental,Low-Acoustic,Low-Popularity,High-Health,Female,18 - 30,1-2 hours,No
+Low-Energy,High-Dance,Low-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,Low-Health,Male,18 - 30,2+ hours,No
+Low-Energy,High-Dance,High-Liveness,Low-Valence,Medium-Slow-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Male,18 - 30,0 - 1 hours,No
+Low-Energy,High-Dance,High-Liveness,Low-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,Low-Health,Male,18 - 30,1-2 hours,No
+Low-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Low-Health,Male,18 - 30,2+ hours,No
+Low-Energy,Low-Dance,Low-Liveness,Low-Valence,Medium-Fast-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Low-Health,Female,18 - 30,2+ hours,Yes
+Low-Energy,High-Dance,Low-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,High-Acoustic,High-Popularity,High-Health,Male,18 - 30,2+ hours,No
+Low-Energy,High-Dance,Low-Liveness,Low-Valence,Medium-Fast-Tempo,Low-Instrumental,High-Acoustic,High-Popularity,Medium-Health,Female,18 - 30,0 - 1 hours,No
+Low-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,High-Health,Female,18 - 30,2+ hours,Yes
+High-Energy,Low-Dance,High-Liveness,High-Valence,Medium-Slow-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Male,18 - 30,1-2 hours,No
+Low-Energy,Low-Dance,Low-Liveness,Low-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Female,18 - 30,1-2 hours,No
+Low-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,Low-Health,Female,18 - 30,0 - 1 hours,Yes
+High-Energy,Low-Dance,High-Liveness,Low-Valence,Fast-Tempo,High-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Male,18 - 30,2+ hours,No
+Low-Energy,High-Dance,High-Liveness,Low-Valence,Medium-Fast-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Medium-Health,Female,18 - 30,1-2 hours,No
+High-Energy,High-Dance,High-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,High-Health,Male,18 - 30,2+ hours,Yes
+High-Energy,Low-Dance,Low-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Male,18 - 30,1-2 hours,No
+Low-Energy,High-Dance,Low-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Male,18 - 30,1-2 hours,Yes
+Low-Energy,High-Dance,Low-Liveness,High-Valence,Slow-Tempo,Low-Instrumental,High-Acoustic,High-Popularity,Low-Health,Female,18 - 30,2+ hours,No
+High-Energy,Low-Dance,Low-Liveness,Low-Valence,Fast-Tempo,Low-Instrumental,High-Acoustic,High-Popularity,Medium-Health,Female,17 & Under,1-2 hours,No
+Low-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,High-Health,Male,18 - 30,1-2 hours,Yes
+Low-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,High-Acoustic,Low-Popularity,Medium-Health,Female,18 - 30,2+ hours,No
+High-Energy,Low-Dance,High-Liveness,Low-Valence,Medium-Fast-Tempo,High-Instrumental,Low-Acoustic,Low-Popularity,Medium-Health,Female,18 - 30,2+ hours,No
+Low-Energy,High-Dance,Low-Liveness,Low-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Female,17 & Under,1-2 hours,Yes
+High-Energy,High-Dance,High-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,High-Acoustic,High-Popularity,Medium-Health,Male,18 - 30,2+ hours,No
+High-Energy,High-Dance,High-Liveness,Low-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,High-Health,Male,18 - 30,2+ hours,Yes
+High-Energy,High-Dance,High-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,High-Health,Female,18 - 30,1-2 hours,No
+High-Energy,High-Dance,Low-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Medium-Health,Male,18 - 30,1-2 hours,No
+Low-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,High-Health,Female,18 - 30,2+ hours,No
+High-Energy,High-Dance,High-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,High-Health,Male,18 - 30,2+ hours,Yes
+Low-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,Medium-Health,Female,18 - 30,2+ hours,No
+High-Energy,Low-Dance,High-Liveness,High-Valence,Medium-Fast-Tempo,High-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Female,18 - 30,2+ hours,Yes
+Low-Energy,Low-Dance,High-Liveness,Low-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,High-Health,Male,18 - 30,1-2 hours,No
+High-Energy,Low-Dance,High-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,High-Health,Male,18 - 30,0 - 1 hours,Yes
+Low-Energy,Low-Dance,Low-Liveness,Low-Valence,Fast-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Medium-Health,Male,18 - 30,1-2 hours,Yes
+High-Energy,Low-Dance,Low-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,Low-Popularity,Low-Health,Female,18 - 30,1-2 hours,No
+High-Energy,Low-Dance,High-Liveness,Low-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,High-Health,Male,18 - 30,2+ hours,No
+Low-Energy,Low-Dance,Low-Liveness,Low-Valence,Fast-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,High-Health,Female,18 - 30,1-2 hours,No
+Low-Energy,High-Dance,High-Liveness,Low-Valence,Medium-Fast-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Low-Health,Male,18 - 30,2+ hours,No
+Low-Energy,High-Dance,Low-Liveness,Low-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,Medium-Health,Male,18 - 30,1-2 hours,No
+Low-Energy,High-Dance,Low-Liveness,Low-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,Medium-Health,Female,17 & Under,2+ hours,No
+Low-Energy,High-Dance,High-Liveness,Low-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Female,18 - 30,1-2 hours,No
+Low-Energy,Low-Dance,Low-Liveness,Low-Valence,Slow-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Medium-Health,Male,18 - 30,1-2 hours,No
+High-Energy,High-Dance,High-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Medium-Health,Female,18 - 30,2+ hours,Yes
+High-Energy,High-Dance,High-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,High-Health,Male,18 - 30,2+ hours,No
+High-Energy,High-Dance,High-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,High-Health,Male,18 - 30,0 - 1 hours,Yes
+High-Energy,High-Dance,High-Liveness,High-Valence,Medium-Slow-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,High-Health,Female,18 - 30,2+ hours,Yes
+Low-Energy,Low-Dance,High-Liveness,Low-Valence,Medium-Fast-Tempo,Low-Instrumental,High-Acoustic,High-Popularity,High-Health,Female,18 - 30,2+ hours,No
+Low-Energy,Low-Dance,High-Liveness,Low-Valence,Medium-Slow-Tempo,Low-Instrumental,High-Acoustic,Low-Popularity,High-Health,Female,18 - 30,2+ hours,Yes
+High-Energy,Low-Dance,Low-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,Low-Popularity,Medium-Health,Female,18 - 30,2+ hours,No
+High-Energy,High-Dance,High-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Medium-Health,Female,18 - 30,2+ hours,No
+High-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Female,18 - 30,1-2 hours,Yes
+Low-Energy,High-Dance,Low-Liveness,Low-Valence,Medium-Slow-Tempo,Low-Instrumental,High-Acoustic,High-Popularity,High-Health,Female,18 - 30,2+ hours,No
+High-Energy,High-Dance,Low-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,Medium-Health,Female,30+,0 - 1 hours,Yes
+High-Energy,High-Dance,Low-Liveness,Low-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Female,18 - 30,2+ hours,Yes
+Low-Energy,Low-Dance,Low-Liveness,Low-Valence,Medium-Slow-Tempo,High-Instrumental,High-Acoustic,Medium-Popularity,High-Health,Female,18 - 30,1-2 hours,No
+Low-Energy,High-Dance,Low-Liveness,Low-Valence,Medium-Fast-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Medium-Health,Female,18 - 30,2+ hours,No
+High-Energy,High-Dance,Low-Liveness,Low-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,High-Health,Female,18 - 30,2+ hours,No
+High-Energy,High-Dance,High-Liveness,Low-Valence,Medium-Fast-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Medium-Health,Female,18 - 30,1-2 hours,Yes
+Low-Energy,Low-Dance,Low-Liveness,Low-Valence,Medium-Slow-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Medium-Health,Female,18 - 30,2+ hours,Yes
+High-Energy,Low-Dance,Low-Liveness,Low-Valence,Medium-Slow-Tempo,Low-Instrumental,Low-Acoustic,Low-Popularity,Medium-Health,Female,17 & Under,2+ hours,Yes
+Low-Energy,High-Dance,Low-Liveness,Low-Valence,Medium-Slow-Tempo,Low-Instrumental,High-Acoustic,High-Popularity,High-Health,Female,18 - 30,0 - 1 hours,No
+High-Energy,High-Dance,High-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,High-Health,Female,18 - 30,0 - 1 hours,Yes
+Low-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Slow-Tempo,High-Instrumental,High-Acoustic,Medium-Popularity,Low-Health,Female,18 - 30,2+ hours,No
+Low-Energy,Low-Dance,Low-Liveness,Low-Valence,Medium-Fast-Tempo,Low-Instrumental,High-Acoustic,Low-Popularity,High-Health,Female,18 - 30,1-2 hours,No
+Low-Energy,Low-Dance,High-Liveness,High-Valence,Medium-Slow-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Medium-Health,Female,18 - 30,1-2 hours,No
+High-Energy,Low-Dance,Low-Liveness,Low-Valence,Medium-Slow-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Low-Health,Female,18 - 30,0 - 1 hours,No
+High-Energy,High-Dance,High-Liveness,High-Valence,Medium-Slow-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,High-Health,Female,18 - 30,0 - 1 hours,No
+Low-Energy,Low-Dance,High-Liveness,Low-Valence,Fast-Tempo,Low-Instrumental,High-Acoustic,Low-Popularity,Medium-Health,Male,17 & Under,1-2 hours,No
+High-Energy,High-Dance,Low-Liveness,Low-Valence,Medium-Slow-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Female,17 & Under,1-2 hours,No
+High-Energy,Low-Dance,High-Liveness,Low-Valence,Medium-Slow-Tempo,High-Instrumental,Low-Acoustic,Medium-Popularity,Low-Health,Female,17 & Under,0 - 1 hours,Yes
+High-Energy,Low-Dance,High-Liveness,Low-Valence,Fast-Tempo,High-Instrumental,Low-Acoustic,Low-Popularity,High-Health,Male,18 - 30,2+ hours,Yes
+High-Energy,Low-Dance,High-Liveness,High-Valence,Fast-Tempo,High-Instrumental,High-Acoustic,Low-Popularity,Medium-Health,Male,18 - 30,2+ hours,No
+High-Energy,Low-Dance,Low-Liveness,Low-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Low-Health,Male,17 & Under,0 - 1 hours,No
+High-Energy,Low-Dance,High-Liveness,High-Valence,Medium-Fast-Tempo,High-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Male,18 - 30,2+ hours,Yes
+Low-Energy,Low-Dance,Low-Liveness,Low-Valence,Medium-Slow-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Medium-Health,Female,18 - 30,0 - 1 hours,No
+High-Energy,Low-Dance,High-Liveness,Low-Valence,Medium-Slow-Tempo,High-Instrumental,Low-Acoustic,Low-Popularity,Low-Health,Male,18 - 30,2+ hours,No
+Low-Energy,Low-Dance,Low-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,High-Acoustic,Low-Popularity,Low-Health,Female,18 - 30,0 - 1 hours,No
+High-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,High-Health,Male,17 & Under,0 - 1 hours,No
+Low-Energy,Low-Dance,Low-Liveness,High-Valence,Medium-Fast-Tempo,High-Instrumental,High-Acoustic,Low-Popularity,High-Health,Male,18 - 30,1-2 hours,No
+High-Energy,Low-Dance,Low-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,High-Health,Female,18 - 30,1-2 hours,Yes
+High-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Slow-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Female,30+,2+ hours,Yes
+High-Energy,Low-Dance,High-Liveness,High-Valence,Fast-Tempo,High-Instrumental,Low-Acoustic,Medium-Popularity,Low-Health,Male,18 - 30,1-2 hours,Yes
+Low-Energy,Low-Dance,Low-Liveness,High-Valence,Medium-Slow-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Medium-Health,Female,18 - 30,0 - 1 hours,No
+High-Energy,Low-Dance,Low-Liveness,Low-Valence,Fast-Tempo,High-Instrumental,Low-Acoustic,Low-Popularity,High-Health,Female,30+,1-2 hours,No
+High-Energy,Low-Dance,High-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Male,18 - 30,0 - 1 hours,Yes
+High-Energy,Low-Dance,High-Liveness,Low-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,Low-Popularity,High-Health,Male,17 & Under,1-2 hours,No
+Low-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Low-Health,Female,18 - 30,1-2 hours,No
+Low-Energy,High-Dance,High-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Low-Health,Female,18 - 30,0 - 1 hours,No
+High-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Low-Popularity,Medium-Health,Female,17 & Under,0 - 1 hours,No
+High-Energy,Low-Dance,High-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Male,18 - 30,0 - 1 hours,No
+High-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Slow-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Low-Health,Female,17 & Under,1-2 hours,No
+High-Energy,Low-Dance,High-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,Low-Popularity,High-Health,Male,18 - 30,2+ hours,No
+Low-Energy,Low-Dance,Low-Liveness,Low-Valence,Medium-Fast-Tempo,High-Instrumental,High-Acoustic,Low-Popularity,High-Health,Female,17 & Under,0 - 1 hours,No
+Low-Energy,Low-Dance,High-Liveness,High-Valence,Medium-Slow-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Medium-Health,Male,17 & Under,0 - 1 hours,No
+High-Energy,High-Dance,High-Liveness,High-Valence,Medium-Slow-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Low-Health,Female,18 - 30,0 - 1 hours,No
+Low-Energy,Low-Dance,Low-Liveness,Low-Valence,Medium-Slow-Tempo,Low-Instrumental,High-Acoustic,Low-Popularity,High-Health,Female,18 - 30,0 - 1 hours,Yes
+High-Energy,High-Dance,High-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,High-Health,Male,18 - 30,1-2 hours,Yes
+High-Energy,High-Dance,Low-Liveness,Low-Valence,Medium-Fast-Tempo,High-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Male,18 - 30,0 - 1 hours,No
+Low-Energy,Low-Dance,Low-Liveness,Low-Valence,Medium-Slow-Tempo,High-Instrumental,High-Acoustic,Low-Popularity,Low-Health,Female,18 - 30,0 - 1 hours,No
+High-Energy,Low-Dance,Low-Liveness,Low-Valence,Fast-Tempo,High-Instrumental,High-Acoustic,Low-Popularity,Medium-Health,Male,18 - 30,0 - 1 hours,No
+Low-Energy,Low-Dance,Low-Liveness,Low-Valence,Slow-Tempo,High-Instrumental,High-Acoustic,Medium-Popularity,Low-Health,Male,18 - 30,0 - 1 hours,Yes
+Low-Energy,Low-Dance,High-Liveness,High-Valence,Medium-Fast-Tempo,High-Instrumental,High-Acoustic,Medium-Popularity,Medium-Health,Male,18 - 30,0 - 1 hours,No
+High-Energy,High-Dance,High-Liveness,High-Valence,Medium-Slow-Tempo,Low-Instrumental,Low-Acoustic,Low-Popularity,High-Health,Female,18 - 30,2+ hours,Yes
+Low-Energy,Low-Dance,Low-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Medium-Health,Prefer not to specify,18 - 30,1-2 hours,No
+Low-Energy,Low-Dance,High-Liveness,High-Valence,Medium-Fast-Tempo,High-Instrumental,Low-Acoustic,Low-Popularity,Medium-Health,Male,30+,2+ hours,Yes
+Low-Energy,High-Dance,Low-Liveness,Low-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,Low-Health,Male,18 - 30,0 - 1 hours,Yes
+Low-Energy,High-Dance,Low-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,High-Acoustic,Low-Popularity,Medium-Health,Female,18 - 30,1-2 hours,No
+High-Energy,High-Dance,High-Liveness,High-Valence,Fast-Tempo,High-Instrumental,High-Acoustic,Low-Popularity,Low-Health,Male,18 - 30,1-2 hours,Yes
+High-Energy,Low-Dance,Low-Liveness,High-Valence,Medium-Fast-Tempo,High-Instrumental,High-Acoustic,Low-Popularity,Medium-Health,Male,30+,2+ hours,Yes
+High-Energy,Low-Dance,High-Liveness,Low-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,Low-Popularity,Medium-Health,Female,18 - 30,0 - 1 hours,No
+High-Energy,Low-Dance,High-Liveness,Low-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Low-Popularity,Low-Health,Male,18 - 30,1-2 hours,Yes
+High-Energy,Low-Dance,High-Liveness,Low-Valence,Fast-Tempo,Low-Instrumental,High-Acoustic,Low-Popularity,Medium-Health,Male,18 - 30,1-2 hours,No
+High-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Slow-Tempo,Low-Instrumental,Low-Acoustic,High-Popularity,Medium-Health,Female,18 - 30,2+ hours,No
+High-Energy,High-Dance,High-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,Low-Popularity,Low-Health,Female,18 - 30,2+ hours,No
+Low-Energy,Low-Dance,Low-Liveness,High-Valence,Medium-Slow-Tempo,Low-Instrumental,High-Acoustic,Low-Popularity,High-Health,Female,18 - 30,1-2 hours,No
+High-Energy,Low-Dance,Low-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,Low-Popularity,Medium-Health,Male,18 - 30,1-2 hours,No
+High-Energy,Low-Dance,Low-Liveness,Low-Valence,Medium-Fast-Tempo,High-Instrumental,Low-Acoustic,Medium-Popularity,High-Health,Female,30+,0 - 1 hours,Yes
+Low-Energy,Low-Dance,Low-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,High-Acoustic,Low-Popularity,Low-Health,Female,18 - 30,1-2 hours,Yes
+Low-Energy,High-Dance,Low-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Low-Health,Female,18 - 30,1-2 hours,No
+Low-Energy,Low-Dance,High-Liveness,Low-Valence,Medium-Fast-Tempo,High-Instrumental,High-Acoustic,Low-Popularity,Medium-Health,Female,18 - 30,1-2 hours,Yes
+High-Energy,High-Dance,Low-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Low-Health,Female,18 - 30,0 - 1 hours,Yes
+Low-Energy,Low-Dance,Low-Liveness,Low-Valence,Medium-Fast-Tempo,Low-Instrumental,High-Acoustic,Medium-Popularity,Low-Health,Male,18 - 30,1-2 hours,Yes
+High-Energy,Low-Dance,Low-Liveness,Low-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,High-Health,Female,18 - 30,2+ hours,No
+High-Energy,Low-Dance,High-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,High-Acoustic,Low-Popularity,Low-Health,Female,18 - 30,0 - 1 hours,No
+Low-Energy,Low-Dance,High-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,High-Acoustic,Low-Popularity,Low-Health,Female,18 - 30,1-2 hours,Yes
+Low-Energy,Low-Dance,High-Liveness,Low-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Low-Popularity,Medium-Health,Female,18 - 30,2+ hours,Yes
+Low-Energy,High-Dance,High-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Low-Health,Female,18 - 30,2+ hours,No
+Low-Energy,High-Dance,Low-Liveness,Low-Valence,Fast-Tempo,Low-Instrumental,High-Acoustic,Low-Popularity,High-Health,Female,18 - 30,2+ hours,Yes
+High-Energy,Low-Dance,Low-Liveness,Low-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,Low-Popularity,High-Health,Female,18 - 30,1-2 hours,No
+Low-Energy,High-Dance,High-Liveness,High-Valence,Medium-Slow-Tempo,High-Instrumental,High-Acoustic,Medium-Popularity,Low-Health,Female,18 - 30,0 - 1 hours,No
+High-Energy,Low-Dance,High-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,High-Health,Male,18 - 30,1-2 hours,Yes
+High-Energy,Low-Dance,High-Liveness,Low-Valence,Medium-Fast-Tempo,High-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Female,17 & Under,0 - 1 hours,No
+High-Energy,Low-Dance,High-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Prefer not to specify,18 - 30,0 - 1 hours,Yes
+Low-Energy,Low-Dance,Low-Liveness,High-Valence,Medium-Fast-Tempo,High-Instrumental,High-Acoustic,Low-Popularity,Medium-Health,Female,18 - 30,1-2 hours,Yes
+Low-Energy,High-Dance,Low-Liveness,High-Valence,Medium-Slow-Tempo,High-Instrumental,High-Acoustic,Low-Popularity,High-Health,Female,17 & Under,0 - 1 hours,No
+Low-Energy,Low-Dance,Low-Liveness,High-Valence,Fast-Tempo,Low-Instrumental,High-Acoustic,Low-Popularity,High-Health,Female,18 - 30,1-2 hours,Yes
+Low-Energy,Low-Dance,High-Liveness,Low-Valence,Slow-Tempo,High-Instrumental,High-Acoustic,Low-Popularity,Low-Health,Male,18 - 30,1-2 hours,No
+High-Energy,Low-Dance,Low-Liveness,Low-Valence,Fast-Tempo,Low-Instrumental,Low-Acoustic,Medium-Popularity,High-Health,Female,18 - 30,2+ hours,No
+High-Energy,Low-Dance,Low-Liveness,Low-Valence,Fast-Tempo,High-Instrumental,Low-Acoustic,Medium-Popularity,Medium-Health,Male,18 - 30,2+ hours,No
+High-Energy,High-Dance,High-Liveness,High-Valence,Medium-Fast-Tempo,Low-Instrumental,High-Acoustic,Low-Popularity,Medium-Health,Female,18 - 30,2+ hours,No
+High-Energy,Low-Dance,Low-Liveness,Low-Valence,Medium-Fast-Tempo,Low-Instrumental,Low-Acoustic,Low-Popularity,Medium-Health,Female,17 & Under,0 - 1 hours,Yes
+Low-Energy,Low-Dance,High-Liveness,High-Valence,Medium-Slow-Tempo,Low-Instrumental,Low-Acoustic,Low-Popularity,Low-Health,Male,18 - 30,1-2 hours,No
+High-Energy,Low-Dance,High-Liveness,High-Valence,Medium-Fast-Tempo,High-Instrumental,High-Acoustic,Medium-Popularity,Medium-Health,Female,18 - 30,0 - 1 hours,No

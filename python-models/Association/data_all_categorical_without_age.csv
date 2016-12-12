@@ -1,0 +1,256 @@
+energy_categorical,dance_categorical,valence_categorical,tempo_categorical,popularity_categorical,health_categorical,gender,hours_of_music,traumatic_experience
+Low-Energy,High-Dance,High-Valence,Medium-Slow-Tempo,High-Popularity,High-Health,Male,1-2 hours,No
+Low-Energy,Low-Dance,Low-Valence,Medium-Fast-Tempo,Medium-Popularity,High-Health,Male,1-2 hours,No
+High-Energy,High-Dance,High-Valence,Fast-Tempo,Medium-Popularity,High-Health,Female,0 - 1 hours,No
+High-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,Medium-Popularity,High-Health,Male,2+ hours,No
+High-Energy,Low-Dance,Low-Valence,Fast-Tempo,Low-Popularity,Low-Health,Female,0 - 1 hours,Yes
+High-Energy,Low-Dance,Low-Valence,Fast-Tempo,Low-Popularity,High-Health,Male,0 - 1 hours,No
+Low-Energy,High-Dance,Low-Valence,Medium-Slow-Tempo,Medium-Popularity,High-Health,Female,1-2 hours,No
+Low-Energy,High-Dance,Low-Valence,Medium-Fast-Tempo,Medium-Popularity,Low-Health,Male,2+ hours,No
+High-Energy,Low-Dance,Low-Valence,Fast-Tempo,Low-Popularity,Low-Health,Male,0 - 1 hours,No
+High-Energy,High-Dance,Low-Valence,Medium-Slow-Tempo,High-Popularity,High-Health,Female,1-2 hours,No
+High-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,Low-Popularity,Low-Health,Female,2+ hours,No
+Low-Energy,High-Dance,Low-Valence,Medium-Slow-Tempo,High-Popularity,High-Health,Male,0 - 1 hours,No
+Low-Energy,Low-Dance,Low-Valence,Medium-Slow-Tempo,Low-Popularity,High-Health,Male,2+ hours,No
+High-Energy,Low-Dance,Low-Valence,Medium-Slow-Tempo,Medium-Popularity,Medium-Health,Male,2+ hours,No
+Low-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,Medium-Popularity,Medium-Health,Female,1-2 hours,Yes
+High-Energy,Low-Dance,Low-Valence,Fast-Tempo,Medium-Popularity,Medium-Health,Female,0 - 1 hours,Yes
+High-Energy,Low-Dance,Low-Valence,Fast-Tempo,Medium-Popularity,Low-Health,Female,2+ hours,Yes
+High-Energy,High-Dance,Low-Valence,Medium-Slow-Tempo,Medium-Popularity,High-Health,Male,2+ hours,No
+High-Energy,High-Dance,High-Valence,Medium-Slow-Tempo,High-Popularity,High-Health,Male,0 - 1 hours,No
+High-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,High-Popularity,High-Health,Female,2+ hours,Yes
+Low-Energy,Low-Dance,High-Valence,Fast-Tempo,Medium-Popularity,Medium-Health,Male,1-2 hours,Yes
+Low-Energy,High-Dance,High-Valence,Fast-Tempo,Low-Popularity,High-Health,Male,2+ hours,No
+High-Energy,High-Dance,High-Valence,Medium-Slow-Tempo,Medium-Popularity,High-Health,Male,1-2 hours,No
+High-Energy,High-Dance,Low-Valence,Fast-Tempo,Medium-Popularity,Medium-Health,Female,0 - 1 hours,Yes
+High-Energy,Low-Dance,High-Valence,Slow-Tempo,Medium-Popularity,High-Health,Male,0 - 1 hours,No
+High-Energy,Low-Dance,High-Valence,Fast-Tempo,Medium-Popularity,Medium-Health,Male,2+ hours,No
+High-Energy,High-Dance,Low-Valence,Medium-Fast-Tempo,Medium-Popularity,High-Health,Male,2+ hours,No
+Low-Energy,High-Dance,Low-Valence,Fast-Tempo,High-Popularity,High-Health,Male,2+ hours,No
+Low-Energy,Low-Dance,High-Valence,Medium-Fast-Tempo,Medium-Popularity,Low-Health,Male,1-2 hours,No
+Low-Energy,Low-Dance,Low-Valence,Medium-Fast-Tempo,Low-Popularity,High-Health,Male,1-2 hours,No
+High-Energy,High-Dance,Low-Valence,Medium-Fast-Tempo,High-Popularity,Low-Health,Male,2+ hours,No
+Low-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,High-Popularity,Medium-Health,Female,1-2 hours,No
+Low-Energy,High-Dance,High-Valence,Medium-Slow-Tempo,High-Popularity,Low-Health,Female,1-2 hours,Yes
+High-Energy,High-Dance,High-Valence,Medium-Slow-Tempo,Medium-Popularity,Low-Health,Female,0 - 1 hours,No
+High-Energy,High-Dance,High-Valence,Fast-Tempo,High-Popularity,Low-Health,Female,2+ hours,No
+High-Energy,High-Dance,High-Valence,Medium-Slow-Tempo,Medium-Popularity,High-Health,Female,1-2 hours,No
+Low-Energy,Low-Dance,Low-Valence,Fast-Tempo,Medium-Popularity,High-Health,Male,2+ hours,No
+Low-Energy,Low-Dance,High-Valence,Medium-Slow-Tempo,Low-Popularity,High-Health,Female,1-2 hours,Yes
+High-Energy,High-Dance,High-Valence,Medium-Slow-Tempo,Medium-Popularity,High-Health,Male,1-2 hours,No
+High-Energy,High-Dance,Low-Valence,Fast-Tempo,Medium-Popularity,Medium-Health,Female,2+ hours,Yes
+Low-Energy,High-Dance,Low-Valence,Medium-Slow-Tempo,Medium-Popularity,Low-Health,Male,1-2 hours,Yes
+High-Energy,Low-Dance,Low-Valence,Fast-Tempo,Medium-Popularity,Medium-Health,Female,1-2 hours,No
+Low-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,Medium-Popularity,Low-Health,Male,2+ hours,No
+Low-Energy,Low-Dance,High-Valence,Medium-Fast-Tempo,Medium-Popularity,Low-Health,Female,0 - 1 hours,Yes
+High-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,Medium-Popularity,High-Health,Female,2+ hours,Yes
+Low-Energy,High-Dance,High-Valence,Fast-Tempo,Medium-Popularity,Medium-Health,Female,1-2 hours,No
+High-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,Medium-Popularity,Low-Health,Female,0 - 1 hours,Yes
+Low-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,High-Popularity,Medium-Health,Female,1-2 hours,Yes
+High-Energy,Low-Dance,Low-Valence,Medium-Fast-Tempo,Low-Popularity,High-Health,Female,1-2 hours,No
+Low-Energy,High-Dance,High-Valence,Fast-Tempo,Medium-Popularity,Low-Health,Female,0 - 1 hours,Yes
+High-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,Medium-Popularity,Medium-Health,Female,2+ hours,Yes
+High-Energy,High-Dance,High-Valence,Fast-Tempo,Medium-Popularity,High-Health,Female,2+ hours,Yes
+High-Energy,High-Dance,High-Valence,Fast-Tempo,Medium-Popularity,High-Health,Female,2+ hours,Yes
+Low-Energy,High-Dance,Low-Valence,Medium-Slow-Tempo,High-Popularity,High-Health,Female,2+ hours,Yes
+Low-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,High-Popularity,Low-Health,Female,2+ hours,No
+Low-Energy,High-Dance,Low-Valence,Medium-Slow-Tempo,Medium-Popularity,Medium-Health,Female,1-2 hours,Yes
+High-Energy,High-Dance,High-Valence,Medium-Slow-Tempo,Medium-Popularity,Medium-Health,Male,2+ hours,No
+High-Energy,Low-Dance,Low-Valence,Medium-Fast-Tempo,Medium-Popularity,High-Health,Male,2+ hours,Yes
+Low-Energy,High-Dance,Low-Valence,Fast-Tempo,Medium-Popularity,Medium-Health,Male,1-2 hours,No
+Low-Energy,High-Dance,Low-Valence,Medium-Slow-Tempo,Medium-Popularity,Medium-Health,Male,2+ hours,No
+Low-Energy,Low-Dance,Low-Valence,Medium-Slow-Tempo,Medium-Popularity,High-Health,Female,2+ hours,No
+Low-Energy,High-Dance,High-Valence,Fast-Tempo,High-Popularity,High-Health,Female,2+ hours,No
+High-Energy,Low-Dance,High-Valence,Medium-Fast-Tempo,Medium-Popularity,High-Health,Male,2+ hours,No
+Low-Energy,High-Dance,High-Valence,Fast-Tempo,High-Popularity,High-Health,Male,2+ hours,Yes
+Low-Energy,High-Dance,High-Valence,Fast-Tempo,High-Popularity,High-Health,Female,2+ hours,Yes
+Low-Energy,High-Dance,Low-Valence,Medium-Fast-Tempo,Medium-Popularity,Low-Health,Male,2+ hours,No
+High-Energy,Low-Dance,Low-Valence,Medium-Fast-Tempo,Medium-Popularity,Medium-Health,Male,1-2 hours,Yes
+High-Energy,High-Dance,Low-Valence,Medium-Slow-Tempo,Medium-Popularity,Low-Health,Female,1-2 hours,Yes
+High-Energy,High-Dance,Low-Valence,Medium-Fast-Tempo,Medium-Popularity,High-Health,Male,1-2 hours,No
+High-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,Medium-Popularity,Medium-Health,Female,2+ hours,No
+Low-Energy,High-Dance,Low-Valence,Medium-Slow-Tempo,High-Popularity,Low-Health,Female,0 - 1 hours,No
+Low-Energy,Low-Dance,Low-Valence,Medium-Slow-Tempo,Medium-Popularity,High-Health,Female,2+ hours,No
+High-Energy,High-Dance,Low-Valence,Medium-Slow-Tempo,High-Popularity,High-Health,Male,0 - 1 hours,No
+High-Energy,High-Dance,High-Valence,Fast-Tempo,Medium-Popularity,Medium-Health,Female,2+ hours,No
+High-Energy,Low-Dance,Low-Valence,Fast-Tempo,Medium-Popularity,Low-Health,Female,2+ hours,No
+High-Energy,Low-Dance,Low-Valence,Medium-Fast-Tempo,Medium-Popularity,Medium-Health,Female,0 - 1 hours,Yes
+Low-Energy,High-Dance,High-Valence,Fast-Tempo,High-Popularity,High-Health,Male,1-2 hours,No
+Low-Energy,Low-Dance,Low-Valence,Fast-Tempo,Medium-Popularity,Low-Health,Female,1-2 hours,No
+High-Energy,Low-Dance,Low-Valence,Fast-Tempo,Low-Popularity,Low-Health,Male,2+ hours,No
+High-Energy,Low-Dance,Low-Valence,Fast-Tempo,Low-Popularity,Low-Health,Female,2+ hours,No
+High-Energy,High-Dance,High-Valence,Fast-Tempo,Medium-Popularity,Medium-Health,Female,2+ hours,No
+Low-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,Medium-Popularity,High-Health,Female,0 - 1 hours,No
+High-Energy,High-Dance,High-Valence,Fast-Tempo,High-Popularity,Low-Health,Female,1-2 hours,Yes
+High-Energy,High-Dance,High-Valence,Medium-Slow-Tempo,High-Popularity,High-Health,Female,2+ hours,No
+Low-Energy,High-Dance,Low-Valence,Medium-Slow-Tempo,High-Popularity,High-Health,Male,0 - 1 hours,No
+High-Energy,High-Dance,Low-Valence,Fast-Tempo,High-Popularity,Medium-Health,Male,0 - 1 hours,No
+High-Energy,Low-Dance,Low-Valence,Medium-Fast-Tempo,Low-Popularity,Low-Health,Male,2+ hours,Yes
+High-Energy,Low-Dance,High-Valence,Medium-Fast-Tempo,High-Popularity,High-Health,Male,0 - 1 hours,No
+Low-Energy,High-Dance,High-Valence,Fast-Tempo,High-Popularity,High-Health,Male,1-2 hours,Yes
+Low-Energy,High-Dance,Low-Valence,Medium-Fast-Tempo,High-Popularity,Medium-Health,Female,2+ hours,Yes
+Low-Energy,Low-Dance,High-Valence,Medium-Fast-Tempo,Low-Popularity,Low-Health,Male,2+ hours,Yes
+Low-Energy,Low-Dance,High-Valence,Medium-Slow-Tempo,Medium-Popularity,High-Health,Female,2+ hours,No
+Low-Energy,High-Dance,Low-Valence,Medium-Fast-Tempo,Medium-Popularity,High-Health,Male,1-2 hours,No
+High-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,Medium-Popularity,Medium-Health,Female,2+ hours,Yes
+Low-Energy,Low-Dance,Low-Valence,Medium-Slow-Tempo,Medium-Popularity,Low-Health,Female,2+ hours,Yes
+Low-Energy,Low-Dance,Low-Valence,Fast-Tempo,Medium-Popularity,High-Health,Female,1-2 hours,No
+Low-Energy,High-Dance,High-Valence,Fast-Tempo,High-Popularity,High-Health,Female,1-2 hours,No
+High-Energy,High-Dance,High-Valence,Medium-Slow-Tempo,Medium-Popularity,Low-Health,Male,2+ hours,No
+High-Energy,High-Dance,High-Valence,Fast-Tempo,Low-Popularity,Medium-Health,Male,1-2 hours,Yes
+Low-Energy,High-Dance,Low-Valence,Medium-Slow-Tempo,Medium-Popularity,Low-Health,Male,1-2 hours,Yes
+High-Energy,High-Dance,High-Valence,Medium-Slow-Tempo,Medium-Popularity,Medium-Health,Female,2+ hours,No
+Low-Energy,High-Dance,Low-Valence,Fast-Tempo,High-Popularity,High-Health,Female,2+ hours,Yes
+High-Energy,Low-Dance,High-Valence,Fast-Tempo,Low-Popularity,Low-Health,Female,2+ hours,No
+Low-Energy,Low-Dance,Low-Valence,Medium-Slow-Tempo,Low-Popularity,Low-Health,Female,2+ hours,No
+Low-Energy,Low-Dance,Low-Valence,Fast-Tempo,Medium-Popularity,Medium-Health,Male,2+ hours,Yes
+High-Energy,High-Dance,Low-Valence,Fast-Tempo,High-Popularity,High-Health,Male,2+ hours,No
+Low-Energy,Low-Dance,Low-Valence,Medium-Slow-Tempo,Low-Popularity,High-Health,Female,1-2 hours,No
+High-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,Low-Popularity,Medium-Health,Male,0 - 1 hours,Yes
+High-Energy,High-Dance,High-Valence,Medium-Slow-Tempo,Medium-Popularity,Low-Health,Female,1-2 hours,No
+Low-Energy,Low-Dance,Low-Valence,Fast-Tempo,Medium-Popularity,Low-Health,Female,0 - 1 hours,No
+High-Energy,Low-Dance,Low-Valence,Medium-Fast-Tempo,Medium-Popularity,Medium-Health,Male,2+ hours,No
+Low-Energy,High-Dance,Low-Valence,Medium-Fast-Tempo,High-Popularity,High-Health,Female,2+ hours,No
+High-Energy,High-Dance,Low-Valence,Fast-Tempo,Low-Popularity,High-Health,Female,1-2 hours,No
+Low-Energy,High-Dance,High-Valence,Fast-Tempo,High-Popularity,Low-Health,Male,2+ hours,No
+Low-Energy,High-Dance,Low-Valence,Medium-Slow-Tempo,Medium-Popularity,Medium-Health,Male,0 - 1 hours,No
+Low-Energy,High-Dance,Low-Valence,Medium-Fast-Tempo,High-Popularity,Low-Health,Male,1-2 hours,No
+Low-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,Medium-Popularity,Low-Health,Male,2+ hours,No
+Low-Energy,Low-Dance,Low-Valence,Medium-Fast-Tempo,Medium-Popularity,Low-Health,Female,2+ hours,Yes
+Low-Energy,High-Dance,High-Valence,Fast-Tempo,High-Popularity,High-Health,Male,2+ hours,No
+Low-Energy,High-Dance,Low-Valence,Medium-Fast-Tempo,High-Popularity,Medium-Health,Female,0 - 1 hours,No
+Low-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,High-Popularity,High-Health,Female,2+ hours,Yes
+High-Energy,Low-Dance,High-Valence,Medium-Slow-Tempo,Medium-Popularity,Medium-Health,Male,1-2 hours,No
+Low-Energy,Low-Dance,Low-Valence,Medium-Fast-Tempo,Medium-Popularity,Medium-Health,Female,1-2 hours,No
+Low-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,High-Popularity,Low-Health,Female,0 - 1 hours,Yes
+High-Energy,Low-Dance,Low-Valence,Fast-Tempo,Medium-Popularity,Medium-Health,Male,2+ hours,No
+Low-Energy,High-Dance,Low-Valence,Medium-Fast-Tempo,Medium-Popularity,Medium-Health,Female,1-2 hours,No
+High-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,Medium-Popularity,High-Health,Male,2+ hours,Yes
+High-Energy,Low-Dance,High-Valence,Fast-Tempo,Medium-Popularity,Medium-Health,Male,1-2 hours,No
+Low-Energy,High-Dance,High-Valence,Fast-Tempo,Medium-Popularity,Medium-Health,Male,1-2 hours,Yes
+Low-Energy,High-Dance,High-Valence,Slow-Tempo,High-Popularity,Low-Health,Female,2+ hours,No
+High-Energy,Low-Dance,Low-Valence,Fast-Tempo,High-Popularity,Medium-Health,Female,1-2 hours,No
+Low-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,High-Popularity,High-Health,Male,1-2 hours,Yes
+Low-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,Low-Popularity,Medium-Health,Female,2+ hours,No
+High-Energy,Low-Dance,Low-Valence,Medium-Fast-Tempo,Low-Popularity,Medium-Health,Female,2+ hours,No
+Low-Energy,High-Dance,Low-Valence,Medium-Fast-Tempo,Medium-Popularity,Medium-Health,Female,1-2 hours,Yes
+High-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,High-Popularity,Medium-Health,Male,2+ hours,No
+High-Energy,High-Dance,Low-Valence,Fast-Tempo,High-Popularity,High-Health,Male,2+ hours,Yes
+High-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,High-Popularity,High-Health,Female,1-2 hours,No
+High-Energy,High-Dance,High-Valence,Fast-Tempo,Medium-Popularity,Medium-Health,Male,1-2 hours,No
+Low-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,High-Popularity,High-Health,Female,2+ hours,No
+High-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,High-Popularity,High-Health,Male,2+ hours,Yes
+Low-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,High-Popularity,Medium-Health,Female,2+ hours,No
+High-Energy,Low-Dance,High-Valence,Medium-Fast-Tempo,Medium-Popularity,Medium-Health,Female,2+ hours,Yes
+Low-Energy,Low-Dance,Low-Valence,Medium-Fast-Tempo,Medium-Popularity,High-Health,Male,1-2 hours,No
+High-Energy,Low-Dance,High-Valence,Fast-Tempo,Medium-Popularity,High-Health,Male,0 - 1 hours,Yes
+Low-Energy,Low-Dance,Low-Valence,Fast-Tempo,Medium-Popularity,Medium-Health,Male,1-2 hours,Yes
+High-Energy,Low-Dance,High-Valence,Fast-Tempo,Low-Popularity,Low-Health,Female,1-2 hours,No
+High-Energy,Low-Dance,Low-Valence,Fast-Tempo,Medium-Popularity,High-Health,Male,2+ hours,No
+Low-Energy,Low-Dance,Low-Valence,Fast-Tempo,Medium-Popularity,High-Health,Female,1-2 hours,No
+Low-Energy,High-Dance,Low-Valence,Medium-Fast-Tempo,Medium-Popularity,Low-Health,Male,2+ hours,No
+Low-Energy,High-Dance,Low-Valence,Medium-Fast-Tempo,High-Popularity,Medium-Health,Male,1-2 hours,No
+Low-Energy,High-Dance,Low-Valence,Medium-Fast-Tempo,High-Popularity,Medium-Health,Female,2+ hours,No
+Low-Energy,High-Dance,Low-Valence,Medium-Fast-Tempo,Medium-Popularity,Medium-Health,Female,1-2 hours,No
+Low-Energy,Low-Dance,Low-Valence,Slow-Tempo,Medium-Popularity,Medium-Health,Male,1-2 hours,No
+High-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,Medium-Popularity,Medium-Health,Female,2+ hours,Yes
+High-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,Medium-Popularity,High-Health,Male,2+ hours,No
+High-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,Medium-Popularity,High-Health,Male,0 - 1 hours,Yes
+High-Energy,High-Dance,High-Valence,Medium-Slow-Tempo,Medium-Popularity,High-Health,Female,2+ hours,Yes
+Low-Energy,Low-Dance,Low-Valence,Medium-Fast-Tempo,High-Popularity,High-Health,Female,2+ hours,No
+Low-Energy,Low-Dance,Low-Valence,Medium-Slow-Tempo,Low-Popularity,High-Health,Female,2+ hours,Yes
+High-Energy,Low-Dance,High-Valence,Fast-Tempo,Low-Popularity,Medium-Health,Female,2+ hours,No
+High-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,Medium-Popularity,Medium-Health,Female,2+ hours,No
+High-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,Medium-Popularity,Medium-Health,Female,1-2 hours,Yes
+Low-Energy,High-Dance,Low-Valence,Medium-Slow-Tempo,High-Popularity,High-Health,Female,2+ hours,No
+High-Energy,High-Dance,High-Valence,Fast-Tempo,High-Popularity,Medium-Health,Female,0 - 1 hours,Yes
+High-Energy,High-Dance,Low-Valence,Medium-Fast-Tempo,Medium-Popularity,Medium-Health,Female,2+ hours,Yes
+Low-Energy,Low-Dance,Low-Valence,Medium-Slow-Tempo,Medium-Popularity,High-Health,Female,1-2 hours,No
+Low-Energy,High-Dance,Low-Valence,Medium-Fast-Tempo,Medium-Popularity,Medium-Health,Female,2+ hours,No
+High-Energy,High-Dance,Low-Valence,Medium-Fast-Tempo,High-Popularity,High-Health,Female,2+ hours,No
+High-Energy,High-Dance,Low-Valence,Medium-Fast-Tempo,Medium-Popularity,Medium-Health,Female,1-2 hours,Yes
+Low-Energy,Low-Dance,Low-Valence,Medium-Slow-Tempo,Medium-Popularity,Medium-Health,Female,2+ hours,Yes
+High-Energy,Low-Dance,Low-Valence,Medium-Slow-Tempo,Low-Popularity,Medium-Health,Female,2+ hours,Yes
+Low-Energy,High-Dance,Low-Valence,Medium-Slow-Tempo,High-Popularity,High-Health,Female,0 - 1 hours,No
+High-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,Medium-Popularity,High-Health,Female,0 - 1 hours,Yes
+Low-Energy,High-Dance,High-Valence,Medium-Slow-Tempo,Medium-Popularity,Low-Health,Female,2+ hours,No
+Low-Energy,Low-Dance,Low-Valence,Medium-Fast-Tempo,Low-Popularity,High-Health,Female,1-2 hours,No
+Low-Energy,Low-Dance,High-Valence,Medium-Slow-Tempo,Medium-Popularity,Medium-Health,Female,1-2 hours,No
+High-Energy,Low-Dance,Low-Valence,Medium-Slow-Tempo,Medium-Popularity,Low-Health,Female,0 - 1 hours,No
+High-Energy,High-Dance,High-Valence,Medium-Slow-Tempo,Medium-Popularity,High-Health,Female,0 - 1 hours,No
+Low-Energy,Low-Dance,Low-Valence,Fast-Tempo,Low-Popularity,Medium-Health,Male,1-2 hours,No
+High-Energy,High-Dance,Low-Valence,Medium-Slow-Tempo,Medium-Popularity,Medium-Health,Female,1-2 hours,No
+High-Energy,Low-Dance,Low-Valence,Medium-Slow-Tempo,Medium-Popularity,Low-Health,Female,0 - 1 hours,Yes
+High-Energy,Low-Dance,Low-Valence,Fast-Tempo,Low-Popularity,High-Health,Male,2+ hours,Yes
+High-Energy,Low-Dance,High-Valence,Fast-Tempo,Low-Popularity,Medium-Health,Male,2+ hours,No
+High-Energy,Low-Dance,Low-Valence,Fast-Tempo,Medium-Popularity,Low-Health,Male,0 - 1 hours,No
+High-Energy,Low-Dance,High-Valence,Medium-Fast-Tempo,Medium-Popularity,Medium-Health,Male,2+ hours,Yes
+Low-Energy,Low-Dance,Low-Valence,Medium-Slow-Tempo,Medium-Popularity,Medium-Health,Female,0 - 1 hours,No
+High-Energy,Low-Dance,Low-Valence,Medium-Slow-Tempo,Low-Popularity,Low-Health,Male,2+ hours,No
+Low-Energy,Low-Dance,High-Valence,Fast-Tempo,Low-Popularity,Low-Health,Female,0 - 1 hours,No
+High-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,Medium-Popularity,High-Health,Male,0 - 1 hours,No
+Low-Energy,Low-Dance,High-Valence,Medium-Fast-Tempo,Low-Popularity,High-Health,Male,1-2 hours,No
+High-Energy,Low-Dance,High-Valence,Fast-Tempo,Medium-Popularity,High-Health,Female,1-2 hours,Yes
+High-Energy,High-Dance,High-Valence,Medium-Slow-Tempo,Medium-Popularity,Medium-Health,Female,2+ hours,Yes
+High-Energy,Low-Dance,High-Valence,Fast-Tempo,Medium-Popularity,Low-Health,Male,1-2 hours,Yes
+Low-Energy,Low-Dance,High-Valence,Medium-Slow-Tempo,Medium-Popularity,Medium-Health,Female,0 - 1 hours,No
+High-Energy,Low-Dance,Low-Valence,Fast-Tempo,Low-Popularity,High-Health,Female,1-2 hours,No
+High-Energy,Low-Dance,High-Valence,Medium-Fast-Tempo,Medium-Popularity,Medium-Health,Male,0 - 1 hours,Yes
+High-Energy,Low-Dance,Low-Valence,Fast-Tempo,Low-Popularity,High-Health,Male,1-2 hours,No
+Low-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,Medium-Popularity,Low-Health,Female,1-2 hours,No
+Low-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,Medium-Popularity,Low-Health,Female,0 - 1 hours,No
+High-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,Low-Popularity,Medium-Health,Female,0 - 1 hours,No
+High-Energy,Low-Dance,High-Valence,Medium-Fast-Tempo,Medium-Popularity,Medium-Health,Male,0 - 1 hours,No
+High-Energy,High-Dance,High-Valence,Medium-Slow-Tempo,Medium-Popularity,Low-Health,Female,1-2 hours,No
+High-Energy,Low-Dance,High-Valence,Fast-Tempo,Low-Popularity,High-Health,Male,2+ hours,No
+Low-Energy,Low-Dance,Low-Valence,Medium-Fast-Tempo,Low-Popularity,High-Health,Female,0 - 1 hours,No
+Low-Energy,Low-Dance,High-Valence,Medium-Slow-Tempo,Medium-Popularity,Medium-Health,Male,0 - 1 hours,No
+High-Energy,High-Dance,High-Valence,Medium-Slow-Tempo,Medium-Popularity,Low-Health,Female,0 - 1 hours,No
+Low-Energy,Low-Dance,Low-Valence,Medium-Slow-Tempo,Low-Popularity,High-Health,Female,0 - 1 hours,Yes
+High-Energy,High-Dance,High-Valence,Fast-Tempo,Medium-Popularity,High-Health,Male,1-2 hours,Yes
+High-Energy,High-Dance,Low-Valence,Medium-Fast-Tempo,Medium-Popularity,Medium-Health,Male,0 - 1 hours,No
+Low-Energy,Low-Dance,Low-Valence,Medium-Slow-Tempo,Low-Popularity,Low-Health,Female,0 - 1 hours,No
+High-Energy,Low-Dance,Low-Valence,Fast-Tempo,Low-Popularity,Medium-Health,Male,0 - 1 hours,No
+Low-Energy,Low-Dance,Low-Valence,Slow-Tempo,Medium-Popularity,Low-Health,Male,0 - 1 hours,Yes
+Low-Energy,Low-Dance,High-Valence,Medium-Fast-Tempo,Medium-Popularity,Medium-Health,Male,0 - 1 hours,No
+High-Energy,High-Dance,High-Valence,Medium-Slow-Tempo,Low-Popularity,High-Health,Female,2+ hours,Yes
+Low-Energy,Low-Dance,High-Valence,Fast-Tempo,Medium-Popularity,Medium-Health,Prefer not to specify,1-2 hours,No
+Low-Energy,Low-Dance,High-Valence,Medium-Fast-Tempo,Low-Popularity,Medium-Health,Male,2+ hours,Yes
+Low-Energy,High-Dance,Low-Valence,Fast-Tempo,High-Popularity,Low-Health,Male,0 - 1 hours,Yes
+Low-Energy,High-Dance,High-Valence,Fast-Tempo,Low-Popularity,Medium-Health,Female,1-2 hours,No
+High-Energy,High-Dance,High-Valence,Fast-Tempo,Low-Popularity,Low-Health,Male,1-2 hours,Yes
+High-Energy,Low-Dance,High-Valence,Medium-Fast-Tempo,Low-Popularity,Medium-Health,Male,2+ hours,Yes
+High-Energy,Low-Dance,Low-Valence,Fast-Tempo,Low-Popularity,Medium-Health,Female,0 - 1 hours,No
+High-Energy,Low-Dance,Low-Valence,Medium-Fast-Tempo,Low-Popularity,Low-Health,Male,1-2 hours,Yes
+High-Energy,Low-Dance,Low-Valence,Fast-Tempo,Low-Popularity,Medium-Health,Male,1-2 hours,No
+High-Energy,High-Dance,High-Valence,Medium-Slow-Tempo,High-Popularity,Medium-Health,Female,2+ hours,No
+High-Energy,High-Dance,High-Valence,Fast-Tempo,Low-Popularity,Low-Health,Female,2+ hours,No
+Low-Energy,Low-Dance,High-Valence,Medium-Slow-Tempo,Low-Popularity,High-Health,Female,1-2 hours,No
+High-Energy,Low-Dance,High-Valence,Fast-Tempo,Low-Popularity,Medium-Health,Male,1-2 hours,No
+High-Energy,Low-Dance,Low-Valence,Medium-Fast-Tempo,Medium-Popularity,High-Health,Female,0 - 1 hours,Yes
+Low-Energy,Low-Dance,High-Valence,Medium-Fast-Tempo,Low-Popularity,Low-Health,Female,1-2 hours,Yes
+Low-Energy,High-Dance,High-Valence,Fast-Tempo,Medium-Popularity,Low-Health,Female,1-2 hours,No
+Low-Energy,Low-Dance,Low-Valence,Medium-Fast-Tempo,Low-Popularity,Medium-Health,Female,1-2 hours,Yes
+High-Energy,High-Dance,High-Valence,Fast-Tempo,Medium-Popularity,Low-Health,Female,0 - 1 hours,Yes
+Low-Energy,Low-Dance,Low-Valence,Medium-Fast-Tempo,Medium-Popularity,Low-Health,Male,1-2 hours,Yes
+High-Energy,Low-Dance,Low-Valence,Fast-Tempo,Medium-Popularity,High-Health,Female,2+ hours,No
+High-Energy,Low-Dance,High-Valence,Medium-Fast-Tempo,Low-Popularity,Low-Health,Female,0 - 1 hours,No
+Low-Energy,Low-Dance,High-Valence,Medium-Fast-Tempo,Low-Popularity,Low-Health,Female,1-2 hours,Yes
+Low-Energy,Low-Dance,Low-Valence,Medium-Fast-Tempo,Low-Popularity,Medium-Health,Female,2+ hours,Yes
+Low-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,Medium-Popularity,Low-Health,Female,2+ hours,No
+Low-Energy,High-Dance,Low-Valence,Fast-Tempo,Low-Popularity,High-Health,Female,2+ hours,Yes
+High-Energy,Low-Dance,Low-Valence,Fast-Tempo,Low-Popularity,High-Health,Female,1-2 hours,No
+Low-Energy,High-Dance,High-Valence,Medium-Slow-Tempo,Medium-Popularity,Low-Health,Female,0 - 1 hours,No
+High-Energy,Low-Dance,High-Valence,Medium-Fast-Tempo,Medium-Popularity,High-Health,Male,1-2 hours,Yes
+High-Energy,Low-Dance,Low-Valence,Medium-Fast-Tempo,Medium-Popularity,Medium-Health,Female,0 - 1 hours,No
+High-Energy,Low-Dance,High-Valence,Fast-Tempo,Medium-Popularity,Medium-Health,Prefer not to specify,0 - 1 hours,Yes
+Low-Energy,Low-Dance,High-Valence,Medium-Fast-Tempo,Low-Popularity,Medium-Health,Female,1-2 hours,Yes
+Low-Energy,High-Dance,High-Valence,Medium-Slow-Tempo,Low-Popularity,High-Health,Female,0 - 1 hours,No
+Low-Energy,Low-Dance,High-Valence,Fast-Tempo,Low-Popularity,High-Health,Female,1-2 hours,Yes
+Low-Energy,Low-Dance,Low-Valence,Slow-Tempo,Low-Popularity,Low-Health,Male,1-2 hours,No
+High-Energy,Low-Dance,Low-Valence,Fast-Tempo,Medium-Popularity,High-Health,Female,2+ hours,No
+High-Energy,Low-Dance,Low-Valence,Fast-Tempo,Medium-Popularity,Medium-Health,Male,2+ hours,No
+High-Energy,High-Dance,High-Valence,Medium-Fast-Tempo,Low-Popularity,Medium-Health,Female,2+ hours,No
+High-Energy,Low-Dance,Low-Valence,Medium-Fast-Tempo,Low-Popularity,Medium-Health,Female,0 - 1 hours,Yes
+Low-Energy,Low-Dance,High-Valence,Medium-Slow-Tempo,Low-Popularity,Low-Health,Male,1-2 hours,No
+High-Energy,Low-Dance,High-Valence,Medium-Fast-Tempo,Medium-Popularity,Medium-Health,Female,0 - 1 hours,No
