@@ -192,3 +192,14 @@ The R-squared value increases from 13% in the linear regression to 20.5% in the 
 Regardless, it is conclusive that a linear model is not an accurate model to represent mental health and musical features. Let's keep searching!
 
 ## Association 
+
+The purpose of association was to find patterns in the data along with analyzing the relationships between various attributes. Based on the scatter plots analyzed previously, it was hypothesized that with a high confidence level, the categorical variable mental health will not be part of any rules. This is because mental health did not consistently correlate with any of the song attributes. In addition, 87.5% of the dataset consisted of people from ages 18-20 years old. It is assumed that the age range categorical variable will be associated with a lot of attributes due to it abundance of 18-20 year olds in the dataset.
+
+The APRIORI algorithm was used for association rule mining. Since there were only 255 unique records, a minimum support of ten percent was chosen so each rule would cover at least 25 records. If there was a much larger dataset, a lower support percentage would have been chosen. For example, for a million records, a support of one percent would be chosen as it covers 10,000 records. A support of 10-20 percent is a reasonable assumption for the current dataset. 
+
+As expected, association rules for mental health had a very low confidence. There are several reasons as to why the APRIORI algorithm did not generate good association rules for mental health based on the dataset. One factor could be that music may not be a dominant influence on a person’s mental health leading to poor association rules. Another factor could be the lack of song data. However, a few interesting associations are shown below: 
+
+High Popularity + High Valence -----> High Danceability (96.7% Confidence)
+
+Low Popularity + Low Valence   -----> Low Danceability (94.1% Confidence)
+ 
