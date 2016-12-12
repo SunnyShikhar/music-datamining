@@ -205,7 +205,7 @@ As expected, association rules for mental health had a very low confidence. Ther
 | Low Popularity + Low Valence   | Low Danceability  | 94.1%  |
 | High Energy + Fast Tempo + No Traumatic Experience  | Low Danceability  | 75%  |
 | High Danceability + Medium Popularity + High Valence  | Female  | 70%  |
-|  High Dance + Low Energy |  No Traumatic Experience | 70%  |
+| High Dance + Low Energy |  No Traumatic Experience | 70%  |
 
 
 These were a few of the sensible rules out of thousands of rules. "High Popularity + High Valence -> High Danceability" and vice versa could indicate that songs that perhaps songs that get popular on Spotify may primarily be highly danceable songs. The other rules are interesting as well, such as "High Danceability + Medium Popularity + High Valence" has a 70% confidence of being a female. Let's see what type of clusters we can identify to see what "type" of people exist in the dataset. 
@@ -214,7 +214,7 @@ These were a few of the sensible rules out of thousands of rules. "High Populari
 
 Using the top 5 features (energy, danceability, popularity, tempo and valence) the clustering alogrithm was run on the data set to first find two clusters. When searching for two clusters, <b>tempo</b> was found to be the biggest factor that divided the clusters as shown below:
 
-### Tempo (k = 2)
+### 2 Clusters
 
 ![Figure](https://github.com/sunnyshikhar/music-datamining/blob/master/images/energyVsTempoCluster.png?raw=true)
 
@@ -234,13 +234,15 @@ It's informative to know that tempo is the main factor that divides the entire d
 
 The "elbow" can be spotted most visibly at cluster = 4. Therefore the clustering algorithm was run again with k = 4, to find 4 clusters. The graphs were difficult to interpret with 4 clusters as the clusters are being plotted in 4 dimensions and it is tough to interpret them in a 2D plot. For example, the 2D graphs overalp into clusters which shouldn't happen, looking like this:
 
+### 4 Clusters
+
 ![Figure](https://github.com/sunnyshikhar/music-datamining/blob/master/images/danceVsTempoClusterK4.png?raw=true)
 
-![Figure](https://github.com/sunnyshikhar/music-datamining/blob/master/images/popularityVsTempoClusterK4.png?raw=true)
+![Figure](https://github.com/sunnyshikhar/music-datamining/blob/master/images/popularityVsTempoK4.png?raw=true)
 
 Since the graphs prove to be of little help, it is much more useful to analyze the cluster centroids for the 4 clusters that were formed. These clusters are summarized by the following table: 
 
-![Figure](https://github.com/sunnyshikhar/music-datamining/blob/master/images/clusterCentersK4.png?raw=true)
+![Figure](https://github.com/sunnyshikhar/music-datamining/blob/master/images/clusterCatK4.png?raw=true)
 
 The 4 clusters can be summarized as: 
 
@@ -253,4 +255,30 @@ The 4 clusters can be summarized as:
 <b>Cluster 4: Underground Energetic/Indie Listeners</b>. People listening to high energy and low danceability music, often alternative rock/screamo/indie music that's not popular on Spotify or energetic underground rap/hip-hop music. <b>(For example: Chloroform - Phoenix, Aftermanth - Crown The Empire, Just Might Be - Young Thug</b> from cluster 4 listeners.)
 
 ## Naive Bayes Model
+
+The last model that was considered to make predictions was Naive Bayes model. Naive Bayes is a classification technique based on Bayes’ Theorem with an assumption of independence amongst its features/predictors.Bayes’ Theorem can be used to calculate the probability of a person’s mental health category given the numerical song attributes of their preferred songs. It is important to note the assumption that each song attribute is independent of another for Naïve Bayes’ theorem.
+
+The top 4 features were selected as they had the highest accuracy of the model 0.43. The model has a really weak prediction accuracy, with the following confusion matrix: 
+
+|   |   |   | Predicted  |   |
+|:-:|---|---|---|---|
+|   |   |  High |  Medium  |  Low  |
+|   | High  |  37 | 45  | 13  |
+| <b>Actual</b> | Medium  | 19  | 62  | 11  |
+|   |  Low |  33 | 24  | 11  |
+
+The surprising weakness was that the model incorrectly predicted 33 data points to have a high mental health when they have a low mental health. This is the most glaring problem with the model. Since medium health falls in the middle of high and low health, some overlap in prediction of medium mental health isexpected. However, incorrectly predicting high mental health when it is in fact low mental health, or vice versa is a significant flaw. This is due to the scattered distribution of the data points.
+
+To ensure that the model is not overfitting, the data was cross validated with 10 folds. The mean of the 10 fold cross-validation was calculated to be 0.38. Therefore, the model is slightly overfitting. However, it is within 10% so the model is not extremely overfitting. A potential solution to reduce overfitting would be to gather more data from people who have low mental health since the dataset has few people with low mental health, as seen in the histogram. The Naive Bayes’ model was used to predict mental health using the 4 features; energy, danceability, popularity and tempo. These predictions are shown below: 
+
+|  Description | Energy  | Dance  | Popularity   | Tempo  | Result Health   | Confidence   |
+|:-:|---|---|---|---|---|---|
+|  High Value Features |  0.95 | 0.95  | 100  | 150  | High  | 70.3%  |
+| Mid-High Value Features  | 0.7  |  0.7 |  70 | 140  | High | 40.2%  |
+|  Medium Value Features |  0.6 | 0.6  | 60   | 120  | Medium |  47.1% |
+|  Low Value Features |  0.2 | 0.2  | 20   | 100   | Low  | 93.3% |
+
+Although the accuracy of the model is weak, the model of the output is as hypothesized: users who listen to songs with high dance, energy, tempo and popularity are 63% probable to have a high mental health. Conversely, those who listen to all features with extremely low values are 93.3% probable to have low mental health. Therefore the model is useful to predict mentalhealth when the feature values are extreme, either extremely high or low. However, the Naive Bayes’ model struggles to predict mental health when the song attributes hover around 0.5, as shown by the probability of prediction for each cluster. The model struggles to predict mid-ranged values as most values in the dataset are centered around the middle, as seen by the scatterplot figures.
+
+## Conclusion
 
