@@ -197,9 +197,67 @@ The purpose of association was to find patterns in the data along with analyzing
 
 The APRIORI algorithm was used for association rule mining. Since there were only 255 unique records, a minimum support of ten percent was chosen so each rule would cover at least 25 records. If there was a much larger dataset, a lower support percentage would have been chosen. For example, for a million records, a support of one percent would be chosen as it covers 10,000 records. A support of 10-20 percent is a reasonable assumption for the current dataset. 
 
-As expected, association rules for mental health had a very low confidence. There are several reasons as to why the APRIORI algorithm did not generate good association rules for mental health based on the dataset. One factor could be that music may not be a dominant influence on a person’s mental health leading to poor association rules. Another factor could be the lack of song data. However, a few interesting associations are shown below: 
+As expected, association rules for mental health had a very low confidence. There are several reasons as to why the APRIORI algorithm did not generate good association rules for mental health based on the dataset. One factor could be that music may not be a dominant influence on a person’s mental health leading to poor association rules. Another factor could be the lack of song data. However, some interesting associations amongst features are shown below: 
 
-High Popularity + High Valence -----> High Danceability (96.7% Confidence)
+<b>High Popularity + High Valence ----> High Danceability (96.7% Confidence)
 
-Low Popularity + Low Valence   -----> Low Danceability (94.1% Confidence)
- 
+Low Popularity + Low Valence ----> Low Danceability (94.1% Confidence)
+
+High Energy + Fast Tempo + No Traumatic Experience ----> Low Danceability (75% Confidence)
+
+High Danceability + Medium Popularity + High Valence ----> Female (70% Confidence)
+
+High Dance + Low Energy ----> No Traumatic Experience (70% Confidence)</b>
+
+These were a few of the sensible rules out of thousands of rules. "High Popularity + High Valence -> High Danceability" and vice versa could indicate that songs that perhaps songs that get popular on Spotify may primarily be highly danceable songs. The other rules are interesting as well, such as "High Danceability + Medium Popularity + High Valence" has a 70% confidence of being a female. Let's see what type of clusters we can identify to see what "type" of people exist in the dataset. 
+
+## Clustering
+
+Using the top 5 features (energy, danceability, popularity, tempo and valence) the clustering alogrithm was run on the data set to first find two clusters. When searching for two clusters, <b>tempo</b> was found to be the biggest factor that divided the clusters as shown below:
+
+### Tempo (k = 2)
+
+![Figure](https://github.com/sunnyshikhar/music-datamining/blob/master/images/energyVsTempoCluster.png?raw=true)
+
+![Figure](https://github.com/sunnyshikhar/music-datamining/blob/master/images/danceVsTempoCluster.png?raw=true)
+
+![Figure](https://github.com/sunnyshikhar/music-datamining/blob/master/images/popularityVsTempoCluster.png?raw=true)
+
+![Figure](https://github.com/sunnyshikhar/music-datamining/blob/master/images/valenceVsTempoCluster.png?raw=true)
+
+### Energy (k = 2)
+
+![Figure](https://github.com/sunnyshikhar/music-datamining/blob/master/images/danceVsEnergyCluster.png?raw=true)
+
+![Figure](https://github.com/sunnyshikhar/music-datamining/blob/master/images/popularityVsEnergyCluster.png?raw=true)
+
+![Figure](https://github.com/sunnyshikhar/music-datamining/blob/master/images/tempoVsEnergyCluster.png?raw=true)
+
+![Figure](https://github.com/sunnyshikhar/music-datamining/blob/master/images/valenceVsEnergyCluster.png?raw=true)
+
+It's informative to know that tempo is the main factor that divides the entire dataset into two clusters, but what's the optimal number of clusters? To answer this question and determine the best number of clusters, The Elbow Method was used. The Elbow method looks at the percentage of variance explained as a function of the number of clusters. The optimal number should form an "elbow", essentially showing that the increase with an additional cluster has less of an impact on the cluster center. The graph to find the "elbow" is shown below: 
+
+![Figure](https://github.com/sunnyshikhar/music-datamining/blob/master/images/numberOfClsuters.png?raw=true)
+
+The "elbow" can be spotted most visibly at cluster = 4. Therefore the clustering algorithm was run again with k = 4, to find 4 clusters. The graphs were difficult to interpret with 4 clusters as the clusters are being plotted in 4 dimensions and it is tough to interpret them in a 2D plot. For example, the 2D graphs look like the following:
+
+![Figure](https://github.com/sunnyshikhar/music-datamining/blob/master/images/danceVsTempoClusterK4.png?raw=true)
+
+![Figure](https://github.com/sunnyshikhar/music-datamining/blob/master/images/popularityVsTempoClusterK4.png?raw=true)
+
+Since the graphs prove to be of little help, it is much more useful to analyze the cluster centroids for the 4 clusters that were formed. These clusters are summarized by the following table: 
+
+![Figure](https://github.com/sunnyshikhar/music-datamining/blob/master/images/clusterCentersK4.png?raw=true)
+
+The 4 clusters can be summarized as: 
+
+Cluster 1: Energetic Radio Listeners. People who listen to high danceability and energetic songs, that are just popular to be on radio or were once popular. (For example: <b> Stay - Kygo, Beibs In The Trap - Travis Scott </b> from cluster 1 listeners)
+
+Clsuter 2: Soothing Underground Listeners. People who listen to low energy, danceability and popularity songs that are relaxing and soothing. (For example: <b> Honey, Save Me From My Falsehoods - Asha Jefferies</b> from cluster 2 listeners)
+
+Cluster 3: Upbeat Dancers. People listening to fast tempo and highly danceable songs, but lacking energy and intensity. (For example: <b>Location - Khalid, Drame - Roy Woods, Dat $tick - Rich Chigga (how!?)</b> from cluster 3 listeners.)
+
+Cluster 4: Underground Energetic/Indie Listeners People listening to high energy and low danceability music, often alternative rock/screamo/indie music that's not popular on Spotify or energetic underground rap/hip-hop music. <b>(For example: Chloroform - Phoenix, Aftermanth - Crown The Empire, Just Might Be - Young Thug</b> from cluster 4 listeners.)
+
+## Naive Bayes Model
+

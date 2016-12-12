@@ -126,6 +126,7 @@ def Tempo(y_data, y_name):
     plt.scatter(dataset.tempo, y_data, c=KM2.labels_, cmap=matplotlib.colors.ListedColormap(colors), s=75)
     plt.xlabel('tempo')
     plt.ylabel(y_name)
+    plt.title(y_name + ' vs. Tempo')
     plt.show()
 Tempo(dataset.popularity, 'popularity');
 Tempo(dataset.valence, 'valence');
@@ -187,6 +188,7 @@ def Tempo(y_data, y_name):
     plt.scatter(dataset.tempo, y_data, c=KM4.labels_, cmap=matplotlib.colors.ListedColormap(colors), s=75)
     plt.xlabel('tempo')
     plt.ylabel(y_name)
+    plt.title(y_name + ' vs. Tempo')
     plt.show()
 Tempo(dataset.popularity, 'popularity');
 Tempo(dataset.valence, 'valence');
