@@ -65,6 +65,7 @@ Once the survey had more than 300 entries (and approximately 1000 songs), a Pyth
 - "time_signature": 4,
 - "duration_ms": 230453,
 - "tempo": 185.998,
+- "energy": 0.595,
 - "danceability": 0.675,
 - "valence": 0.49,
 - "instrumentalness": 3.36e-06
