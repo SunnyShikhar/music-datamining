@@ -95,7 +95,7 @@ Let's begin by plotting bar charts and histograms of each variable obtained from
 ### Univariate Data
 
 #### General Graphs
-Histograms |
+||Histograms ||
 :-------------------------:|:-------------------------:|
 | ![Figure1](https://github.com/SunnyShikhar/music-datamining/blob/master/images/genderHistogram.png?raw=true) | ![Figure2](https://github.com/sunnyshikhar/music-datamining/blob/master/images/hoursDurationHisto.png?raw=true) 
 | ![Figure3](https://github.com/sunnyshikhar/music-datamining/blob/master/images/ageHistogram.png?raw=true) |
