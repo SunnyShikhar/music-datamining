@@ -96,7 +96,7 @@ Let's begin by plotting bar charts and histograms of each variable obtained from
 
 #### General Graphs
 <p align="center">
-  <img src="/images/genderHistogram.png?raw=true" width="400" />
+  <img src="/images/genderHistogram.png?raw=true" width="400" /> 
   <img src="/images/hoursDurationHisto.png?raw=true" width="400" /> 
   <img src="/images/ageHistogram.png?raw=true" width="400" />
 </p>
@@ -110,10 +110,6 @@ Similarly, our data set primariy consisted of 18-30 year olds. We realzied later
 <p align="center">
   <img src="/images/tempoHistogram.png?raw=true" width="400" />
   <img src="/images/popularityHistogram.png?raw=true" width="400" /> 
-</p>
-<p align="center">
-  <img src="/images/danceHistogram.png?raw=true" width="400" />
-  <img src="/images/energyHistogram.png?raw=true" width="400" /> 
 </p>
 <p align="center">
   <img src="/images/valenceHistogram.png?raw=true" width="400" />
