@@ -96,9 +96,9 @@ Let's begin by plotting bar charts and histograms of each variable obtained from
 
 #### General Graphs
 <p align="center">
-  <img src="/images/genderHistogram.png?raw=true" width="450" />
-  <img src="/images/hoursDurationHisto.png?raw=true" width="450" /> 
-  <img src="/images/ageHistogram.png?raw=true" width="450" />
+  <img src="/images/genderHistogram.png?raw=true" width="400" />
+  <img src="/images/hoursDurationHisto.png?raw=true" width="400" /> 
+  <img src="/images/ageHistogram.png?raw=true" width="400" />
 </p>
 53.8% of the data set consists of females, 45.3% males and less than 1% chose not to specify.
 
@@ -108,20 +108,20 @@ Similarly, our data set primariy consisted of 18-30 year olds. We realzied later
 
 #### Music Graphs
 <p align="center">
-  <img src="/images/tempoHistogram.png?raw=true" width="450" />
-  <img src="/images/popularityHistogram.png?raw=true" width="450" /> 
+  <img src="/images/tempoHistogram.png?raw=true" width="400" />
+  <img src="/images/popularityHistogram.png?raw=true" width="400" /> 
 </p>
 <p align="center">
-  <img src="/images/danceHistogram.png?raw=true" width="450" />
-  <img src="/images/energyHistogram.png?raw=true" width="450" /> 
+  <img src="/images/danceHistogram.png?raw=true" width="400" />
+  <img src="/images/energyHistogram.png?raw=true" width="400" /> 
 </p>
 <p align="center">
-  <img src="/images/valenceHistogram.png?raw=true" width="450" />
-  <img src="/images/livenessHistogram.png?raw=true" width="450" /> 
+  <img src="/images/valenceHistogram.png?raw=true" width="400" />
+  <img src="/images/livenessHistogram.png?raw=true" width="400" /> 
 </p>
 <p align="center">
-  <img src="/images/acousticHistogram.png?raw=true" width="450" />
-  <img src="/images/instrumentalnessHistogram.png?raw=true" width="450" /> 
+  <img src="/images/acousticHistogram.png?raw=true" width="400" />
+  <img src="/images/instrumentalnessHistogram.png?raw=true" width="400" /> 
 </p>
 
 Tempo, popularity, energy, dance and valence have a nice normal distribution which shows that listeners listen to a variety of music hovering around a mean of <b> 123 bpm, 61 popularity, 0.65 energy, 0.60 danceability, 0.45 valence</b>. The entire dataset is primarily not listening to instrumental tracks as shown by the instrumentalness graph which means we can drop this feature as it is least likely to be contributing to mental health. However let's keep exploring the data set before removing any features.
@@ -139,20 +139,20 @@ score as majority of the people have a medium to high mental health score.
 #### Scatter Plots
 The following graphs plot mental health as a function of each musical feature.
 <p align="center">
-  <img src="/images/healthVsTempo.png?raw=true" width="450" />
-  <img src="/images/healthVsPopularity.png?raw=true" width="450" /> 
+  <img src="/images/healthVsTempo.png?raw=true" width="400" />
+  <img src="/images/healthVsPopularity.png?raw=true" width="400" /> 
 </p>
 <p align="center">
-  <img src="/images/healthVsEnergy.png?raw=true" width="450" />
-  <img src="/images/healthVsDanceability.png?raw=true" width="450" /> 
+  <img src="/images/healthVsEnergy.png?raw=true" width="400" />
+  <img src="/images/healthVsDanceability.png?raw=true" width="400" /> 
 </p>
 <p align="center">
-  <img src="/images/healthVsValence.png?raw=true" width="450" />
-  <img src="/images/healthVsLiveness.png?raw=true" width="450" /> 
+  <img src="/images/healthVsValence.png?raw=true" width="400" />
+  <img src="/images/healthVsLiveness.png?raw=true" width="400" /> 
 </p>
 <p align="center">
-  <img src="/images/healthVsAcousticness.png?raw=true" width="450" />
-  <img src="/images/healthVsInstrumentalness.png?raw=true" width="450" /> 
+  <img src="/images/healthVsAcousticness.png?raw=true" width="400" />
+  <img src="/images/healthVsInstrumentalness.png?raw=true" width="400" /> 
 </p>
 
 The scatter plot does not show any clear relationship between mental health and any musical feature (such as linear, logarithmic etc). However, we are able to conclude that instrumentalness is a weak feature in potentially predicting mental health as mental health ranges from 5 to 30 for really low instrumental values. To say this conclusively, let's do some feature engineering to ensure the right attributes are being used to predict mental health.
@@ -188,9 +188,9 @@ Based on the observations of the scatter plots, it was hypothesized that linear 
 linear trend in comparison to other song attributes. 
 
 <p align="center">
-  <img src="/images/traumaRegression.png?raw=true" width="450" />
-  <img src="/images/traumaResidualHisto.png?raw=true" width="450" /> 
-  <img src="/images/residualDistribution.png?raw=true" width="450" /> 
+  <img src="/images/traumaRegression.png?raw=true" width="400" />
+  <img src="/images/traumaResidualHisto.png?raw=true" width="400" /> 
+  <img src="/images/residualDistribution.png?raw=true" width="400" /> 
 </p>
 
 | Field  | Value  |
@@ -243,12 +243,12 @@ Using the top 5 features (energy, danceability, popularity, tempo and valence) t
 ### 2 Clusters
 
 <p align="center">
-  <img src="/images/energyVsTempoCluster.png?raw=true" width="450" />
-  <img src="/images/danceVsTempoCluster.png?raw=true" width="450" /> 
+  <img src="/images/energyVsTempoCluster.png?raw=true" width="400" />
+  <img src="/images/danceVsTempoCluster.png?raw=true" width="400" /> 
 </p>
 <p align="center">
-  <img src="/images/popularityVsTempoCluster.png?raw=true" width="450" />
-  <img src="/images/valenceVsTempoCluster.png?raw=true" width="450" /> 
+  <img src="/images/popularityVsTempoCluster.png?raw=true" width="400" />
+  <img src="/images/valenceVsTempoCluster.png?raw=true" width="400" /> 
 </p>
 
 Other 2D cluster plots would overlap, like this Danceability Vs. Energy graph:
@@ -264,8 +264,8 @@ The "elbow" can be spotted most visibly at cluster = 4. Therefore the clustering
 ### 4 Clusters
 
 <p align="center">
-  <img src="/images/danceVsTempoClusterK4.png?raw=true" width="450" />
-  <img src="/images/popularityVsTempoK4.png?raw=true" width="450" /> 
+  <img src="/images/danceVsTempoClusterK4.png?raw=true" width="400" />
+  <img src="/images/popularityVsTempoK4.png?raw=true" width="400" /> 
 </p>
 
 Since the graphs prove to be of little help, it is much more useful to analyze the cluster centroids for the 4 clusters that were formed. These clusters are summarized by the following table: 
