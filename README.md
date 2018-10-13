@@ -98,7 +98,7 @@ Let's begin by plotting bar charts and histograms of each variable obtained from
 |Figure 1 - Gender Histogram |Figure 2: Duration Histogram | Figure 3: Age Histogram |
 | - | - | - |
 | ![Figure1](https://github.com/SunnyShikhar/music-datamining/blob/master/images/genderHistogram.png?raw=true) | ![Figure2](https://github.com/sunnyshikhar/music-datamining/blob/master/images/hoursDurationHisto.png?raw=true) | 
-! [Figure3](https://github.com/sunnyshikhar/music-datamining/blob/master/images/ageHistogram.png?raw=true) |
+![Figure3](https://github.com/sunnyshikhar/music-datamining/blob/master/images/ageHistogram.png?raw=true) |
 
 
 53.8% of the data set consists of females, 45.3% males and less than 1% chose not to specify.
@@ -108,6 +108,7 @@ Surprisingly, <b>46.6%</b> of the data set listens to 2+ hours of music, <b>35%<
 Similarly, our data set primariy consisted of 18-30 year olds. We realzied later that this was too large of a range and should have been divided further.
 
 #### Music Graphs
+| Graphs |
 | - | - | - |
 |![Figure4](https://github.com/sunnyshikhar/music-datamining/blob/master/images/tempoHistogram.png?raw=true) | ![Figure5](https://github.com/sunnyshikhar/music-datamining/blob/master/images/popularityHistogram.png?raw=true) | ![Figure6](https://github.com/sunnyshikhar/music-datamining/blob/master/images/energyHistogram.png?raw=true) |
 |![Figure7](https://github.com/sunnyshikhar/music-datamining/blob/master/images/danceHistogram.png?raw=true) | ![Figure8](https://github.com/sunnyshikhar/music-datamining/blob/master/images/valenceHistogram.png?raw=true) | ![Figure9](https://github.com/sunnyshikhar/music-datamining/blob/master/images/livenessHistogram.png?raw=true) |
