@@ -17,14 +17,16 @@ Table of Contents
         * [Scatter Plots](#scatter-plots)
   * [Feature Engineering](#feature-engineering)
      * [Recursive Feature Elimination (RFE)](#recursive-feature-elimination-rfe)
-  * [Regression](#regression)
-     * [Linear Regression](#linear-regression)
-     * [Multiple Linear Regression](#multiple-linear-regression)
-  * [Association](#association)
-  *	[Clustering](#clustering)
-  	 * [2 Clusters](#2-clusters)
-  	 * [4 Clusters](#4-clusters)
-  * [Naive Bayes Model](#naive-bayes-model)
+  * [Unsupervised Learning](#unsupervised-learning)
+     * [Association](#association)
+     * [Clustering](#clustering)
+        * [2 Clusters](#2-clusters)
+  	    * [4 Clusters](#4-clusters)
+  * [Supervised Learning](#supervised-learning)
+     * [Regression](#regression)
+        * [Linear Regression](#linear-regression)
+        * [Multiple Linear Regression](#multiple-linear-regression)
+     * [Naive Bayes Model](#naive-bayes-model)
   * [Recommendations](#recommendations)
   * [Conclusion](#conclusion)
 
@@ -172,9 +174,77 @@ The Recursive Feature Elimination (RFE) method is a feature selection approach. 
 
 As expected, instrumentalness is the least important feature along with livness and acousticness. Therefore, these three features were removed for the remainder of the study in building more models.
 
-## Regression
+## Unsupervised Learning
 
-### Linear Regression
+### Association 
+
+The purpose of association was to find patterns in the data along with analyzing the relationships between various attributes. Based on the scatter plots analyzed previously, it was hypothesized that with a high confidence level, the categorical variable mental health will not be part of any rules. This is because mental health did not consistently correlate with any of the song attributes. In addition, 87.5% of the dataset consisted of people from ages 18-20 years old. It is assumed that the age range categorical variable will be associated with a lot of attributes due to it abundance of 18-20 year olds in the dataset.
+
+The APRIORI algorithm was used for association rule mining. Since there were only 255 unique records, a minimum support of ten percent was chosen so each rule would cover at least 25 records. If there was a much larger dataset, a lower support percentage would have been chosen. For example, for a million records, a support of one percent would be chosen as it covers 10,000 records. A support of 10-20 percent is a reasonable assumption for the current dataset. 
+
+As expected, association rules for mental health had a very low confidence. There are several reasons as to why the APRIORI algorithm did not generate good association rules for mental health based on the dataset. One factor could be that music may not be a dominant influence on a person’s mental health leading to poor association rules. Another factor could be the lack of song data. However, some interesting associations amongst features are shown below: 
+
+| Rule | Association | Confidence |
+|:-:|---|---|
+| High Popularity + High Valence | High Danceability  | 96.7% |
+| Low Popularity + Low Valence | Low Danceability  | 94.1% |
+| High Energy + Fast Tempo + No Traumatic Experience | Low Danceability | 75% |
+| High Danceability + Medium Popularity + High Valence | Female | 70% |
+| High Dance + Low Energy  | No Traumatic Experience  | 70% |
+
+These were a few of the sensible rules out of thousands of rules. "High Popularity + High Valence -> High Danceability" and vice versa could indicate that songs that perhaps songs that get popular on Spotify may primarily be highly danceable songs. The other rules are interesting as well, such as "High Danceability + Medium Popularity + High Valence" has a 70% confidence of being a female. Let's see what type of clusters we can identify to see what "type" of people exist in the dataset. 
+
+### Clustering
+
+Using the top 5 features (energy, danceability, popularity, tempo and valence) the clustering alogrithm was run on the data set to first find two clusters. When searching for two clusters, <b>tempo</b> was found to be the biggest factor that divided the clusters as shown below:
+
+#### 2 Clusters
+
+<p align="center">
+  <img src="/images/energyVsTempoCluster.png?raw=true" width="400" />
+  <img src="/images/danceVsTempoCluster.png?raw=true" width="400" /> 
+</p>
+<p align="center">
+  <img src="/images/popularityVsTempoCluster.png?raw=true" width="400" />
+  <img src="/images/valenceVsTempoCluster.png?raw=true" width="400" /> 
+</p>
+
+Other 2D cluster plots would overlap, like this Danceability Vs. Energy graph:
+
+![Figure](https://github.com/sunnyshikhar/music-datamining/blob/master/images/danceVsEnergyCluster.png?raw=true)
+
+It's informative to know that tempo is the main factor that divides the entire dataset into two clusters, telling us that there exist two main types of people in the data set- those who listen to mid to high tempo, and those who listen to mid to low tempo songs. But what's the optimal number of clusters? To answer this question and determine the best number of clusters, The Elbow Method was used. The Elbow method looks at the percentage of variance explained as a function of the number of clusters. The optimal number should form an "elbow", essentially showing that the increase with an additional cluster has less of an impact on the cluster center. The graph to find the "elbow" is shown below: 
+
+![Figure](https://github.com/sunnyshikhar/music-datamining/blob/master/images/numberOfClusters.png?raw=true)
+
+The "elbow" can be spotted most visibly at cluster = 4. Therefore the clustering algorithm was run again with k = 4, to find 4 clusters. The graphs were difficult to interpret with 4 clusters as the clusters are being plotted in 4 dimensions and it is tough to interpret them in a 2D plot. For example, the 2D graphs overalp into clusters which shouldn't happen, looking like this:
+
+#### 4 Clusters
+
+<p align="center">
+  <img src="/images/danceVsTempoClusterK4.png?raw=true" width="400" />
+  <img src="/images/popularityVsTempoK4.png?raw=true" width="400" /> 
+</p>
+
+Since the graphs prove to be of little help, it is much more useful to analyze the cluster centroids for the 4 clusters that were formed. These clusters are summarized by the following table: 
+
+![Figure](https://github.com/sunnyshikhar/music-datamining/blob/master/images/clusterCatK4.png?raw=true)
+
+The 4 clusters can be summarized as: 
+
+<b>Cluster 1: Energetic Radio Listeners</b>. People who listen to high danceability and energetic songs, that are just popular to be on radio or were once popular. (For example: <b> Stay - Kygo, Beibs In The Trap - Travis Scott </b> from cluster 1 listeners)
+
+<b>Clsuter 2: Soothing Underground Listeners</b>. People who listen to low energy, danceability and popularity songs that are relaxing and soothing. (For example: <b> Honey, Save Me From My Falsehoods - Asha Jefferies</b> from cluster 2 listeners)
+
+<b>Cluster 3: Upbeat Dancers</b>. People listening to fast tempo and highly danceable songs, but lacking energy and intensity. (For example: <b>Location - Khalid, Drama - Roy Woods, Dat $tick - Rich Chigga (how!?)</b> from cluster 3 listeners.)
+
+<b>Cluster 4: Underground Energetic/Indie Listeners</b>. People listening to high energy and low danceability music, often alternative rock/screamo/indie music that's not popular on Spotify or energetic underground rap/hip-hop music. <b>(For example: Chloroform - Phoenix, Aftermanth - Crown The Empire, Just Might Be - Young Thug</b> from cluster 4 listeners.)
+
+## Supervised Learning
+
+### Regression
+
+#### Linear Regression
 
 As noticed through scatter plots, there is no graph that distinctly shows any linear or non-linear relationship. Therefore, more scatter plots were investigated. When plotting danceability of songs for people who said they went through a traumatic experience and those who didn't with mental health hinted that there might be a relationship present. Although the scatter plot is still difficult to interpret, the filtered plot is shown below:
 
@@ -204,7 +274,7 @@ linear trend in comparison to other song attributes.
 The residual plot of mental health scores against danceability showed a normal distribution concentrated around zero. This validates that a linear regression model is an appropriate model although not an applicable one due to such a wide spread of data points. The R-squared value obtained for the linear regression model was 14% which is fairly low. This further shows that the model does not account for much variability in
 the data.
 
-### Multiple Linear Regression
+#### Multiple Linear Regression
 
 In order to improve the r-squared value, a multiple regression was conducted using the top 5 features from RFE to predict Mental Health. Sklearn's linear_model library was used which uses the Ordinary Least Squares (OLS) method to conduct it's multiple linear regression. OLS or linear least squares method computes the least squares solution using a singular value decomposition of X. This means the algorithm attempts to minimize the sum of squares of residuals. The output is shown below. 
 
@@ -214,71 +284,8 @@ The R-squared value increases from 13% in the linear regression to 20.5% in the 
 
 Regardless, it is conclusive that a linear model is not an accurate model to represent mental health and musical features. Let's keep searching!
 
-## Association 
 
-The purpose of association was to find patterns in the data along with analyzing the relationships between various attributes. Based on the scatter plots analyzed previously, it was hypothesized that with a high confidence level, the categorical variable mental health will not be part of any rules. This is because mental health did not consistently correlate with any of the song attributes. In addition, 87.5% of the dataset consisted of people from ages 18-20 years old. It is assumed that the age range categorical variable will be associated with a lot of attributes due to it abundance of 18-20 year olds in the dataset.
-
-The APRIORI algorithm was used for association rule mining. Since there were only 255 unique records, a minimum support of ten percent was chosen so each rule would cover at least 25 records. If there was a much larger dataset, a lower support percentage would have been chosen. For example, for a million records, a support of one percent would be chosen as it covers 10,000 records. A support of 10-20 percent is a reasonable assumption for the current dataset. 
-
-As expected, association rules for mental health had a very low confidence. There are several reasons as to why the APRIORI algorithm did not generate good association rules for mental health based on the dataset. One factor could be that music may not be a dominant influence on a person’s mental health leading to poor association rules. Another factor could be the lack of song data. However, some interesting associations amongst features are shown below: 
-
-| Rule | Association | Confidence |
-|:-:|---|---|
-| High Popularity + High Valence | High Danceability  | 96.7% |
-| Low Popularity + Low Valence | Low Danceability  | 94.1% |
-| High Energy + Fast Tempo + No Traumatic Experience | Low Danceability | 75% |
-| High Danceability + Medium Popularity + High Valence | Female | 70% |
-| High Dance + Low Energy  | No Traumatic Experience  | 70% |
-
-These were a few of the sensible rules out of thousands of rules. "High Popularity + High Valence -> High Danceability" and vice versa could indicate that songs that perhaps songs that get popular on Spotify may primarily be highly danceable songs. The other rules are interesting as well, such as "High Danceability + Medium Popularity + High Valence" has a 70% confidence of being a female. Let's see what type of clusters we can identify to see what "type" of people exist in the dataset. 
-
-## Clustering
-
-Using the top 5 features (energy, danceability, popularity, tempo and valence) the clustering alogrithm was run on the data set to first find two clusters. When searching for two clusters, <b>tempo</b> was found to be the biggest factor that divided the clusters as shown below:
-
-### 2 Clusters
-
-<p align="center">
-  <img src="/images/energyVsTempoCluster.png?raw=true" width="400" />
-  <img src="/images/danceVsTempoCluster.png?raw=true" width="400" /> 
-</p>
-<p align="center">
-  <img src="/images/popularityVsTempoCluster.png?raw=true" width="400" />
-  <img src="/images/valenceVsTempoCluster.png?raw=true" width="400" /> 
-</p>
-
-Other 2D cluster plots would overlap, like this Danceability Vs. Energy graph:
-
-![Figure](https://github.com/sunnyshikhar/music-datamining/blob/master/images/danceVsEnergyCluster.png?raw=true)
-
-It's informative to know that tempo is the main factor that divides the entire dataset into two clusters, telling us that there exist two main types of people in the data set- those who listen to mid to high tempo, and those who listen to mid to low tempo songs. But what's the optimal number of clusters? To answer this question and determine the best number of clusters, The Elbow Method was used. The Elbow method looks at the percentage of variance explained as a function of the number of clusters. The optimal number should form an "elbow", essentially showing that the increase with an additional cluster has less of an impact on the cluster center. The graph to find the "elbow" is shown below: 
-
-![Figure](https://github.com/sunnyshikhar/music-datamining/blob/master/images/numberOfClusters.png?raw=true)
-
-The "elbow" can be spotted most visibly at cluster = 4. Therefore the clustering algorithm was run again with k = 4, to find 4 clusters. The graphs were difficult to interpret with 4 clusters as the clusters are being plotted in 4 dimensions and it is tough to interpret them in a 2D plot. For example, the 2D graphs overalp into clusters which shouldn't happen, looking like this:
-
-### 4 Clusters
-
-<p align="center">
-  <img src="/images/danceVsTempoClusterK4.png?raw=true" width="400" />
-  <img src="/images/popularityVsTempoK4.png?raw=true" width="400" /> 
-</p>
-
-Since the graphs prove to be of little help, it is much more useful to analyze the cluster centroids for the 4 clusters that were formed. These clusters are summarized by the following table: 
-
-![Figure](https://github.com/sunnyshikhar/music-datamining/blob/master/images/clusterCatK4.png?raw=true)
-
-The 4 clusters can be summarized as: 
-
-<b>Cluster 1: Energetic Radio Listeners</b>. People who listen to high danceability and energetic songs, that are just popular to be on radio or were once popular. (For example: <b> Stay - Kygo, Beibs In The Trap - Travis Scott </b> from cluster 1 listeners)
-
-<b>Clsuter 2: Soothing Underground Listeners</b>. People who listen to low energy, danceability and popularity songs that are relaxing and soothing. (For example: <b> Honey, Save Me From My Falsehoods - Asha Jefferies</b> from cluster 2 listeners)
-
-<b>Cluster 3: Upbeat Dancers</b>. People listening to fast tempo and highly danceable songs, but lacking energy and intensity. (For example: <b>Location - Khalid, Drama - Roy Woods, Dat $tick - Rich Chigga (how!?)</b> from cluster 3 listeners.)
-
-<b>Cluster 4: Underground Energetic/Indie Listeners</b>. People listening to high energy and low danceability music, often alternative rock/screamo/indie music that's not popular on Spotify or energetic underground rap/hip-hop music. <b>(For example: Chloroform - Phoenix, Aftermanth - Crown The Empire, Just Might Be - Young Thug</b> from cluster 4 listeners.)
-
-## Naive Bayes Model
+### Naive Bayes Model
 
 The last model that was considered to make predictions was Naive Bayes model. Naive Bayes is a classification technique based on Bayes’ Theorem with an assumption of independence amongst its features/predictors.Bayes’ Theorem can be used to calculate the probability of a person’s mental health category given the numerical song attributes of their preferred songs. It is important to note the assumption that each song attribute is independent of another for Naïve Bayes’ theorem.
 
