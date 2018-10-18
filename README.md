@@ -330,4 +330,4 @@ Furthermore, lyrical content was also not considered in this project. For instan
 
 In addition, a major potential reason as to why the data mining techniques did not yield good results may be because music is not major influence on a person’s mental health. Other factors such as relationship and financial status could have more of an effect on a person’s mental health. However, Naïve Bayes’ provided the best model given the flaws in the data set to predict mental health and use to improve individuals’ mental health by recommending songs.
 
-In the future, we can attempt Logistic Regression/Support Vector Machines to classify our data set.
+In the future, we can attempt Logistic Regression or Support Vector Machines to classify our data set.
