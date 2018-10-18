@@ -7,7 +7,7 @@ import sys
 import pandas as pd
 
 #setting up Spotify credentials
-client_credentials_manager = SpotifyClientCredentials('89346a77c6754616aced6f3900431241', '18a4003cbfdf48ebbd01a83b001843c1')
+client_credentials_manager = SpotifyClientCredentials()
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 sp.trace=False
 
