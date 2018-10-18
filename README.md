@@ -267,9 +267,7 @@ linear trend in comparison to other song attributes.
 | Mean Residual Sum of Squares  | 19.59  |
 | RMSE  |  4.42  |
 | R-Squared  | 0.14  |
-| Mean of Residuals  | 4.42   |
 | Standard Deviation of Results |  4.42  |
-
 
 The residual plot of mental health scores against danceability showed a normal distribution concentrated around zero. This validates that a linear regression model is an appropriate model although not an applicable one due to such a wide spread of data points. The R-squared value obtained for the linear regression model was 14% which is fairly low. This further shows that the model does not account for much variability in
 the data.
